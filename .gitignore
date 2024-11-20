@@ -128,3 +128,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# public
+.data
+
+# vscode
+.vscode
+
+# Development debug
+*.ign*
+*.gen*
+
+www

@@ -1,0 +1,16 @@
+{
+  "name": "@ripple.tju/train-workspace",
+  "private": true,
+  "scripts": {
+    "deps:install": "npm -v && npm install",
+    "deps:ci-install": "npm install --include=optional",
+    "lint": "eslint --fix packages/**/*.mjs"
+  },
+  "workspaces": [
+    "packages/web"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "lerna": "^8.1.9"
+  }
+}
