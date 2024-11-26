@@ -1,0 +1,35 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"type": "object",
+	"properties": {
+		"title": {
+			"type": "string"
+		},
+		"tags": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"author": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"source": {
+			"type": "string"
+		},
+		"sections": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		}
+	},
+	"required": [
+		"title",
+		"sections"
+	],
+	"additionalProperties": false
+}
