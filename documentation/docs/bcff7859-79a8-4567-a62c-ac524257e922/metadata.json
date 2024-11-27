@@ -1,0 +1,14 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "test",
+	"author": [
+		"ChaosLee"
+	],
+	"source": "Example",
+	"tags": [
+		"test"
+	],
+	"sections": [
+		"mock1"
+	]
+}

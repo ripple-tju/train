@@ -4,7 +4,7 @@
 	"definitions": {
 		"Heading": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -37,7 +37,7 @@
 		},
 		"Chart": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -59,7 +59,7 @@
 		},
 		"Embed": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -82,7 +82,7 @@
 		},
 		"Figure": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -108,7 +108,7 @@
 		},
 		"Link": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -135,7 +135,7 @@
 		},
 		"Paragraph": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -161,7 +161,7 @@
 		},
 		"Reference": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -183,7 +183,7 @@
 		},
 		"Table": {
 			"type": "array",
-			"minimum": 2,
+			"minItems": 2,
 			"additionalItems": false,
 			"items": [
 				{
@@ -234,6 +234,5 @@
 	"required": [
 		"name",
 		"content"
-	],
-	"additionalProperties": false
+	]
 }
