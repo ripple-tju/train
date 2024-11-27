@@ -64,10 +64,6 @@ await (async function validateDocs() {
 		const docPath = path.join(Location.Docs, name);
 		const docRootPathList = await fs.readdir(docPath, { withFileTypes: true });
 
-		if (docRootPathList.length !== 2) {
-			Ow.Error.Common('There should be "metadata.json", "section/" in doc directory.');
-		}
-
 		const metadataPath = path.join(docPath, Name.Metadata);
 		const sectionsPath = path.join(docPath, Name.Section);
 
@@ -81,7 +77,9 @@ await (async function validateDocs() {
 
 		const metadata = await fs.readFile(metadataPath, 'utf-8').then(JSON.parse);
 
-		Validator.Metadata(metadata);
+		if (!Validator.Metadata(metadata)) {
+			Ow.Error.Common(JSON.stringify(Validator.Metadata.errors, null, '  '));
+		}
 
 		const { sections } = metadata;
 		const sectionsPathList = await fs.readdir(sectionsPath, { withFileTypes: true });
@@ -99,7 +97,12 @@ await (async function validateDocs() {
 
 			const section = await fs.readFile(sectionPath, 'utf-8').then(JSON.parse);
 
-			Validator.Section(section);
+			if (!Validator.Section(section)) {
+				Ow.Error.Common(
+					`at ${sectionPath}\n` +
+					JSON.stringify(Validator.Section.errors, null, '  '),
+				);
+			}
 		}
 	}
 

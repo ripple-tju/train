@@ -1,14 +1,23 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "test",
+	"title": "赓续中华文脉，试看亚文化平台融合转型变革——哔哩哔哩传统文化赛道“破圈”之路",
 	"author": [
-		"ChaosLee"
+		"李瞳"
 	],
-	"source": "Example",
+	"source": "新媒体与传播学院",
 	"tags": [
 		"test"
 	],
+	"keywords": [
+		"2023245010",
+		"陆小华",
+		"2301班"
+	],
 	"sections": [
-		"mock1"
+		"preface",
+		"1-bilibili",
+		"2-grow",
+		"3-change",
+		"4-future"
 	]
 }
