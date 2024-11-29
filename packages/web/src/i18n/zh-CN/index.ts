@@ -2,14 +2,14 @@
 // so you can safely delete all default props below
 
 export default {
-	':': ':',
+	':': '：',
 	typo: {
 		title: {
-			source: 'source',
-			author: 'author',
+			source: '来源',
+			author: '作者',
 			unknown: {
-				source: 'unknown',
-				author: 'unknown',
+				source: '不详',
+				author: '不详',
 			},
 		},
 	},
