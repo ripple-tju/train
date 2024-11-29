@@ -3,7 +3,5 @@
 </template>
 
 <script setup lang="ts">
-defineOptions({
-	name: 'ContentTest',
-});
+defineOptions({ name: 'ContentInstance' });
 </script>

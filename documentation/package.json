@@ -4,7 +4,7 @@
   "description": "docs data and validator",
   "main": "index.js",
   "scripts": {
-		"check": "node ./src/index.mjs",
+		"check": "node ./script/check.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

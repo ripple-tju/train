@@ -20,8 +20,8 @@ const Name = {
 };
 
 const Location = {
-	Metadata: path.join(__dirname, 'schemas/metadata.json'),
-	Section: path.join(__dirname, 'schemas/section.json'),
+	Metadata: path.join(__dirname, '../src/schemas/metadata.json'),
+	Section: path.join(__dirname, '../src/schemas/section.json'),
 	Docs: path.join(__dirname, '../docs'),
 };
 
