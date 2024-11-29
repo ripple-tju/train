@@ -1,11 +1,11 @@
 {
 	"$schema": "../../../src/schemas/section.json",
-	"name": "method",
+	"name": "tech",
 	"content": [
 		[
 			"heading",
 			{
-				"text": "案例做法",
+				"text": "核心技术",
 				"level": 1
 			}
 		],
