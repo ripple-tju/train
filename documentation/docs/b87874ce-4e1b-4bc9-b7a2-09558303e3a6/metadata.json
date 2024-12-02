@@ -1,0 +1,11 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "齐鲁壹点：山东省新型智慧媒体重点实验室",
+	"sections": [
+		"profile",
+		"method",
+		"tech",
+		"result",
+		"inspiration"
+	]
+}
