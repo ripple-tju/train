@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "result",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例成效",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"南博会口岸经济馆成果展、数字经济馆全馆参展企业及所展示的包括文字、图片、视频、地图等内容安全审核问题均由此系统提供平台支撑。"
+			]
+		]
+	]
+}
