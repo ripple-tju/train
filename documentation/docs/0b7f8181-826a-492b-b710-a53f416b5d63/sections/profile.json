@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "profile",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例概述",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"2023年3月22日，新华智云正式发布了AIGC驱动的元宇宙系统“元卯”。据悉，“元卯”是国内首个AIGC驱动的Web端元宇宙数字底座，是整合了数字人、元魔方、积木AIGC视频生产系统、Magic Cube（临境线下魔方互动空间）等多类虚实融合软硬件产品的元宇宙智能系统。"
+			]
+		]
+	]
+}
