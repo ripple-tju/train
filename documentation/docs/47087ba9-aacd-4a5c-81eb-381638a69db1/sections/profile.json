@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "profile",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例概述",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"2023年12月9日，人民网正式发布“天目”智能识别系统，探索“用AI治理AI”的内容风控新模式。"
+			]
+		]
+	]
+}
