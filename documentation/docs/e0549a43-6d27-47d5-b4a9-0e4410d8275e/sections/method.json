@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "method",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例做法",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"“人民审校”智能涉政审校系统通过聚焦涉政内容的AI算法模型训练，实现高级别的“语义识别”，精准定位信息中存在的风险问题。"
+			]
+		]
+	]
+}
