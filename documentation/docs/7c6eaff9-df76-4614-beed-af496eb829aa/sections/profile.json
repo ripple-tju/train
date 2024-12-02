@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "profile",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例概述",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"央视网的智媒数据链涵盖智闻系统、智审系统、智晓系统和智营系统等环节的产品和服务。"
+			]
+		]
+	]
+}
