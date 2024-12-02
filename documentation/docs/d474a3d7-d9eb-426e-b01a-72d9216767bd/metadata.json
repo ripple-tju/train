@@ -1,0 +1,11 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "陕西广电网络：陕西省媒体融合统一平台",
+	"sections": [
+		"profile",
+		"method",
+		"tech",
+		"result",
+		"inspiration"
+	]
+}
