@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "profile",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例概述",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"安吉县融媒体中心融合云计算、大数据、物联网等科技，多方面深入服务群众生活，在民生服务方面最典型的应用就是“爱安吉”APP。"
+			]
+		]
+	]
+}
