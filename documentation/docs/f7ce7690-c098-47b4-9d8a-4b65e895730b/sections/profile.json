@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "profile",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例概述",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"安吉县融媒体中心以数字化助力县域经济发展，拓展新业态、新模式、新场景，基于平台运营带来的人流量，为乡村振兴贡献新闻力量。"
+			]
+		]
+	]
+}
