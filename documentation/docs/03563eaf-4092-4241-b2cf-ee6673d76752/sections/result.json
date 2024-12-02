@@ -1,6 +1,6 @@
 {
 	"$schema": "../../../src/schemas/section.json",
-	"name": "method",
+	"name": "result",
 	"content": [
 		[
 			"heading",

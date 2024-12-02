@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "profile",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例概述",
+				"level": 1
+			}
+		],
+		[
+			"paragraph",
+			[
+				"新华社技术局围绕“选题策划、调度采集、编辑加工、分发供稿、传播分析、业务管理”六大采编环节，研发了全媒体采编发系统。"
+			]
+		]
+	]
+}

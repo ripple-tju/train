@@ -1,0 +1,11 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "新华社：全媒体采编发系统",
+	"sections": [
+		"profile",
+		"method",
+		"tech",
+		"result",
+		"inspiration"
+	]
+}
