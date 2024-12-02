@@ -1,0 +1,11 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "半岛网新闻视频化平台实践",
+	"sections": [
+		"profile",
+		"method",
+		"tech",
+		"result",
+		"inspiration"
+	]
+}
