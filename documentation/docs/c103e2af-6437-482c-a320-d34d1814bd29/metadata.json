@@ -1,0 +1,11 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "长江云：共同缔造信息服务平台",
+	"sections": [
+		"profile",
+		"method",
+		"tech",
+		"result",
+		"inspiration"
+	]
+}
