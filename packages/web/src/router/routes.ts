@@ -1,5 +1,6 @@
+import type { RouteRecordRaw } from 'vue-router';
 import { h } from 'vue';
-import { RouteRecordRaw, RouterView } from 'vue-router';
+import { RouterView } from 'vue-router';
 
 const MIDDLE_ROUTER_VIEW = {
 	name: 'MiddleRouterView',

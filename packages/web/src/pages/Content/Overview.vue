@@ -1,9 +1,9 @@
 <template>
 	<q-page
 		padding
-		class="flex column items-center"
+		class="row justify-center"
 	>
-		<div class="app-page-content">
+		<div class="app-page-content col">
 			<!-- <div class="app">Content{{ id }}</div> -->
 			<component :is="DocumentationInstance"></component>
 		</div>
@@ -11,7 +11,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ComponentCustomOptions } from 'vue';
+import type { ComponentCustomOptions } from 'vue';
+import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 
 import * as Documentation from 'src/documentation/index';
