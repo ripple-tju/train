@@ -1,5 +1,8 @@
 <template>
-	<q-page padding class="flex column items-center">
+	<q-page
+		padding
+		class="flex column items-center"
+	>
 		<div class="app-page-content">
 			<!-- <div class="app">Content{{ id }}</div> -->
 			<component :is="DocumentationInstance"></component>

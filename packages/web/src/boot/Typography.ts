@@ -10,9 +10,7 @@ import Section from 'components/Typography/Section.vue';
 import Table from 'components/Typography/Table.vue';
 import Title from 'components/Typography/Title.vue';
 
-export default boot(function TypographyLoader({
-	app,
-}) {
+export default boot(function TypographyLoader({ app }) {
 	app.component('TypoChart', Chart);
 	app.component('TypoEmbed', Embed);
 	app.component('TypoFigure', Figure);

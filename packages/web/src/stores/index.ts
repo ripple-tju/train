@@ -8,9 +8,9 @@ import { Router } from 'vue-router';
  * @see https://pinia.vuejs.org/core-concepts/plugins.html#typing-new-store-properties
  */
 declare module 'pinia' {
-  export interface PiniaCustomProperties {
-    readonly router: Router;
-  }
+	export interface PiniaCustomProperties {
+		readonly router: Router;
+	}
 }
 
 /*
