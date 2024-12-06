@@ -1,0 +1,22 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "马克思主义新闻观与中国实践课程案例",
+	"author": [
+		"郭竹慧"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"test"
+	],
+	"keywords": [
+		"2023245001",
+		"2023级"
+	],
+	"sections": [
+		"preface",
+		"1-method",
+		"2-tech",
+		"3-result",
+		"4-inspiration"
+	]
+}
