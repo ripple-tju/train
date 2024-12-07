@@ -94,5 +94,5 @@ export default [
 		linterOptions: {
 			noInlineConfig: false,
 		},
-	}
+	},
 ];
