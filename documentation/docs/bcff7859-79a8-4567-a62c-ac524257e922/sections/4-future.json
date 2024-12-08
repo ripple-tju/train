@@ -18,13 +18,13 @@
 		[
 			"figure",
 			{
-				"src": "./assets/4.1-1-1.png"
+				"src": "../assets/4.1-1-1.png"
 			}
 		],
 		[
 			"figure",
 			{
-				"src": "./assets/4.1-1-2.png",
+				"src": "../assets/4.1-1-2.png",
 				"title": "哔哩哔哩技术层面BUG反馈"
 			}
 		],

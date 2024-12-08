@@ -44,7 +44,7 @@
 		[
 			"figure",
 			{
-				"src": "./assets/3.2-1.png",
+				"src": "../assets/3.2-1.png",
 				"title": "哔哩哔哩视频产品维度与用户标签对标"
 			}
 		],
@@ -76,7 +76,7 @@
 		[
 			"figure",
 			{
-				"src": "./assets/3.2-2.png",
+				"src": "../assets/3.2-2.png",
 				"title": "哔哩哔哩所处宏观环境的PEST分析"
 			}
 		]
