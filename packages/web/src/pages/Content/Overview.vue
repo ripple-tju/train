@@ -3,7 +3,10 @@
 		padding
 		class="row justify-center"
 	>
-		<div class="app-page-content col">
+		<div
+			class="app-page-content col"
+			style="max-width: 1200px"
+		>
 			<!-- <div class="app">Content{{ id }}</div> -->
 			<component :is="DocumentationInstance"></component>
 		</div>

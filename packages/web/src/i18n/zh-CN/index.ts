@@ -12,5 +12,10 @@ export default {
 				author: '不详',
 			},
 		},
+		reference: {
+			text: {
+				undefined: '未定义',
+			},
+		},
 	},
 };

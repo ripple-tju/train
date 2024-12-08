@@ -12,5 +12,10 @@ export default {
 				author: 'unknown',
 			},
 		},
+		reference: {
+			text: {
+				undefined: 'undefined',
+			},
+		},
 	},
 };

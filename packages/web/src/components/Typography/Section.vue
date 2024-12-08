@@ -1,5 +1,5 @@
 <template>
-	<div></div>
+	<div class="typo-section"><slot></slot></div>
 </template>
 
 <script setup lang="ts">

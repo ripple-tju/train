@@ -1,6 +1,6 @@
 <template>
-	<div class="q-mb-xl q-pb-md typo-title">
-		<div class="text-h1 text-center"><slot></slot></div>
+	<div class="q-mb-md typo-title">
+		<div class="text-h2 text-center"><slot></slot></div>
 
 		<div class="row justify-center q-mt-md text-grey text-center">
 			<div class="col-4">
@@ -12,6 +12,8 @@
 				><span>{{ source }}</span>
 			</div>
 		</div>
+
+		<q-separator class="q-mt-sm" />
 	</div>
 </template>
 
@@ -50,9 +52,3 @@ const source = computed(() => {
 
 defineOptions({ name: 'TypoTitle' });
 </script>
-
-<style lang="scss">
-.typo-title {
-	border-bottom: 1px solid $separator-color;
-}
-</style>
