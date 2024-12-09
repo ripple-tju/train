@@ -1,0 +1,19 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "3-date",
+	"content": [
+		[
+			"heading",
+			{
+				"level": 1,
+				"text": "案例时间"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"2023年11月23日"
+			]
+		]
+	]
+}

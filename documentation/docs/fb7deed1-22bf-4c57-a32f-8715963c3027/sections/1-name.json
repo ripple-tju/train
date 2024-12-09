@@ -1,0 +1,18 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "1-name",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例名称"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"成都传媒集团智能媒体资源数据库正式上线"
+			]
+		]
+	]
+}
