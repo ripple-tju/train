@@ -1,0 +1,23 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "北京广播电视台+腾讯智能云——“京8”客户端",
+	"author": [
+		"杨攀"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245003"
+	],
+	"sections": [
+		"profile",
+		"method",
+		"tech",
+		"result",
+		"inspiration"
+	]
+}
