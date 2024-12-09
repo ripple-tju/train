@@ -1,0 +1,23 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "敢为人先：湖北广播电视台的媒体融合之路",
+	"author": [
+		"章雪扬"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻与传播学",
+		"2023245004",
+		"陆小华",
+		"2023级"
+	],
+	"sections": [
+		"1-preface",
+		"2-opinion",
+		"3-result",
+		"4-challenge"
+	]
+}
