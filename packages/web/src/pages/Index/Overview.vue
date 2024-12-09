@@ -8,7 +8,7 @@
 			style="max-width: 1200px"
 		>
 			<div
-				class="col-md-4 col-sm-6 col-12 col-shrink"
+				class="col-md-4 col-sm-6 col-12"
 				v-for="item in filterd"
 				:key="item.id"
 			>

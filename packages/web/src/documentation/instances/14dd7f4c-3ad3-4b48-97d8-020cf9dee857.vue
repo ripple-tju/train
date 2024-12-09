@@ -2,20 +2,12 @@
 	<div>
 		<typo-title :author="[]">新华社：全媒体采编发系统</typo-title>
 		<typo-section>
-			<typo-heading :level="1">案例启示</typo-heading>
-			<typo-paragraph :indent="2"><span>新华社作为国家级通讯社，保留下来的历史资料和内容非常丰富、权威，从数据本身来说具有非常大的优势，有深厚的传承积累和沉淀。采编系统、全球播发供稿系统等核心关键平台完全自主掌控，可以实现快速响应，紧贴业务需求，不断迭代升级。在与第三方展开资源与技术合作中，在可能“卡脖子”的关键环节，仍然实现自主掌控和应用，这也是后续在商业化推广和合作方面的底气。新华社全媒体采编发系统，有效推动全媒体转型和采编机制流程再造，实现了媒体融合的“换道超车”和跨越式发展，推动新华社传统媒体与新兴媒体融合发展向纵深推进。</span></typo-paragraph>
-		</typo-section>
-		<typo-section>
-			<typo-heading :level="1">案例做法</typo-heading>
-			<typo-paragraph :indent="2"><span>新华社的全媒体采编发系统是一套非常庞大、精密和复杂的技术系统，是新华社探索实现全媒体采编发流程再造、一体化指挥、一次性采集、N 次加工、梯次生成、多元适配、多渠道发布、全终端传播、全媒体覆盖的新型采编发技术体系，推动新华社传统媒体与新兴媒体融合发展向纵深推进。</span></typo-paragraph>
-		</typo-section>
-		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"><span>新华社技术局围绕“选题策划、调度采集、编辑加工、分发供稿、传播分析、业务管理”六大采编环节，研发了全媒体采编发系统。</span></typo-paragraph>
 		</typo-section>
 		<typo-section>
-			<typo-heading :level="1">案例成效</typo-heading>
-			<typo-paragraph :indent="2"><span>新华社技术局依托自身的算力、算据和算法优势，结合大数据、人工智能技术能力，构建了从底层算力到上层服务、从基础能力到应用场景的人工智能媒体技术平台，实现面向新闻采编生产的新闻采集、策划、编辑、反馈评估全流程数智化转型。“新华智媒工程”也因其技术的先进性获得了中国媒体科技“王选新闻科学技术一等奖”。</span></typo-paragraph>
+			<typo-heading :level="1">案例做法</typo-heading>
+			<typo-paragraph :indent="2"><span>新华社的全媒体采编发系统是一套非常庞大、精密和复杂的技术系统，是新华社探索实现全媒体采编发流程再造、一体化指挥、一次性采集、N 次加工、梯次生成、多元适配、多渠道发布、全终端传播、全媒体覆盖的新型采编发技术体系，推动新华社传统媒体与新兴媒体融合发展向纵深推进。</span></typo-paragraph>
 		</typo-section>
 		<typo-section>
 			<typo-heading :level="1">核心技术</typo-heading>
@@ -39,6 +31,14 @@
 			<typo-paragraph :indent="2"><span>通过实时不间断的、自动化的采用统计系统，包括运用大量数据采集和分析画像的手段，可以对全球范围内稿件落地的情况进行统计，包括传播路径可视化，进行全方位的立体追踪，对新闻传播的落地效能、媒体权威性等进行评估。新华社内部考核也依据该系统数据来进行全方位的评估。</span></typo-paragraph>
 			<typo-heading :level="2">业务管理环节</typo-heading>
 			<typo-paragraph :indent="2"><span>将内部考核进行自动化、数字化，通过自动化计算，完成业务考核，实现稿件生命周期全域追溯，如对发稿量、稿件的影响力进行多种模型的分析。其中的全域追溯功能，可以将一篇稿件的生命周期在一个时间线上进行全流程展示，从建稿、编辑、传稿到最后签发、落地，整个环节经过了谁的手，做了什么样的操作，可以方便地进行实时追踪、全盘掌握。</span></typo-paragraph>
+		</typo-section>
+		<typo-section>
+			<typo-heading :level="1">案例成效</typo-heading>
+			<typo-paragraph :indent="2"><span>新华社技术局依托自身的算力、算据和算法优势，结合大数据、人工智能技术能力，构建了从底层算力到上层服务、从基础能力到应用场景的人工智能媒体技术平台，实现面向新闻采编生产的新闻采集、策划、编辑、反馈评估全流程数智化转型。“新华智媒工程”也因其技术的先进性获得了中国媒体科技“王选新闻科学技术一等奖”。</span></typo-paragraph>
+		</typo-section>
+		<typo-section>
+			<typo-heading :level="1">案例启示</typo-heading>
+			<typo-paragraph :indent="2"><span>新华社作为国家级通讯社，保留下来的历史资料和内容非常丰富、权威，从数据本身来说具有非常大的优势，有深厚的传承积累和沉淀。采编系统、全球播发供稿系统等核心关键平台完全自主掌控，可以实现快速响应，紧贴业务需求，不断迭代升级。在与第三方展开资源与技术合作中，在可能“卡脖子”的关键环节，仍然实现自主掌控和应用，这也是后续在商业化推广和合作方面的底气。新华社全媒体采编发系统，有效推动全媒体转型和采编机制流程再造，实现了媒体融合的“换道超车”和跨越式发展，推动新华社传统媒体与新兴媒体融合发展向纵深推进。</span></typo-paragraph>
 		</typo-section>
 	</div>
 </template>

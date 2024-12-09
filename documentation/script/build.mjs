@@ -135,6 +135,7 @@ const Generator = {
 				author = [],
 				source = null,
 				tags = [],
+				sections,
 			} = JSON.parse(await fs.readFile(metadataPath, 'utf-8'));
 
 			OutputData.push(ctx);
@@ -161,13 +162,11 @@ const Generator = {
 				return ` ${span}`;
 			}).join('')}>${title}</typo-title>\n`);
 
-			for (const dirent of await fs.readdir(sectionsPath, {
-				withFileTypes: true,
-			})) {
+			for (const name of sections) {
 				ctx.doc.push(`${ctx.indent()}<typo-section>\n`);
 				ctx.depth++;
 
-				const sectionPath = path.join(sectionsPath, dirent.name);
+				const sectionPath = path.join(sectionsPath, `${name}.json`);
 				const section = JSON.parse(await fs.readFile(sectionPath, 'utf-8'));
 
 				for (const [type, options] of section.content) {
