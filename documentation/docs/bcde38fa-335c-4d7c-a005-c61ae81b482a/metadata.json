@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "案例报告：“看见”全媒体监督应用平台",
+	"author": [
+		"赵静媛"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"test"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245002",
+		"陆小华"
+	],
+	"sections": [
+		"1-profile",
+		"2-background",
+		"3-solution",
+		"4-result",
+		"5-evaluate"
+	]
+}
