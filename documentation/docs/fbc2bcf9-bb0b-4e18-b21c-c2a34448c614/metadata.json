@@ -1,0 +1,26 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "扎根本土、面向世界：党报集团-广西日报社的媒体融合之路",
+	"author": [
+		"李炳楠"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245012",
+		"陆小华"
+	],
+	"sections": [
+		"preface",
+		"1-start",
+		"2-combat",
+		"3-linkage",
+		"4-review",
+		"appendix",
+		"abstract"
+	]
+}

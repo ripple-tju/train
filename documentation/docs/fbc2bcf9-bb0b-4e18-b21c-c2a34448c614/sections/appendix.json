@@ -1,0 +1,108 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "appendix",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "附录"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"附录1：广西云融媒体中心系统首次亮相中国-东盟博览会"
+			]
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/5-1.png",
+				"title": "（广西云融媒体中心系统首次亮相中国-东盟博览会）",
+				"href": "http://news.gxnews.com.cn/staticpages/20190924/newgx5d89b028-18693629.shtml"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"附录2：广西云融媒体平台v2.0"
+			]
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/5-2.png",
+				"title": "（厉害了！广西在全国率先打造省级媒体融合“一张网”）",
+				"href": "https://new.qq.com/rain/a/20210107A05RRZ00"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"附录3：广西日报传媒集团两年三获“数字广西建设标杆"
+			]
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/5-3.png",
+				"title": "（新闻：厉害！广西日报传媒集团两年三获“数字广西建设标杆”）",
+				"href": "https://baijiahao.baidu.com/s?id=1693199412289300910"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"附录4：媒体融合讲好壮乡战贫故事H5融媒体作品"
+			]
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/5-4.png",
+				"title": "（“融”出新天地，八桂大地正能量更强劲主旋律更高昂）",
+				"href": "http://gx.people.com.cn/n2/2021/0423/c179430-34692173.html"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"附录5：媒体融合赋能非遗传承-数字藏品、文创IP"
+			]
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/5-5.png",
+				"title": "（数智焕新，聚力融合！广西云开启数字文创新赛道）",
+				"href": "https://new.qq.com/rain/a/20230319A05C4F00"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"附录6：媒体融合赋能国际传播-“广西云”·东盟五国国际传播联络站挂牌"
+			]
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/5-6.png",
+				"title": "（“广西云”·东盟五国国际传播联络站挂牌）",
+				"href": "https://www.gx.chinanews.com.cn/sz/2021-06-27/detail-ihanruav0573734.shtml"
+			}
+		],
+		[
+			"heading",
+			{
+				"text": "英文摘要"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"Abstract : The rapid development of science and technology has made the presentation ofdiversified and multimodal information a reality. In the past, the era of mass communication thatonly relied on a single media voice has passed, and the media industry, as the \"front-runner\" in thefield of information dissemination, needs to comply with the requirements of the era of integrateddevelopment. As a party newspaper group, Guangxi Daily has set an example in the developmentof integrated media, centering on the autonomous region's \"four-one\" strategic layout of mediaintegration, practicing the \"four circles of deep integration\" strategy of Guangxi Cloud, andpromoting media integration at three levels: technical structure support, institutional mechanismreform and model innovation. Promote media integration. So far, Guangxi Daily has built a\"1+14+111+N\" media integration system with \"5 newspapers, 3 magazines, 4 websites and 6clients\", becoming the mainstream media with the most power of communication, influence, credibility and public opinion guiding power in the Guangxi region. While promoting the deepintegration of media, Guangxi Daily also actively empowers the practice of integrationachievements, spreads the story of poverty alleviation and revitalization in Zhuangxiang Township, creates the business card of Guangxi's non-legacy, and continues to promote the regionalinternational communication, and walks out of the road of media integration that is rooted in thelocal area and faces the world. Through this case, we hope to show readers the motivation ofmedia integration in the era of digital news, the process mechanism of media integration fromtop-level design to concrete practice through strategic and tactical synergy and local andinternational linkage, and to look forward to the achievements and challenges of media integrationin the era"
+			]
+		]
+	]
+}
