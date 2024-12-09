@@ -63,6 +63,7 @@ const Node = {
 	async 'link'({ text, href }, ctx) {
 		ctx.doc.push(`<typo-link href="${href}">${text}</typo-link>`);
 		ctx.length += text.length;
+		ctx.link++;
 	},
 	async 'paragraph'(options, ctx) {
 		ctx.doc.push(`${ctx.indent()}<typo-paragraph :indent="2">`);
@@ -84,8 +85,8 @@ const Node = {
 		ctx.doc.push(`<typo-reference :order="${++ctx.reference}">${text}</typo-reference>`);
 		ctx.length += text.length;
 	},
-	async 'table'() {
-
+	async 'table'(options, ctx) {
+		ctx.table++;
 	},
 };
 
@@ -117,7 +118,7 @@ const Generator = {
 
 			const ctx = {
 				id, length: 0, depth: 0, doc: [],
-				figure: 0, embed: 0, reference: 0,
+				figure: 0, embed: 0, reference: 0, link: 0, table: 0,
 				indent: () => new Array(ctx.depth).fill('\t').join(''),
 				sectionsPath,
 			};
@@ -185,9 +186,27 @@ const Generator = {
 			const docPath = path.join(Pathname.contents, `${id}.vue`);
 
 			await fs.writeFile(docPath, doc.join(''));
+			globalThis.console.log(`Built: Content::${id}`);
 		}
 
-		// globalThis.console.log(OutputData);
+
+		const index = OutputData.map(item => {
+			return {
+				id: item.id,
+				title: item.title,
+				author: item.author,
+				source: item.source,
+				figure: item.figure,
+				embed: item.embed,
+				reference: item.reference,
+				link: item.link,
+				table: item.table,
+			};
+		});
+
+		await fs.writeFile(path.join(Pathname.indexes, 'primary.json'), JSON.stringify(index, null, '\t'));
+
+		globalThis.console.log('Built: Index::Primary');
 	},
 };
 

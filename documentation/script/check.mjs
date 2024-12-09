@@ -106,5 +106,5 @@ await (async function validateDocs() {
 		}
 	}
 
-	globalThis.console.log('OK!');
+	globalThis.console.log('Checked: OK!');
 }());

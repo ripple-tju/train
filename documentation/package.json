@@ -5,6 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"check": "node ./script/check.mjs",
+		"build": "node ./script/build.mjs",
+		"deploy": "npm run build && node ./script/deploy.mjs",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
