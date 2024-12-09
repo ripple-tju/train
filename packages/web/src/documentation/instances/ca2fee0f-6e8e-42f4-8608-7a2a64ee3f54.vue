@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">宁波日报报业集团智能中台</typo-title>
+		<typo-title :author="[]">宁波日报报业集团智能中台</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>宁波日报报业集团智能中台的经验启示包括以下几点：</span></typo-paragraph>

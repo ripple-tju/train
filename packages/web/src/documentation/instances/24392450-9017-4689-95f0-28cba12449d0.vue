@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">深圳新闻网：基于大数据技术的互联网多媒体应用统一分析系统</typo-title>
+		<typo-title :author="[]">深圳新闻网：基于大数据技术的互联网多媒体应用统一分析系统</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>本项目研究成果对促进深圳新闻网数字媒体发展有重要作用，已经应用在中国国际人才交流大会官网、中国文化产业网、深圳新闻网、Eyeshenzhen（深圳外宣官网）、罗湖Plus、光明融媒、龙岗融媒、龙华融媒、深爱大鹏等，有成功落地经验。本项目具有创新性和示范性，对媒体融合技术进行更深层次地创新和互通，借助深度学习与专家系统使数字媒体数据管理更科学化，推动数字媒体智能化发展。</span></typo-paragraph>

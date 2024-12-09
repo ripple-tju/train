@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">人民日报：AI编辑部</typo-title>
+		<typo-title :author="[]">人民日报：AI编辑部</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>AI编辑部的功能并不是一成不变的，而是结合用户需要，不断地优化。每年两会前，技术部会与各业务部门深入探讨AI编辑部可完善和提升的地方，并不断促进功能迭代、算法优化。AI编辑部未来将被构建为底层平台，建设专属数据中心，为报社的纸媒、新媒体、社属企业和子报刊提供智能服务。</span></typo-paragraph>

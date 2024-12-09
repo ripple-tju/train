@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">半岛都市报：大数据赋能大型国际车展</typo-title>
+		<typo-title :author="[]">半岛都市报：大数据赋能大型国际车展</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>经营主体可以不发生变化、经营目的也基本保持不变，但经营策略及技术一定要跟上市场的需要，智能化是未来全行业发展的一个共同归宿，传统商业也可以借助智能化裂变出新的商机。所以，具备新技术、新思路、智能化的意识是保障不掉队的关键，而如何利用新技术和市场进行有效嫁接才是不掉队的核心课题。</span></typo-paragraph>

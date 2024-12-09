@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="李瞳" source="新媒体与传播学院">赓续中华文脉，试看亚文化平台融合转型变革——哔哩哔哩传统文化赛道“破圈”之路</typo-title>
+		<typo-title :author="['李瞳']" source="新媒体与传播学院">赓续中华文脉，试看亚文化平台融合转型变革——哔哩哔哩传统文化赛道“破圈”之路</typo-title>
 		<typo-section>
 			<typo-heading :level="1">生于微末：2009-2014，亚文化圈爱好者的自留地</typo-heading>
 			<typo-heading :level="2">哔哩哔哩的诞生</typo-heading>

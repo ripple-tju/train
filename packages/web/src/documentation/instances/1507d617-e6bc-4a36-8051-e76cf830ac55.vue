@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">封面传媒：“灵知”主流媒体算法</typo-title>
+		<typo-title :author="[]">封面传媒：“灵知”主流媒体算法</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>封面一直以来专注智媒技术的聚能进化，在主流媒体算法的研究与应用只是今年重点推进的一个方向，在智媒体的路上还有更长远的规划。在大语言模型技术带来的通用人工智能突破性进展的背景下，“灵知”主流媒体算法未来也将锚定算法应用层创新、算法价值观、安全治理等方向，以实现媒体智能化的深度融合。</span></typo-paragraph>

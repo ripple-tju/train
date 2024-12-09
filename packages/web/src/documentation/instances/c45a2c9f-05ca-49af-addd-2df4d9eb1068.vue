@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">传播大脑科技（浙江）股份有限公司：媒体内容生产类AIGC应用-传播大模型</typo-title>
+		<typo-title :author="[]">传播大脑科技（浙江）股份有限公司：媒体内容生产类AIGC应用-传播大模型</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>通过大模型和AIGC技术，传播大模型实现了在媒体领域的应用，为媒体工作者提升了工作效率和体验。但也还面临着诸多挑战需要不断优化和改进：</span></typo-paragraph>

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">人民网“主流价值语料库”</typo-title>
+		<typo-title :author="[]">人民网“主流价值语料库”</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>在人工智能时代，媒体的重要职责之一就是保证意识形态的安全。当前，人工智能大模型已经成为一种生成式信息传播工具，因此对于大模型价值观的训练是必要的。主流媒体应主动适应、参与人工智能应用和创新，走出一条“用AI治理AI”的“科技向善”之路，用技术赋能价值导向和意识形态传播。唯有技术与内容二者同频同向，构建起互促共进的正向互动关系，才能更好营造健康可持续的产业生态，天朗气清的良好网络空间。</span></typo-paragraph>

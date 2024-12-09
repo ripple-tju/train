@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">新京报：“论法有方”智慧普法服务项目</typo-title>
+		<typo-title :author="[]">新京报：“论法有方”智慧普法服务项目</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>“论法有方”App的成功为媒体行业特别是传统媒体的转型提供了重要启示：</span></typo-paragraph>

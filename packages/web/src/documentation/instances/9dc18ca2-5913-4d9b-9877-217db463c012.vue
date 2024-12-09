@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">传播大脑科技（浙江）股份有限公司：全媒体智能中台</typo-title>
+		<typo-title :author="[]">传播大脑科技（浙江）股份有限公司：全媒体智能中台</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>全面的数据整合是基石：集成融合多维数据和智能化改造，使企业数据可以被分析和利用，充分释放数据价值，是项目的基石。随着全媒体数据中台在提升决策效率、扩展业务应用场景等方面将起到更显著的作用。</span></typo-paragraph>

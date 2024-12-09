@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">上海市奉贤区融媒体中心：数据驱动直播带货</typo-title>
+		<typo-title :author="[]">上海市奉贤区融媒体中心：数据驱动直播带货</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>从传统媒体到融合媒体，一定离不开融入互联网大潮之中，媒体的经营业务不仅仅局限于广告范畴，更应当顺应智能互联网和移动终端的发展趋势，进一步拓展探索新形势的运营方案，利用好主流媒体的公信力和影响力，实现资源整合的同时，推动传统媒体电商向直播电商以及未来的数据电商转型。最终通过内容服务+经营产品服务受众，打通“政务+商务+服务”的新路。</span></typo-paragraph>

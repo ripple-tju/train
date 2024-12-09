@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">封面传媒：智媒审核云</typo-title>
+		<typo-title :author="[]">封面传媒：智媒审核云</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>智媒审核云已完成saas化产品链条构建，未来封面还会挖掘更全面的内容安全治理产品生态，我们希望智媒审核云能够助力行业全媒体、全业务流程的内容安全防护。从如下方面发挥自己的价值：</span></typo-paragraph>

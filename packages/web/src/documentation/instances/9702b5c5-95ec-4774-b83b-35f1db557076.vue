@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">芒果TV：基于AI的下一代内容生产新引擎系统</typo-title>
+		<typo-title :author="[]">芒果TV：基于AI的下一代内容生产新引擎系统</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>“文化+科技”突破视频内容增强与编辑核心技术案例以“文化+科技”的理念进行自主创新，研发出一套具有自主知识产权的视频内容增强与编辑系统。有效地打破了对国外后期处理软件的过度依赖。在绝大多数的业务场景下，这个系统都实现了对外国技术的替代，为整个行业提供了一种参考性的技术解决方案。更为重要的是，案例的核心技术已经以论文和专利的形式进行了公开，为整个领域的发展提供了强大的推动力。</span></typo-paragraph>

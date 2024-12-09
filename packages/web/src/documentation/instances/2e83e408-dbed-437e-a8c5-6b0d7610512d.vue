@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">央视网：智慧融媒体管理平台</typo-title>
+		<typo-title :author="[]">央视网：智慧融媒体管理平台</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>智慧媒资如果像档案馆或数据库仅仅以编目的方式建设，这些数据就难以产生新的价值。央视网将老数据和新数据进行“撞击”，产生新的创意和产品，这一点应用对于新媒体至关重要。这也启示我们，媒资库建设不能仅停留在文字报道电子化阶段。要将文字、图表、图片、音视频报道和素材数字化、智能标签化，实现海量数据数字化存储、多模态搜索与精准管理。同时，建议对各类数据进行清洗、提炼与分类，形成各类专业数据库，为媒资库创新开发做好准备。</span></typo-paragraph>

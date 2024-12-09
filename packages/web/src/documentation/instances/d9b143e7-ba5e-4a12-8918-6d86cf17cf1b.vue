@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">云南省南亚东南亚区域国际传播中心：小语种AI数字人</typo-title>
+		<typo-title :author="[]">云南省南亚东南亚区域国际传播中心：小语种AI数字人</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>通过人工智能、云计算、大数据、物联网、5G、区块链、虚拟数字孪生等信息化技术，创新传播形式，构建线上数字文化传播新格局。聚合国内外优势资源，打造面向南亚东南亚传播的小语种数字人，形成多产品形态的数字传播新模式。推动人工智能技术与国际传播产业深度融合，助力国际传播建设向着更加智能化、精准化、个性化的方向发展。</span></typo-paragraph>

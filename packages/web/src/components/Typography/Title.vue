@@ -1,6 +1,6 @@
 <template>
 	<div class="q-mb-md typo-title">
-		<div class="text-h2 text-center"><slot></slot></div>
+		<div class="text-h3 text-center"><slot></slot></div>
 
 		<div class="row justify-center q-mt-md text-grey text-center">
 			<div class="col-4">
@@ -26,20 +26,19 @@ const { t } = useI18n();
 const props = withDefaults(
 	defineProps<{
 		source?: string | null;
-		author?: string | null;
+		author: string[];
 	}>(),
 	{
 		source: null,
-		author: null,
 	},
 );
 
 const author = computed(() => {
-	if (props.author === null) {
+	if (props.author.length === 0) {
 		return t('typo.title.unknown.author');
 	}
 
-	return props.author;
+	return props.author.join(', ');
 });
 
 const source = computed(() => {

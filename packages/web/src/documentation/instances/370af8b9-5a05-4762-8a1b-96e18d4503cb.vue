@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">新京报App 5.0智能升级</typo-title>
+		<typo-title :author="[]">新京报App 5.0智能升级</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>新京报通过对客户端的升级，进一步增强了以新京报客户端为内容分发中心和枢纽的编辑运营体系，并将内容传播延伸至微博、微信、抖音、快手、今日头条、百度百家号等社交平台。媒体融合，以“合”为外在表现，“融”为内在灵魂。当前许多媒体的融合只停留在“合”的层面，一些媒体的新媒体类产品只有多种表达方式上的结合和形式上的创新。新京报通过客户端5.0版本的升级，进一步对客户端从“量”、“形”、“智”上有了质的提升，成为新京报优质内容的第一出口，也提高了用户的活跃度。</span></typo-paragraph>

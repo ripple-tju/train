@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">新京报：《沉浸中轴（AR+VR)：全景穿越京城脊梁》</typo-title>
+		<typo-title :author="[]">新京报：《沉浸中轴（AR+VR)：全景穿越京城脊梁》</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>该案例对北京中轴线申遗和保护工作有推动意义，项目成果将为北京中轴线相关遗产点的保护和原貌恢复提供绝佳的视觉呈现效果。此外，本项目将以崭新角度重新解构北京中轴线，进一步挖掘这条轴线上相关遗产点的价值，深化社会公众对其上古代建筑的营造技艺、历史故事、文化内涵等方面的认知，提升对中轴线古建筑营造工艺和理念的保护水平，助力中轴线的申遗和保护工作。</span></typo-paragraph>

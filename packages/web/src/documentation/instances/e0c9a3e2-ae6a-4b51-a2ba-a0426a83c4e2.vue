@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">重庆日报报业集团：智能内容风控系统</typo-title>
+		<typo-title :author="[]">重庆日报报业集团：智能内容风控系统</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>新闻出版机构通常需要确保所发布的内容符合道德和法律标准，避免误导读者或引发不良影响。内容风控系统可以帮助新闻出版单位对稿件进行审校，识别敏感信息、不当言论、虚假新闻、重大政治性错误、导向性错误、政策性错误、“高级黑”和“低级红”等报道，确保发布的内容质量和安全性。</span></typo-paragraph>

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">澎湃新闻网：澎湃智媒开放平台-AI视频</typo-title>
+		<typo-title :author="[]">澎湃新闻网：澎湃智媒开放平台-AI视频</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>从已有的情况和趋势可以看出，AI视频内容生产平台使传统文字媒体实现向视频转型变得简单高效。</span></typo-paragraph>

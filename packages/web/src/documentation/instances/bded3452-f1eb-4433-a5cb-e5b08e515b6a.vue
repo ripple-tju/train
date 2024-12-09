@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">安吉县融媒体中心：数字城市、数字乡村等数字化建设项目</typo-title>
+		<typo-title :author="[]">安吉县融媒体中心：数字城市、数字乡村等数字化建设项目</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>大部分需要大量人力、财力的公共事务，都可以考虑用数字化、智能化手段去完成。融合“人工智能+人员智慧”，实现1+1>2的实际效果，既减轻基层工作人员的工作强度，又极大地提升了服务的便捷性，在矛盾调解、安全监控、志愿服务、灾害预警、一窗受理、远程医疗、农村养老等多方面深入服务乡村生活。</span></typo-paragraph>

@@ -1,15 +1,15 @@
 <template>
 	<div
 		class="typo-heading"
-		:class="[`text-h${Number(level) + 2}`]"
+		:class="[`text-h${Number(level) + 3}`]"
 	>
 		<slot></slot>
 	</div>
 </template>
 
 <script setup lang="ts">
-type LevelNumber = 1 | 2 | 3 | 4;
-type LevelString = '1' | '2' | '3' | '4';
+type LevelNumber = 1 | 2 | 3;
+type LevelString = '1' | '2' | '3';
 
 withDefaults(
 	defineProps<{

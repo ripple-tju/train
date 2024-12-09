@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">人民日报“中央厨房”：新闻线索热点发现系统、舆情监控分析系统、投放效果评估系统、评论和“反垃圾”过滤系统</typo-title>
+		<typo-title :author="[]">人民日报“中央厨房”：新闻线索热点发现系统、舆情监控分析系统、投放效果评估系统、评论和“反垃圾”过滤系统</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>人民日报“中央厨房”是面向受众、面向国际、面向未来的新一代内容生产、传播和运营体系，以内容的生产传播为主线，不仅服务于人民日报旗下的各个媒体，更是为整个媒体行业搭建了一个支撑优质内容生产的公共平台，聚拢各方资源，形成融合发展合力。</span></typo-paragraph>

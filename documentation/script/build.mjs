@@ -68,15 +68,22 @@ const Node = {
 	async 'paragraph'(options, ctx) {
 		ctx.doc.push(`${ctx.indent()}<typo-paragraph :indent="2">`);
 
+		let text = '';
+
 		for (const span of options) {
 			if (typeof span === 'string') {
 				ctx.doc.push(`<span>${span}</span>`);
 				ctx.length += span.length;
+				text += span;
 			} else {
 				const [type, options] = span;
 
 				await Node[type](options, ctx);
 			}
+		}
+
+		if (ctx.abstract.length < 100) {
+			ctx.abstract += text;
 		}
 
 		ctx.doc.push('</typo-paragraph>\n');
@@ -117,7 +124,7 @@ const Generator = {
 			const sectionsPath = path.join(docPath, 'sections');
 
 			const ctx = {
-				id, length: 0, depth: 0, doc: [],
+				id, length: 0, depth: 0, doc: [], abstract: '',
 				figure: 0, embed: 0, reference: 0, link: 0, table: 0,
 				indent: () => new Array(ctx.depth).fill('\t').join(''),
 				sectionsPath,
@@ -145,10 +152,7 @@ const Generator = {
 
 			const titleAttrs = [];
 
-			if (author !== null) {
-				titleAttrs.push(`author="${author}"`);
-			}
-
+			titleAttrs.push(`:author="[${author.map(item => `'${item}'`).join(', ')}]"`);
 			if (source !== null) {
 				titleAttrs.push(`source="${source}"`);
 			}
@@ -193,6 +197,8 @@ const Generator = {
 		const index = OutputData.map(item => {
 			return {
 				id: item.id,
+				abstract: item.abstract.substring(0, 100),
+				length: item.length,
 				title: item.title,
 				author: item.author,
 				source: item.source,

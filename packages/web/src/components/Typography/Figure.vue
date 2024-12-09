@@ -14,6 +14,9 @@
 				<div
 					v-show="props.title !== null"
 					style="padding: 0;"
+					:style="{
+						'pointer-events': props.href === '' ? 'none' : 'auto'
+					}"
 					class="absolute-bottom text-subtitle1 text-center q-pa-none"
 				>
 					{{ props.title }}

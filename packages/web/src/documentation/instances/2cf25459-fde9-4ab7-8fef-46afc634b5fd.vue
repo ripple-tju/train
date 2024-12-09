@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">半岛网新闻视频化平台实践</typo-title>
+		<typo-title :author="[]">半岛网新闻视频化平台实践</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>将一些不需要太多人工创意的工作交给了计算机完成，利用现有的大数据和人工智能技术，打造出了一个模拟人工的工作的平台，在各个环节上利用计算机的效率优势节省了大量人工，提升了80%以上的工作效率。下一步将通过AI丰富视频产出形式，包括按类别定制虚拟主播、加入更多的风格模版等，进一步提升视频的质量和生产效率。</span></typo-paragraph>

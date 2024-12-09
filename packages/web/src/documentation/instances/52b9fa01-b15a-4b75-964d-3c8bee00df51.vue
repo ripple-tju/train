@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">齐鲁壹点：壹点智能推荐系统</typo-title>
+		<typo-title :author="[]">齐鲁壹点：壹点智能推荐系统</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>在智能化方面，通过不断探索大数据、人工智能、云计算等技术在媒体中的应用，在内容生产与传播上，全面实现更加适应主流媒体的智能采集、智能生产、智能推荐、智能分发、智能接收和智能反馈等功能。该算法通过将主流价值观与个性化服务相结合，加大正能量、主旋律内容的供给、推送和传播，营造风清气正的主流媒体内容生态。</span></typo-paragraph>

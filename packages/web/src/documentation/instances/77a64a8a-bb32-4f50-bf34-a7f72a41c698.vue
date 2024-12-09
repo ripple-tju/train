@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">安吉县融媒体中心：线上服务平台“爱安吉”APP</typo-title>
+		<typo-title :author="[]">安吉县融媒体中心：线上服务平台“爱安吉”APP</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>安吉县融媒体中心坚持建设自主可控的新型传播平台，极力拓展各类服务，与政府部门通力合作，打通县域社会资源；同时充分利用在地性优势，贴合人民群众的实际需求，在产品和服务设计上更接地气，获得了不少受众拥趸。在以数字化、网络化为底层逻辑的全媒体时代，主流媒体持续探索“新闻+政务服务商务”模式，需要深度参与社会治理创新，建立与用户的深度连接。</span></typo-paragraph>

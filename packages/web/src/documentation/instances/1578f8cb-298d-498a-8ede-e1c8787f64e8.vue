@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">河南广播电视台：“旅游”特种兵“徽章.嵩山”项目</typo-title>
+		<typo-title :author="[]">河南广播电视台：“旅游”特种兵“徽章.嵩山”项目</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>伴随科技的发展，新的广告形式和营销方式不断涌现，传统媒体的营销模式已经严重下滑，投在传统媒体上的广告越来越少。其次传统媒体的用户和客户被大量分流，新兴市场的培育孵化尚需时间，广电传统媒体新发展动力源还不明显。将传统广告与数字化技术相结合，利用互联网、移动设备等渠道，实现经营模式的创新势在必行。</span></typo-paragraph>

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">四川日报报业集团：川观新闻数字记者矩阵</typo-title>
+		<typo-title :author="[]">四川日报报业集团：川观新闻数字记者矩阵</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>数字人赛道我们去年从小观数字人开始做起，再到今年数字记者矩阵，刚好经历一年的时间；从1个数字记者到20个，再到40个数字记者，已大规模的投入到新媒体平台及内容生产中；数字记者的快速成长和媒体大量应用下，有以下一些启示：</span></typo-paragraph>

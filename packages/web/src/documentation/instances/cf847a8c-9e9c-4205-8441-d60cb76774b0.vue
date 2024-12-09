@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">封面传媒：智媒云6.0</typo-title>
+		<typo-title :author="[]">封面传媒：智媒云6.0</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>信息技术的每一次重大进步，无不带来传播方式的重大跃升、媒体形态的重大提升。因此，媒体的内容生产消费的全链条管理，要敏锐的捕捉到信息技术的变革，并将其应用在自身的业务发展当中。基于丰富的采编实践积淀，封面传媒强化主流价值导向，瞄准融合转型的痛点难点，植根传媒生产应用场景，重塑生产传播流程，立志于做“懂技术的媒体，懂媒体的技术”。</span></typo-paragraph>

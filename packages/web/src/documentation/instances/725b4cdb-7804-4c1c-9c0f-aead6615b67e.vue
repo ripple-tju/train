@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="郭竹慧" source="新媒体与传播学院">马克思主义新闻观与中国实践课程案例</typo-title>
+		<typo-title :author="['郭竹慧']" source="新媒体与传播学院">马克思主义新闻观与中国实践课程案例</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例做法</typo-heading>
 			<typo-heading :level="2">MGC视频新闻生产平台+智能拆条模式，抢占短视频生产高地</typo-heading>

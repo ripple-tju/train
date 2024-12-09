@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">长江云：长江数字文创大数据服务平台</typo-title>
+		<typo-title :author="[]">长江云：长江数字文创大数据服务平台</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>经验和启示可以总结为以下几点：</span></typo-paragraph>

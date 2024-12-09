@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">新华网、新华智云：AIGC元宇宙系统“元卯”</typo-title>
+		<typo-title :author="[]">新华网、新华智云：AIGC元宇宙系统“元卯”</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>随着“元宇宙”的大众认知趋于理性，传媒业界探索新的“元宇宙”应用场景，在推动虚实交互创新的同时，也在拓展产业边界。“元卯”系统有望解放生产力，有效推动元宇宙行业发展。</span></typo-paragraph>

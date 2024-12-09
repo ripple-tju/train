@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<typo-title author="">人民网写易智能创作引擎</typo-title>
+		<typo-title :author="[]">人民网写易智能创作引擎</typo-title>
 		<typo-section>
 			<typo-heading :level="1">案例启示</typo-heading>
 			<typo-paragraph :indent="2"><span>“写易”已在多个党政系统应用，具备高效创作、安全准确和内容丰富的特性，通过检索增强的辅助生成能力，为用户提供高质量文章素材，尤其在智能审校和专业知识提供方面表现出色。生成式人工智能正在加速升级内容生产业态，为媒体机构和内容创作者提供通用型创作工具，提升内容生产和分发效率，为内容创作赋能。</span></typo-paragraph>
