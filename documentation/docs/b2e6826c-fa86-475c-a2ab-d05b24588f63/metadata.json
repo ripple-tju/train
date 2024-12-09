@@ -1,0 +1,25 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "从“办中国最好报纸”到全员智库化转型 ——南方都市报的智库媒体转型之旅",
+	"author": [
+		"茹佳"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245008"
+	],
+	"sections": [
+		"preface",
+		"1-explore",
+		"2-future",
+		"3-try",
+		"4-challenge",
+		"5-end",
+		"appendix"
+	]
+}
