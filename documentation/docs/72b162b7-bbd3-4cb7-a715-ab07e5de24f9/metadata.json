@@ -1,0 +1,19 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "以小见大，以情动人：短片《CPC》对中国共产党形象的塑造",
+	"author": [
+		"彭可"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"2023245007"
+	],
+	"sections": [
+		"1-background",
+		"2-analyze",
+		"3-conclusion"
+	]
+}
