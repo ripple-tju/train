@@ -3,6 +3,13 @@
 
 export default {
 	':': '：',
+	app: {
+		title: '案例数据库',
+		feature: {
+			metric: '指标',
+			index: '索引',
+		},
+	},
 	typo: {
 		title: {
 			source: '来源',

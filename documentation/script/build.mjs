@@ -125,7 +125,7 @@ const Generator = {
 
 			const {
 				title,
-				author = null,
+				author = [],
 				source = null,
 				tags = [],
 			} = JSON.parse(await fs.readFile(metadataPath, 'utf-8'));

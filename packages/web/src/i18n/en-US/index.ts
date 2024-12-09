@@ -3,6 +3,13 @@
 
 export default {
 	':': ':',
+	app: {
+		title: 'Case Database',
+		feature: {
+			metric: 'Metric',
+			index: 'Index',
+		},
+	},
 	typo: {
 		title: {
 			source: 'source',

@@ -26,7 +26,7 @@ const id = computed<string>(() => $route.params.id as string);
 
 const DocumentationInstance = computed<ComponentCustomOptions>(() => {
 	if (Object.hasOwn(Documentation.map, id.value)) {
-		return Documentation.map[id.value];
+		return Documentation.map[id.value] as ComponentCustomOptions;
 	}
 
 	return NotFound;
