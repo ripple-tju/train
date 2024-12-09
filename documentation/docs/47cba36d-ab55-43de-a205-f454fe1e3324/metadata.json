@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "休戚与共，智见未来——看《中国民航报》乘势打赢行业媒体生存发展之战",
+	"author": [
+		"邹雯倩"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245009"
+	],
+	"sections": [
+		"preface",
+		"1-compete",
+		"2-advantage",
+		"3-event",
+		"4-industry",
+		"5-conclusion"
+	]
+}
