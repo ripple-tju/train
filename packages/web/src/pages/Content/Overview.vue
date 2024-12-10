@@ -7,8 +7,10 @@
 			class="app-page-content col"
 			style="max-width: 1200px"
 		>
-			<!-- <div class="app">Content{{ id }}</div> -->
-			<component :is="DocumentationInstance"></component>
+			<typo-content>
+				<!-- <div class="app">Content{{ id }}</div> -->
+				<component :is="DocumentationInstance"></component>
+			</typo-content>
 		</div>
 	</q-page>
 </template>
@@ -31,6 +33,8 @@ const DocumentationInstance = computed<ComponentCustomOptions>(() => {
 
 	return NotFound;
 });
+
+console.log($route.hash);
 
 defineOptions({ name: 'AppContentOverview' });
 </script>

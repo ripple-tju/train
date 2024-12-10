@@ -10,6 +10,7 @@ import Section from 'components/Typography/Section.vue';
 import Table from 'components/Typography/Table.vue';
 import Title from 'components/Typography/Title.vue';
 import Link from 'components/Typography/Link.vue';
+import Content from 'components/Typography/Content.vue';
 
 export default boot(function TypographyLoader({ app }) {
 	app.component('TypoChart', Chart);
@@ -22,10 +23,12 @@ export default boot(function TypographyLoader({ app }) {
 	app.component('TypoTable', Table);
 	app.component('TypoTitle', Title);
 	app.component('TypoLink', Link);
+	app.component('TypoContent', Content);
 });
 
 declare module '@vue/runtime-core' {
 	export interface GlobalComponents {
+		TypoContent: typeof Content;
 		TypoTitle: typeof Title;
 		TypoSection: typeof Section;
 		TypoHeading: typeof Heading;
