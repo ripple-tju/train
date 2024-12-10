@@ -1,0 +1,18 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "1-type",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "案例类别"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"平台创新"
+			]
+		]
+	]
+}
