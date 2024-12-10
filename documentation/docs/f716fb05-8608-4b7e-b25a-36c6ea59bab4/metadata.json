@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "媒体深度融合下传统纸媒的AI融合——以《深圳晚报》2023年12月15日出版的全国首份AI融媒新闻纸为例",
+	"author": [
+		"李江彤"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245023",
+		"陆小华"
+	],
+	"sections": [
+		"profile",
+		"1-abstract",
+		"2-report",
+		"3-gif",
+		"4-inspiration"
+	]
+}
