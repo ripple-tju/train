@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "封面新闻“大国工程我来建”3D互动游戏",
+	"author": [
+		"周则旭"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245022"
+	],
+	"sections": [
+		"1-type",
+		"2-profile",
+		"3-method",
+		"4-tech",
+		"5-result",
+		"6-inspiration"
+	]
+}
