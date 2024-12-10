@@ -1,0 +1,26 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "AI赋能：央视听媒体大模型推动媒体产业智能化转型——央视听媒体大模型案例分析",
+	"author": [
+		"张佳兴"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245021",
+		"陆小华"
+	],
+	"sections": [
+		"1-background",
+		"2-target",
+		"3-implement",
+		"4-tech",
+		"5-result",
+		"6-conclusion",
+		"7-inspiration"
+	]
+}
