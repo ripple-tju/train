@@ -1,0 +1,22 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "政务新媒体的建设路径分析与启示——以微信公众号“浙江宣传”为例",
+	"author": [
+		"张昕"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245020",
+		"陆小华"
+	],
+	"sections": [
+		"preface",
+		"1-strategy",
+		"2-inspiration"
+	]
+}
