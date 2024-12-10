@@ -1,10 +1,10 @@
 <template>
 	<q-page
 		padding
-		class="row justify-center"
+		class="flex justify-center q-px-none"
 	>
 		<div
-			class="row q-col-gutter-md full-width"
+			class="row q-col-gutter-md fit"
 			style="max-width: 1200px"
 		>
 			<div
@@ -45,12 +45,12 @@
 					/>
 					<q-card-section class="q-py-xs">
 						<q-badge
-							style="width: 5em"
+							style="width: 5.5em"
 							color="secondary"
 						>
 							<q-icon
 								name="translate"
-								class="q-mx-xs"
+								class="q-mr-xs"
 							/>{{ item.length }}</q-badge
 						>
 
@@ -60,7 +60,7 @@
 						>
 							<q-icon
 								name="arrow_outward"
-								class="q-mx-xs"
+								class="q-mr-xs"
 							/>{{ item.link }}</q-badge
 						>
 
@@ -71,7 +71,7 @@
 						>
 							<q-icon
 								name="format_quote"
-								class="q-mx-xs"
+								class="q-mr-xs"
 							/>{{ item.reference }}</q-badge
 						>
 
@@ -82,7 +82,7 @@
 						>
 							<q-icon
 								name="image"
-								class="q-mx-xs"
+								class="q-mr-xs"
 							/>{{ item.figure }}</q-badge
 						>
 
@@ -93,7 +93,7 @@
 						>
 							<q-icon
 								name="table_chart"
-								class="q-mx-xs"
+								class="q-mr-xs"
 							/>{{ item.table }}</q-badge
 						>
 					</q-card-section>

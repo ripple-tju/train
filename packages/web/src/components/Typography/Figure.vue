@@ -1,14 +1,15 @@
 <template>
 	<div class="typo-figure q-my-md row justify-center">
 		<a
-			class="col col-lg-8"
+			class="col-grow flex justify-center"
 			:href="props.href"
 			:style="{
 				'pointer-events': props.href === '' ? 'none' : 'auto'
 			}"
 		>
 			<q-img
-				class="typo-figure-image"
+				style="max-width: 500px;"
+				class="typo-figure-image fit"
 				:src="props.src"
 			>
 				<div
@@ -17,7 +18,7 @@
 					:style="{
 						'pointer-events': props.href === '' ? 'none' : 'auto'
 					}"
-					class="absolute-bottom text-subtitle1 text-center q-pa-none"
+					class="absolute-bottom text-caption text-center q-pa-none"
 				>
 					{{ props.title }}
 				</div>
