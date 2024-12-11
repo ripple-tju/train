@@ -1,0 +1,26 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "回溯《三磅宇宙》长效传播之旅 探寻新媒体时代科技传播新思路",
+	"author": [
+		"曹怡婕"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245013",
+		"陆小华"
+	],
+	"sections": [
+		"preface",
+		"1-birth",
+		"2-communication",
+		"3-report",
+		"4-life",
+		"5-space",
+		"6-end"
+	]
+}
