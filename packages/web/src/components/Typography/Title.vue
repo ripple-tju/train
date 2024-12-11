@@ -1,8 +1,16 @@
 <template>
 	<div class="q-mb-md typo-title">
-		<div class="text-h3 text-center"><slot></slot></div>
+		<div
+			class="text-h1 text-center text-weight-medium"
+			style="font-size: 32px; line-height: normal"
+		>
+			<slot></slot>
+		</div>
 
-		<div class="row justify-center q-mt-md text-grey text-center">
+		<div
+			class="row justify-center q-mt-md text-grey text-center"
+			style="font-size: 12px"
+		>
 			<div class="col-lg-4 col-6">
 				<span>{{ $t('typo.title.author') }}{{ $t(':') }}</span
 				><span>{{ author }}</span>
@@ -25,8 +33,8 @@ const { t } = useI18n();
 
 const props = withDefaults(
 	defineProps<{
-		source?: string | null;
-		author?: string[];
+		source?: string | null
+		author?: string[]
 	}>(),
 	{
 		author: () => [],

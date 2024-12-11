@@ -1,11 +1,12 @@
 <template>
 	<div
 		:id="id"
-		class="typo-heading q-my-md"
-		:class="[`text-h${Number(level) + 3}`]"
-	><span class="q-mr-sm">{{ order.join('.') }}.</span><a
-		ref="text"
-	><slot></slot></a>
+		class="typo-heading q-my-lg text-weight-regular"
+		style="line-height: normal;"
+		:class="[`text-h${Number(level)}`]"
+		:style="{ 'font-size': `${fontSize[Number(level)]}px` }"
+	>
+		<span class="q-mr-sm">{{ order.join('.') }}.</span><a ref="text"><slot></slot></a>
 	</div>
 </template>
 
@@ -14,9 +15,10 @@ import { ref, onMounted, computed } from 'vue';
 import { useContent } from './use/Content';
 
 const content = useContent();
+const fontSize = [32, 28, 24, 20, 18, 16];
 
-type LevelNumber = 1 | 2 | 3
-type LevelString = '1' | '2' | '3'
+type LevelNumber = 1 | 2 | 3 | 4 | 5 | 6
+type LevelString = '1' | '2' | '3' | '4' | '5' | '6'
 
 const props = withDefaults(
 	defineProps<{

@@ -16,26 +16,35 @@
 					<component :is="DocumentationInstance"></component>
 				</typo-content>
 			</div>
-			<div class="col-md-4 q-pa-md gt-md">
+			<div class="col-md-4 q-pa-md gt-sm relative-position">
 				<q-list dense>
 					<q-item
 						clickable
 						v-for="item in finalToc"
 						:key="item.id"
+						:to="{ hash: `#${item.id}` }"
 					>
 						<q-item-section :style="{ 'padding-left': `${item.level * 1}em` }">
-							<router-link
-								:to="{ hash: `#${item.id}` }"
-								class="text-black"
-								style="text-decoration: none"
-							>
+							<div class="text-black">
 								<span class="q-mr-xs">{{ item.order }}.</span>{{ item.text }}
-							</router-link>
+							</div>
 						</q-item-section>
 					</q-item>
 				</q-list>
 			</div>
 		</div>
+		<q-page-sticky
+			v-if="isToTopShow"
+			position="bottom"
+			:offset="[0, 18]"
+		>
+			<q-btn
+				round
+				color="orange"
+				icon="arrow_upward"
+				:to="{ hash: '' }"
+			/>
+		</q-page-sticky>
 	</q-page>
 </template>
 
@@ -45,6 +54,7 @@ import type { TocItem } from 'src/components/Typography/Content.vue';
 
 import { computed, ref } from 'vue';
 import { useRoute } from 'vue-router';
+import * as Q from 'quasar';
 
 import * as Documentation from 'src/documentation/index';
 import NotFound from '../ErrorNotFound.vue';
@@ -83,6 +93,18 @@ const finalToc = computed<FinalTocItem[]>(() => {
 		};
 	});
 });
+
+const isToTopShow = ref<boolean>(false);
+
+function observeScrolling() {
+	const height = window.innerHeight;
+	const top = Q.scroll.getVerticalScrollPosition(document.documentElement);
+
+	isToTopShow.value = top > 1.5 * height;
+}
+
+observeScrolling();
+document.addEventListener('scroll', observeScrolling);
 
 defineOptions({ name: 'AppContentOverview' });
 </script>
