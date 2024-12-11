@@ -1,11 +1,13 @@
 <template>
 	<q-layout view="lHh Lpr lFf">
-		<q-header bordered class="">
+		<q-header bordered>
 			<q-toolbar>
 				<q-toolbar-title>{{ $t('app.title') }}</q-toolbar-title>
 
 				<q-btn
+					class="self-stretch"
 					flat
+					square
 					:to="{
 						name: 'App.Content',
 					}"

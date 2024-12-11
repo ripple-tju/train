@@ -4,7 +4,7 @@
 		class="flex justify-center"
 	>
 		<div
-			class="app-page-content row"
+			class="app-page-content row full-width"
 			style="max-width: 1200px"
 		>
 			<div
