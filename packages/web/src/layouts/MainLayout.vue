@@ -1,8 +1,21 @@
 <template>
 	<q-layout view="lHh Lpr lFf">
-		<q-header bordered>
-			<q-toolbar>
-				<q-toolbar-title>{{ $t('app.title') }}</q-toolbar-title>
+		<q-header
+			bordered
+			style="background-color: #983a42"
+			class="flex justify-center"
+		>
+			<q-toolbar style="max-width: 1200px;">
+				<q-toolbar-title
+					><q-avatar
+						size="36px"
+						class="q-mr-md bg-white"
+						><q-img
+							src="logo.jpeg"
+							:img-style="{ transform: 'scale(1.5)' }"
+						></q-img></q-avatar
+					>{{ $t('app.title') }}</q-toolbar-title
+				>
 
 				<q-btn
 					class="self-stretch"
@@ -16,12 +29,13 @@
 			</q-toolbar>
 		</q-header>
 
-		<q-page-container>
+		<q-page-container style="padding-bottom: 0">
 			<router-view />
 		</q-page-container>
 		<q-footer
 			bordered
 			class="bg-grey-3 text-grey-8"
+			style="position: static;"
 		>
 			<q-toolbar>
 				<q-toolbar-title class="text-center text-overline">
