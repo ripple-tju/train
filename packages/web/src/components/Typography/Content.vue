@@ -3,16 +3,24 @@
 </template>
 
 <script setup lang="ts">
-import { provide, reactive, onBeforeUpdate } from 'vue';
+import { provide, reactive, onBeforeUpdate, onMounted } from 'vue';
 import * as Key from './ContentProvideSymbol';
 
 provide(Key.IsInContent, true);
 
 const headingStack = reactive<number[]>([]);
 
+export interface TocItem {
+	level: number;
+	text: string;
+	order: number[];
+}
+
+const tocItemList = reactive<TocItem[]>([]);
+
 onBeforeUpdate(() => headingStack.splice(0));
 
-provide(Key.RegisterHeading, (level) => {
+provide(Key.RegisterHeading, (level, text) => {
 	const delta = level - headingStack.length;
 
 	if (delta > 0) {
@@ -27,8 +35,18 @@ provide(Key.RegisterHeading, (level) => {
 		(headingStack[headingStack.length - 1] as number)++;
 	}
 
-	return [...headingStack];
+	const order = [...headingStack];
+
+	tocItemList.push({ level, text, order });
+
+	return order;
 });
+
+const emit = defineEmits<{
+	(e: 'toc-ok', toc: TocItem[]): void;
+}>();
+
+onMounted(() => emit('toc-ok', tocItemList));
 
 defineOptions({ name: 'TypoContent' });
 </script>

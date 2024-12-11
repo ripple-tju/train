@@ -1,20 +1,22 @@
 <template>
 	<div
-		:id="`h-${order.join('-')}`"
-		class="typo-heading"
+		:id="id"
+		class="typo-heading q-my-md"
 		:class="[`text-h${Number(level) + 3}`]"
-	><span class="q-mr-sm">{{ order.join('.') }}.</span><slot></slot>
+	><span class="q-mr-sm">{{ order.join('.') }}.</span><a
+		ref="text"
+	><slot></slot></a>
 	</div>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { useContent } from './use/Content';
 
 const content = useContent();
 
-type LevelNumber = 1 | 2 | 3;
-type LevelString = '1' | '2' | '3';
+type LevelNumber = 1 | 2 | 3
+type LevelString = '1' | '2' | '3'
 
 const props = withDefaults(
 	defineProps<{
@@ -26,10 +28,16 @@ const props = withDefaults(
 );
 
 const order = ref<number[]>([]);
+const text = ref<HTMLAnchorElement | null>(null);
+const id = computed<string>(() => `h-${order.value.join('-')}`);
 
-if (content.registerHeading !== undefined) {
-	order.value = content.registerHeading(Number(props.level));
-}
+onMounted(() => {
+	if (content.registerHeading !== undefined) {
+		if (text.value !== null) {
+			order.value = content.registerHeading(Number(props.level), text.value.innerText);
+		}
+	}
+});
 
 defineOptions({ name: 'TypoHeading' });
 </script>

@@ -1,4 +1,6 @@
 import type { InjectionKey } from 'vue';
 
-export const RegisterHeading = Symbol() as InjectionKey<(level: number) => number[]>;
+type HeadingRegister = (level: number, text: string) => number[];
+
+export const RegisterHeading = Symbol() as InjectionKey<HeadingRegister>;
 export const IsInContent = Symbol() as InjectionKey<true>;

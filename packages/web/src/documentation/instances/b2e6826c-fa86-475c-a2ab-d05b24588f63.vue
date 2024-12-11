@@ -102,17 +102,17 @@
 		<typo-section>
 			<typo-heading :level="1">附录</typo-heading>
 			<typo-paragraph :indent="2"><span>附录1：2018年2月8日，南都大数据研究院正式揭牌成立</span></typo-paragraph>
-			<typo-figure src="static/6169d9acaf6e700e03913357230538a8da05e6f9fe065dc7399e95414fd594ab.png" title="（新闻报道：南都大数据研究院来了_广东记协网）" href="http://www.gdjx.org.cn/sydt/content/post_695756.html" />
+			<typo-figure src="static/6169d9acaf6e700e03913357230538a8da05e6f9fe065dc7399e95414fd594ab.png" title="南都大数据研究院来了_广东记协网" href="http://www.gdjx.org.cn/sydt/content/post_695756.html" />
 			<typo-paragraph :indent="2"><span>附录2：2019应用新闻传播十大创新案例揭晓，南都大数据研究院入选！</span></typo-paragraph>
-			<typo-figure src="static/f0175118e4cfaa3ee6f47c4f4f2ff584daeb6a304c19e998846115f7a2c94a91.png" title="（新闻报道：2019应用新闻传播十大创新案例揭晓，南都大数据研究院入选！ _搜狐新闻报道）" href="https://www.sohu.com/a/357506206_161795" />
+			<typo-figure src="static/f0175118e4cfaa3ee6f47c4f4f2ff584daeb6a304c19e998846115f7a2c94a91.png" title="2019应用新闻传播十大创新案例揭晓，南都大数据研究院入选！_搜狐新闻" href="https://www.sohu.com/a/357506206_161795" />
 			<typo-paragraph :indent="2"><span>附录3：南都《广州城市治理榜》入围“中国城市治理创新奖”</span></typo-paragraph>
-			<typo-figure src="static/fb1a1049ddd323e1560a04373a3ee211069dcfdc6e350910de3ad09e7d6aefaa.png" title="（新闻报道：南都《广州城市治理榜》入围“中国城市治理创新奖”_搜狐新闻）" href="https://www.sohu.com/a/303417124_161795" />
+			<typo-figure src="static/fb1a1049ddd323e1560a04373a3ee211069dcfdc6e350910de3ad09e7d6aefaa.png" title="南都《广州城市治理榜》入围“中国城市治理创新奖”_搜狐新闻" href="https://www.sohu.com/a/303417124_161795" />
 			<typo-paragraph :indent="2"><span>附录4：回望南都2021高光时刻 未来将推动智媒转型“四轮”驱动</span></typo-paragraph>
-			<typo-figure src="static/ef3b8fa66045d2523c4c793a9de062d8b5a90d774aca2c7210d6d5ba04a57a31.png" title="（新闻报道：回望南都2021高光时刻 未来将推动智媒转型“四轮”驱动_南方都市报）" href="https://news.southcn.com/node_54a44f01a2/63aae85b11.shtml" />
+			<typo-figure src="static/ef3b8fa66045d2523c4c793a9de062d8b5a90d774aca2c7210d6d5ba04a57a31.png" title="回望南都2021高光时刻 未来将推动智媒转型“四轮”驱动_南方都市报" href="https://news.southcn.com/node_54a44f01a2/63aae85b11.shtml" />
 			<typo-paragraph :indent="2"><span>附录5：世界人工智能大会将举办！南都联合三大智库机构共话AI治理</span></typo-paragraph>
-			<typo-figure src="static/94ee460e2caca8c8662c49725c365b7e85b143d113293a038ff29dc159451bcf.png" title="（视频报道：人工智能创新与治理论坛_N视频）" href="https://mp.weixin.qq.com/s/yH2oP-TuIjOMyHnTPyZbwg" />
+			<typo-figure src="static/94ee460e2caca8c8662c49725c365b7e85b143d113293a038ff29dc159451bcf.png" title="人工智能创新与治理论坛_N视频" href="https://mp.weixin.qq.com/s/yH2oP-TuIjOMyHnTPyZbwg" />
 			<typo-paragraph :indent="2"><span>附录6：“势起AI 智启新界”大模型创新应用与安全治理大会</span></typo-paragraph>
-			<typo-figure src="static/6f6f6b06f9393e59cbf088bdab612251ee9529af8647c422d72c5774e49d1adc.png" title="（新闻报道：今天开始！在北上广深……_南方都市报）" href="https://mp.weixin.qq.com/s/K3jT93aqmXxtVUs3H-OBzw" />
+			<typo-figure src="static/6f6f6b06f9393e59cbf088bdab612251ee9529af8647c422d72c5774e49d1adc.png" title="今天开始！在北上广深……_南方都市报" href="https://mp.weixin.qq.com/s/K3jT93aqmXxtVUs3H-OBzw" />
 		</typo-section>
 	</div>
 </template>
