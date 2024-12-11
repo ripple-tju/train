@@ -1,0 +1,7 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "Overview of Adaptive FrontLighting System",
+	"sections": [
+		"video"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "立冬_二十四节气_用AI讲述中国故事",
+	"sections": [
+		"video"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "贵州交通职业技术学院-机器视觉概述（英语）",
+	"sections": [
+		"video"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "video",
+	"content": [
+		[
+			"embed",
+			{
+				"src": "https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=113586684827799&bvid=BV13vzCYjEkp&cid=27155564223&p=1"
+			}
+		]
+	]
+}
