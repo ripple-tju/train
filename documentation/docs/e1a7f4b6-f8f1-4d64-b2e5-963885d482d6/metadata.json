@@ -1,0 +1,31 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "守正创新，融合起航：太仓市融媒体中心的融合创新之路",
+	"author": [
+		"林青青"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2023级",
+		"2023245013",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-pain",
+		"2-try",
+		"3-deepen",
+		"4-difficult",
+		"appendix",
+		"b1-target",
+		"b2-inspire",
+		"b3-analyze",
+		"b4-basis",
+		"b5-background",
+		"b6-point"
+	]
+}
