@@ -2,7 +2,7 @@
 	<div class="q-mb-md typo-title">
 		<div
 			class="text-h1 text-center text-weight-medium"
-			style="font-size: 32px; line-height: normal"
+			style="font-size: 30px; line-height: normal"
 		>
 			<slot></slot>
 		</div>

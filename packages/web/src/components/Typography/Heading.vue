@@ -15,7 +15,7 @@ import { ref, onMounted, computed } from 'vue';
 import { useContent } from './use/Content';
 
 const content = useContent();
-const fontSize = [32, 28, 24, 20, 18, 16];
+const fontSize = [30, 28, 24, 20, 18, 16];
 
 type LevelNumber = 1 | 2 | 3 | 4 | 5 | 6
 type LevelString = '1' | '2' | '3' | '4' | '5' | '6'
