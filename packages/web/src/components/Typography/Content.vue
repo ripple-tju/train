@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { provide, reactive, onBeforeUpdate, onMounted } from 'vue';
+import { provide, reactive, onBeforeUpdate, onMounted, ref } from 'vue';
 import * as Key from './ContentProvideSymbol';
 
 provide(Key.IsInContent, true);
@@ -42,6 +42,12 @@ provide(Key.RegisterHeading, (level, text) => {
 	return order;
 });
 
+const title = ref<string>('');
+
+provide(Key.RegisterTitle, text => {
+	title.value = text;
+});
+
 const emit = defineEmits<{
 	(e: 'toc-ok', toc: TocItem[]): void;
 }>();
@@ -49,4 +55,5 @@ const emit = defineEmits<{
 onMounted(() => emit('toc-ok', tocItemList));
 
 defineOptions({ name: 'TypoContent' });
+defineExpose({ title });
 </script>

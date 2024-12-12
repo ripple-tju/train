@@ -3,6 +3,7 @@
 		<div
 			class="text-h1 text-center text-weight-medium"
 			style="font-size: 30px; line-height: normal"
+			ref="title"
 		>
 			<slot></slot>
 		</div>
@@ -26,7 +27,8 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, onMounted, ref } from 'vue';
+import { useContent } from './use/Content';
 import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
@@ -56,6 +58,17 @@ const source = computed(() => {
 	}
 
 	return props.source;
+});
+
+const content = useContent();
+const title = ref<HTMLDivElement | null>(null);
+
+onMounted(() => {
+	if (content.registerTitle !== undefined) {
+		if (title.value !== null) {
+			content.registerTitle(title.value.innerText);
+		}
+	}
 });
 
 defineOptions({ name: 'TypoTitle' });

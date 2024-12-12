@@ -4,33 +4,50 @@
 		class="flex justify-center"
 	>
 		<div
-			class="app-page-content row full-width"
+			class="full-width"
 			style="max-width: 1200px"
 		>
-			<div
-				class="col-md-8 col-12"
-				style="font-size: 16px; line-height: 36px"
-			>
-				<typo-content @toc-ok="(list) => updateToc(list)">
-					<!-- <div class="app">Content{{ id }}</div> -->
-					<component :is="DocumentationInstance"></component>
-				</typo-content>
-			</div>
-			<div class="col-md-4 q-pa-md gt-sm relative-position">
-				<q-list dense>
-					<q-item
-						clickable
-						v-for="item in finalToc"
-						:key="item.id"
-						:to="{ hash: `#${item.id}` }"
+			<q-breadcrumbs class="q-mb-md">
+				<q-breadcrumbs-el icon="home" />
+				<q-breadcrumbs-el
+					:label="$t('app.feature.index')"
+					:to="{ name: 'App.Content' }"
+				/>
+				<q-breadcrumbs-el :label="content?.title" />
+			</q-breadcrumbs>
+
+			<div class="row">
+				<div
+					class="col"
+					style="font-size: 16px; line-height: 36px"
+				>
+					<typo-content
+						@toc-ok="(list) => updateToc(list)"
+						ref="content"
 					>
-						<q-item-section :style="{ 'padding-left': `${item.level * 1}em` }">
-							<div class="text-black">
-								<span class="q-mr-xs">{{ item.order }}.</span>{{ item.text }}
-							</div>
-						</q-item-section>
-					</q-item>
-				</q-list>
+						<!-- <div class="app">Content{{ id }}</div> -->
+						<component :is="DocumentationInstance"></component>
+					</typo-content>
+				</div>
+				<div
+					class="col-md-4 q-pa-md gt-sm relative-position"
+					v-if="finalToc.length > 0"
+				>
+					<q-list dense>
+						<q-item
+							clickable
+							v-for="item in finalToc"
+							:key="item.id"
+							:to="{ hash: `#${item.id}` }"
+						>
+							<q-item-section :style="{ 'padding-left': `${item.level * 1}em` }">
+								<div class="text-black">
+									<span class="q-mr-xs">{{ item.order }}.</span>{{ item.text }}
+								</div>
+							</q-item-section>
+						</q-item>
+					</q-list>
+				</div>
 			</div>
 		</div>
 		<q-page-sticky
@@ -49,7 +66,7 @@
 </template>
 
 <script setup lang="ts">
-import type { ComponentCustomOptions } from 'vue';
+import type { ComponentCustomOptions, GlobalComponents } from 'vue';
 import type { TocItem } from 'src/components/Typography/Content.vue';
 
 import { computed, ref } from 'vue';
@@ -69,6 +86,8 @@ const DocumentationInstance = computed<ComponentCustomOptions>(() => {
 
 	return NotFound;
 });
+
+const content = ref<GlobalComponents['TypoContent'] | null>(null);
 
 const toc = ref<TocItem[]>([]);
 

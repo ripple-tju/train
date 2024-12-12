@@ -10,6 +10,12 @@ export default {
 			index: 'Index',
 		},
 	},
+	data: {
+		content: {
+			author: 'author',
+			source: 'source',
+		},
+	},
 	typo: {
 		title: {
 			source: 'source',

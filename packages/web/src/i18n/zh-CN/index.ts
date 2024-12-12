@@ -3,6 +3,12 @@
 
 export default {
 	':': '：',
+	data: {
+		content: {
+			author: '作者',
+			source: '来源',
+		},
+	},
 	app: {
 		title: '案例数据库',
 		feature: {

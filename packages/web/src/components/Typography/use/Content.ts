@@ -8,5 +8,6 @@ export function useContent() {
 
 	return {
 		registerHeading: inject(Key.RegisterHeading),
+		registerTitle: inject(Key.RegisterTitle),
 	};
 }

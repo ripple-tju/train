@@ -17,7 +17,7 @@ const routes: RouteRecordRaw[] = [
 			{
 				name: 'App.Home',
 				path: '',
-				redirect: { name: 'App.Metric' },
+				redirect: { name: 'App.Content' },
 			},
 			{
 				name: 'App.Content',
