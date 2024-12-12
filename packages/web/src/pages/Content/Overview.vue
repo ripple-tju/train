@@ -41,7 +41,7 @@
 							:to="{ hash: `#${item.id}` }"
 						>
 							<q-item-section :style="{ 'padding-left': `${item.level * 1}em` }">
-								<div class="text-black">
+								<div class="text-grey-8">
 									<span class="q-mr-xs">{{ item.order }}.</span>{{ item.text }}
 								</div>
 							</q-item-section>

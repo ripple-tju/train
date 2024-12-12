@@ -39,7 +39,7 @@
 					</tr>
 				</tbody>
 			</q-markup-table>
-			<div class="text-center">{{ props.title }}</div>
+			<div class="text-center q-mt-sm">{{ props.title }}</div>
 		</div>
 	</div>
 </template>
@@ -85,6 +85,8 @@ defineOptions({ name: 'TypoTable' });
 
 <style lang="scss">
 .typo-table {
+	line-height: 1.5;
+
 	.q-table--no-wrap th,
 	.q-table--no-wrap td {
 		white-space: pre-wrap;
