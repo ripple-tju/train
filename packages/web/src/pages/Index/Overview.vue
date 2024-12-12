@@ -7,7 +7,7 @@
 			class="fit"
 			style="max-width: 1200px"
 		>
-		<q-breadcrumbs class="q-mb-md">
+			<q-breadcrumbs class="q-mb-md">
 				<q-breadcrumbs-el icon="home" />
 				<q-breadcrumbs-el :label="$t('app.feature.index')" />
 			</q-breadcrumbs>

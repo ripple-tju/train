@@ -2,7 +2,7 @@
 	<div
 		:id="id"
 		class="typo-heading q-my-lg text-weight-regular"
-		style="line-height: normal;"
+		style="line-height: normal"
 		:class="[`text-h${Number(level)}`]"
 		:style="{ 'font-size': `${fontSize[Number(level)]}px` }"
 	>

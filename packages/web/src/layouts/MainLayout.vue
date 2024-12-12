@@ -5,7 +5,7 @@
 			style="background-color: #983a42"
 			class="flex justify-center"
 		>
-			<q-toolbar style="max-width: 1200px;">
+			<q-toolbar style="max-width: 1200px">
 				<q-toolbar-title
 					><q-avatar
 						size="36px"
@@ -35,7 +35,7 @@
 		<q-footer
 			bordered
 			class="bg-grey-3 text-grey-8"
-			style="position: static;"
+			style="position: static"
 		>
 			<q-toolbar>
 				<q-toolbar-title class="text-center text-overline">

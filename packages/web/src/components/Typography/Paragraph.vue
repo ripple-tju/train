@@ -12,7 +12,7 @@
 <script setup lang="ts">
 const props = withDefaults(
 	defineProps<{
-		indent?: number;
+		indent?: number
 	}>(),
 	{
 		indent: 0,

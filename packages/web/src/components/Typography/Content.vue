@@ -11,9 +11,9 @@ provide(Key.IsInContent, true);
 const headingStack = reactive<number[]>([]);
 
 export interface TocItem {
-	level: number;
-	text: string;
-	order: number[];
+	level: number
+	text: string
+	order: number[]
 }
 
 const tocItemList = reactive<TocItem[]>([]);
@@ -32,7 +32,7 @@ provide(Key.RegisterHeading, (level, text) => {
 	}
 
 	if (level === headingStack.length) {
-		(headingStack[headingStack.length - 1] as number)++;
+		;(headingStack[headingStack.length - 1] as number)++;
 	}
 
 	const order = [...headingStack];
@@ -44,12 +44,12 @@ provide(Key.RegisterHeading, (level, text) => {
 
 const title = ref<string>('');
 
-provide(Key.RegisterTitle, text => {
+provide(Key.RegisterTitle, (text) => {
 	title.value = text;
 });
 
 const emit = defineEmits<{
-	(e: 'toc-ok', toc: TocItem[]): void;
+	(e: 'toc-ok', toc: TocItem[]): void
 }>();
 
 onMounted(() => emit('toc-ok', tocItemList));

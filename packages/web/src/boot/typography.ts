@@ -28,17 +28,17 @@ export default boot(function TypographyLoader({ app }) {
 
 declare module '@vue/runtime-core' {
 	export interface GlobalComponents {
-		TypoContent: typeof Content;
-		TypoTitle: typeof Title;
-		TypoSection: typeof Section;
-		TypoHeading: typeof Heading;
-		TypoParagraph: typeof Paragraph;
-		TypoReference: typeof Reference;
-		TypoLink: typeof Link;
-		TypoFigure: typeof Figure;
-		TypoEmbed: typeof Embed;
+		TypoContent: typeof Content
+		TypoTitle: typeof Title
+		TypoSection: typeof Section
+		TypoHeading: typeof Heading
+		TypoParagraph: typeof Paragraph
+		TypoReference: typeof Reference
+		TypoLink: typeof Link
+		TypoFigure: typeof Figure
+		TypoEmbed: typeof Embed
 
-		TypoTable: typeof Table;
-		TypoChart: typeof Chart;
+		TypoTable: typeof Table
+		TypoChart: typeof Chart
 	}
 }

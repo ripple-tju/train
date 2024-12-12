@@ -4,19 +4,19 @@
 			class="col-grow flex justify-center"
 			:href="props.href"
 			:style="{
-				'pointer-events': props.href === '' ? 'none' : 'auto'
+				'pointer-events': props.href === '' ? 'none' : 'auto',
 			}"
 		>
 			<q-img
-				style="max-width: 500px;"
+				style="max-width: 500px"
 				class="typo-figure-image fit"
 				:src="props.src"
 			>
 				<div
 					v-show="props.title !== null"
-					style="padding: 0;"
+					style="padding: 0"
 					:style="{
-						'pointer-events': props.href === '' ? 'none' : 'auto'
+						'pointer-events': props.href === '' ? 'none' : 'auto',
 					}"
 					class="absolute-bottom text-caption text-center q-pa-none"
 				>
