@@ -18,17 +18,17 @@
 			<typo-paragraph :indent="2"><span>脑机接口技术涉及的领域十分广泛，从何讲起便尤为重要。《三磅宇宙》选择了脑机海河实验室的三项代表性成果——突破神经采集与计算芯片技术瓶颈的八通道脑电采集国产芯片、国内首款抑郁症智能诊断机器人“神工-神心”和世界首款神经调控式机械外骨骼系统“神工-神甲”及其背后的团队，并采访了团队中的3位青年科研工作者。</span></typo-paragraph>
 			<typo-figure src="static/89005472a0c3f4ec3677784832741c4981427883c6405f40e19bb2721c885ca8.png" title="《三磅宇宙》" />
 			<typo-paragraph :indent="2"><span>为了更加直观的给观众展示脑机接口对普通百姓生活的帮助，《三磅宇宙》选择了具有代表性的运动康复案例——辅助中风病人医疗康复训练的“人体外骨骼”、帮助脑梗病人生活的仅凭意念就能灵活控制的第六根手指“灵犀指”，并在在采访中穿插了这些应用案例的真实使用情景，这些生活中生动的应用实践拉近了脑机接口与大众的距离。</span></typo-paragraph>
-			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=792780476&bvid=BV1HC4y1q7zo&cid=1383999699&p=1" />
+			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=113638274768505&bvid=BV1bdqtYfELq&cid=27300204056&p=1" />
 			<typo-heading :level="3">画面展现</typo-heading>
 			<typo-paragraph :indent="2"><span>画面是观众感受视频的最直观渠道，《三磅宇宙》的画面呈现中处处都是色彩的细节。不同被访者的采访画面都经过了精心设计，研制芯片的刘秀云配以蓝色背景凸显科技感、进行抑郁症研究的刘爽则在充满温和色彩的情感主题展厅、刘源的采访场地则与他的研究领域运动康复紧密相关而且充满代表生机的绿色。记者闫征多番考量下选择了能够同时与三位被访科研工作者的服装相协调的银灰色缎面上衣，既不抢占视觉中心又与主题相得益彰。</span></typo-paragraph>
-			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=792780476&bvid=BV1HC4y1q7zo&cid=1383999699&p=1" />
+			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=113638274768290&bvid=BV1bdqtYfEg8&cid=27300266852&p=1" />
 			<typo-paragraph :indent="2"><span>节目通过访谈具象化的展示了科研团队攻克脑机接口技术时遇到的难题，从微观视角讲述脑机接口这一宏大技术的故事，他们成千上百次的尝试、无数次失误后仍然不放弃寻求解决办法的片段让科技拥有了温度。同时在采访画面中穿插实验室中真实的科研场景，这既缓和了观众观看视频的节奏还让观众对脑机技术的理解更加深入。</span></typo-paragraph>
-			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=792780476&bvid=BV1HC4y1q7zo&cid=1383999699&p=1" />
+			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=113638274765777&bvid=BV18dqtYfEGp&cid=27300267526&p=1" />
 			<typo-heading :level="3">声音塑造</typo-heading>
 			<typo-paragraph :indent="2"><span>声音也是视频的重要组成部分。《三磅宇宙》会随着视频节奏的急缓辅以合适的背景音乐，从而带给观众多重听觉刺激；且在选择配音时，为了使视频节奏的变化更加明显，节目使用了低沉的男声进行旁白讲解从而与女记者的声音进行区分。</span></typo-paragraph>
 			<typo-heading :level="3">后期技术</typo-heading>
 			<typo-paragraph :indent="2"><span>《三磅宇宙》的后期制作也处处体现了在细节上的用心。动画技术的使用为观众搭建了一个科幻世界，同时也将脑机接口背后复杂的科学原理、技术流程或应用场景进行了可视化呈现，这些片段深入浅出的帮助观众更直观地理解脑机接口技术。</span></typo-paragraph>
-			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=792780476&bvid=BV1HC4y1q7zo&cid=1383999699&p=1" />
+			<typo-embed src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=113638274765564&bvid=BV18dqtYfEMt&cid=27300268269&p=1" />
 			<typo-paragraph :indent="2"><span>这些内容的选择、细节的把控让《三磅宇宙》最终呈现的质感更上一层楼，也为脑机接口这样一个神秘莫测的新型科学技术带来了更多人情色彩与温度。</span></typo-paragraph>
 		</typo-section>
 		<typo-section>
