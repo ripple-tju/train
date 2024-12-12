@@ -2,58 +2,7 @@
 	"$schema": "http://json-schema.org/draft-07/schema#",
 	"type": "object",
 	"definitions": {
-		"StyleSheet": {
-			"type": "object",
-			"properties": {
-				"color": {
-					"type": "string",
-					"default": "black"
-				},
-				"bgColor": {
-					"type": "string",
-					"default": "transparent"
-				},
-				"underline": {
-					"type": "boolean",
-					"default": false
-				},
-				"bold": {
-					"type": ["boolean", "integer"],
-					"default": false
-				},
-				"italic": {
-					"type": "boolean",
-					"default": false
-				},
-				"strikethrough": {
-					"type": "boolean",
-					"default": false
-				}
-			}
-		}
-	},
-	"properties": {
-		"style": {
-			"type": "array",
-			"items": {
-				"type": "object",
-				"properties": {
-					"row": {
-						"type": "integer",
-						"minimum": 0
-					},
-					"column": {
-						"type": "integer",
-						"minimum": 0
-					},
-					"style": {
-						"$ref": "#/definitions/StyleSheet"
-					}
-				},
-				"additionalProperties": false
-			}
-		},
-		"data": {
+		"Data": {
 			"type": "array",
 			"items": {
 				"description": "Row",
@@ -68,6 +17,14 @@
 					]
 				}
 			}
+		}
+	},
+	"properties": {
+		"head": {
+			"$ref": "#/definitions/Data"
+		},
+		"body": {
+			"$ref": "#/definitions/Data"
 		}
 	}
 }

@@ -23,6 +23,7 @@
 			<typo-heading :level="2">峰回路转：合作官媒，依靠权威背书</typo-heading>
 			<typo-paragraph :indent="2"><span>哔哩哔哩的“Z世代”亚文化圈层特征很快受到了官方媒体的重视，而站内浓厚的传统文化创新产出氛围也与十八大以来反复提出的“文化自信”相得益彰。2016年，哔哩哔哩与央视合作创作《我在故宫修文物》纪录片，正式搭上了国家“文化自信”的政策扶持快车道，首次出现在主流视野。自此，哔哩哔哩借助传统文化赛道突出重围，开辟了一条独树一帜的“破圈”之路。</span></typo-paragraph>
 			<typo-paragraph :indent="2"><span>2018年，哔哩哔哩在纳斯达克正式上市，彻底进入了市场化运营，在业务体量方面跻身一线大厂。</span></typo-paragraph>
+			<typo-table src="static/c06098d0acc2ff1909abf289603bd9f8970da82c332f882e519a4687924b07a3.json" title="哔哩哔哩视频弹幕网SWOT分析" />
 		</typo-section>
 		<typo-section>
 			<typo-heading :level="1">强化赛道：2019-2023，文化自信助力创造性转化</typo-heading>

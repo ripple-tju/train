@@ -92,7 +92,30 @@ const Node = {
 		ctx.doc.push(`<typo-reference :order="${++ctx.reference}">${text}</typo-reference>`);
 		ctx.length += text.length;
 	},
-	async 'table'(options, ctx) {
+	async 'table'({ src, title = null }, ctx) {
+		const { ext } = path.parse(src);
+		const inputPath = path.join(ctx.sectionsPath, src);
+		const sha256 = crypto.createHash('sha256');
+		const file = await fs.readFile(inputPath);
+
+		globalThis.console.log(inputPath);
+		sha256.update(file);
+
+		const hash = sha256.digest('hex');
+		const outputPath = path.join(Pathname.static, `${hash}${ext}`);
+
+		await fs.copyFile(inputPath, outputPath);
+
+		const attrs = [`src="static/${hash}${ext}"`];
+
+		if (title !== null) {
+			attrs.push(`title="${title}"`);
+		}
+
+		ctx.doc.push(`${ctx.indent()}<typo-table${attrs.map(span => {
+			return ` ${span}`;
+		}).join('')} />\n`);
+
 		ctx.table++;
 	},
 };
