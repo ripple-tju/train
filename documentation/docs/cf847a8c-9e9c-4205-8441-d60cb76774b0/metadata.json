@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "封面传媒：智媒云6.0",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

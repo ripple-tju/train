@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "每经科技：“雨燕智宣”AI短视频自动生成平台",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

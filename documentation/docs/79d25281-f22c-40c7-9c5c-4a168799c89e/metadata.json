@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "齐鲁壹点：“壹点天玑”党媒大模型",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

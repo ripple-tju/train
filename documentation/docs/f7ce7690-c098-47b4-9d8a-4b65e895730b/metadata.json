@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "安吉县融媒体中心：数字化助力县域经济发展",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

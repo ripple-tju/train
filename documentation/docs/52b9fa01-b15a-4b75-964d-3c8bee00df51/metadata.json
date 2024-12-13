@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "齐鲁壹点：壹点智能推荐系统",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "中央广播电视总台：总台算法",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

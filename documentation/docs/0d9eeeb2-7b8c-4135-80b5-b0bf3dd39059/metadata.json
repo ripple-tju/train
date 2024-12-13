@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "上海市奉贤区融媒体中心：数据驱动直播带货",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

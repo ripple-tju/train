@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "河南广播电视台：大象无形自动转稿系统",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

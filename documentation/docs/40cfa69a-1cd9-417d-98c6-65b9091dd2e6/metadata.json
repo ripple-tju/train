@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "河南广播电视台：大象5G智慧文旅",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

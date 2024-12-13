@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "人民网“人民审校”智能涉政审校系统",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

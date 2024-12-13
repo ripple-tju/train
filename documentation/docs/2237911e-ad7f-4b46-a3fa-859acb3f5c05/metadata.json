@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "江西日报：赣商传媒AI记者数媒应用平台",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

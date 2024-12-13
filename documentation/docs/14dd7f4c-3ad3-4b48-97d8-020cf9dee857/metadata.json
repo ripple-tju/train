@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "新华社：全媒体采编发系统",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",

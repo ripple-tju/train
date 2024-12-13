@@ -1,6 +1,7 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "澎湃新闻网：澎湃清穹内容风控智能平台",
+	"source": "人民网",
 	"sections": [
 		"profile",
 		"method",
