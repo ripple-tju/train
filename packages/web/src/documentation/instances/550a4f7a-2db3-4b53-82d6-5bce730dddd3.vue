@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<typo-title :author="[]"
+		<typo-title
+			:author="[]"
+			source="人民网"
 			>人民日报“中央厨房”：新闻线索热点发现系统、舆情监控分析系统、投放效果评估系统、评论和“反垃圾”过滤系统</typo-title
 		>
 		<typo-section>

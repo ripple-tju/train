@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">齐鲁壹点：“壹点天元”元宇宙项目</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>齐鲁壹点：“壹点天元”元宇宙项目</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

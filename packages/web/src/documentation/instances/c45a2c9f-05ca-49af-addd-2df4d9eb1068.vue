@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<typo-title :author="[]"
+		<typo-title
+			:author="[]"
+			source="人民网"
 			>传播大脑科技（浙江）股份有限公司：媒体内容生产类AIGC应用-传播大模型</typo-title
 		>
 		<typo-section>

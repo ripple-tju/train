@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">长江日报：基于轻量级IP化技术实现的全媒体创新工场</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>长江日报：基于轻量级IP化技术实现的全媒体创新工场</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

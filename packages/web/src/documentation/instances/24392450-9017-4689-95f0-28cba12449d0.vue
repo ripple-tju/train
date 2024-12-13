@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">深圳新闻网：基于大数据技术的互联网多媒体应用统一分析系统</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>深圳新闻网：基于大数据技术的互联网多媒体应用统一分析系统</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

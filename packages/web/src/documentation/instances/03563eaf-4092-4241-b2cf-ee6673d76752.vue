@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">人民日报媒体技术公司+腾讯云：中国媒体融合云</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>人民日报媒体技术公司+腾讯云：中国媒体融合云</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

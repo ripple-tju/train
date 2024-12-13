@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">中央广播电视总台：央视听媒体大模型</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>中央广播电视总台：央视听媒体大模型</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

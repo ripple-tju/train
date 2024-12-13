@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">陕西广电网络：陕西省媒体融合统一平台</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>陕西广电网络：陕西省媒体融合统一平台</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

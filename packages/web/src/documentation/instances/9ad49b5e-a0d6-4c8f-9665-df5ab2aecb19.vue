@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">每经科技：“雨燕智宣”AI短视频自动生成平台</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>每经科技：“雨燕智宣”AI短视频自动生成平台</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">芒果TV：基于AI的下一代内容生产新引擎系统</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>芒果TV：基于AI的下一代内容生产新引擎系统</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

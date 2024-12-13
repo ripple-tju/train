@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">云南省南亚东南亚区域国际传播中心：小语种AI数字人</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>云南省南亚东南亚区域国际传播中心：小语种AI数字人</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

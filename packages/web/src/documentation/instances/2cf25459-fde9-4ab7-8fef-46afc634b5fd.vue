@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">半岛网新闻视频化平台实践</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>半岛网新闻视频化平台实践</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

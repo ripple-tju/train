@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<typo-title :author="[]"
+		<typo-title
+			:author="[]"
+			source="人民网"
 			>央视网：智媒数据链建设（智闻系统、智审系统、智晓系统和智营系统）</typo-title
 		>
 		<typo-section>

@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<typo-title :author="[]"
+		<typo-title
+			:author="[]"
+			source="人民网"
 			>人民日报“全国党媒信息公共平台”：智能审核、智能推荐、党媒算法</typo-title
 		>
 		<typo-section>

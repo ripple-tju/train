@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">传播大脑科技（浙江）股份有限公司：全媒体智能中台</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>传播大脑科技（浙江）股份有限公司：全媒体智能中台</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

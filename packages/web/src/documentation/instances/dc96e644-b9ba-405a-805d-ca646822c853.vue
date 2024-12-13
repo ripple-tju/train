@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">广州日报：《大湾区 我来画》全民AI作画互动平台</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>广州日报：《大湾区 我来画》全民AI作画互动平台</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

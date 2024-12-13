@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">安吉县融媒体中心：线上服务平台“爱安吉”APP</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>安吉县融媒体中心：线上服务平台“爱安吉”APP</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">人民网写易智能创作引擎</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>人民网写易智能创作引擎</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

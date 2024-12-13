@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">上海市奉贤区融媒体中心：数据驱动直播带货</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>上海市奉贤区融媒体中心：数据驱动直播带货</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

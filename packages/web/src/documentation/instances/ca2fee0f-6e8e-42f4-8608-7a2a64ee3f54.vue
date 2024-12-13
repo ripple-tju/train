@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">宁波日报报业集团智能中台</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>宁波日报报业集团智能中台</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"

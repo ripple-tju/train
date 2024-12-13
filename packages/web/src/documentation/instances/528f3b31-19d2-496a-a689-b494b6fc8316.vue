@@ -1,6 +1,10 @@
 <template>
 	<div>
-		<typo-title :author="[]">人民网“办实事 解民忧·一线探落实”平台</typo-title>
+		<typo-title
+			:author="[]"
+			source="人民网"
+			>人民网“办实事 解民忧·一线探落实”平台</typo-title
+		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>
 			<typo-paragraph :indent="2"
