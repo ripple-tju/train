@@ -2,6 +2,9 @@
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "新华社：全媒体智慧中台",
 	"source": "人民网",
+	"tags": [
+		"people"
+	],
 	"sections": [
 		"profile",
 		"method",

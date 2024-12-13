@@ -1,6 +1,9 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "建国75周年纪念",
+	"tags": [
+		"video"
+	],
 	"sections": [
 		"video"
 	]

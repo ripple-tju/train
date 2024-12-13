@@ -1,6 +1,9 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "教师节",
+	"tags": [
+		"video"
+	],
 	"sections": [
 		"video"
 	]

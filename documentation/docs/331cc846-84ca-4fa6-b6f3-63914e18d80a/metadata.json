@@ -2,6 +2,9 @@
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "人民网写易智能创作引擎",
 	"source": "人民网",
+	"tags": [
+		"people"
+	],
 	"sections": [
 		"profile",
 		"method",

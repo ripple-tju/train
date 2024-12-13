@@ -1,6 +1,9 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "你好AI-壹刻奥运",
+	"tags": [
+		"video"
+	],
 	"sections": [
 		"video"
 	]

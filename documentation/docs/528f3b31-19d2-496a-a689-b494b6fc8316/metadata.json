@@ -2,6 +2,9 @@
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "人民网“办实事 解民忧·一线探落实”平台",
 	"source": "人民网",
+	"tags": [
+		"people"
+	],
 	"sections": [
 		"profile",
 		"method",

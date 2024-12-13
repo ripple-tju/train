@@ -2,6 +2,9 @@
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "齐鲁壹点：鹰眼智能校审系统",
 	"source": "人民网",
+	"tags": [
+		"people"
+	],
 	"sections": [
 		"profile",
 		"method",

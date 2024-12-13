@@ -1,6 +1,9 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "天天汉语-第一课你好",
+	"tags": [
+		"video"
+	],
 	"sections": [
 		"video"
 	]

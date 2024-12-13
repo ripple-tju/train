@@ -1,6 +1,9 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "小雪_二十四节气_用AI讲述中国故事",
+	"tags": [
+		"video"
+	],
 	"sections": [
 		"video"
 	]

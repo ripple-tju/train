@@ -1,6 +1,9 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "Overview of Adaptive FrontLighting System",
+	"tags": [
+		"video"
+	],
 	"sections": [
 		"video"
 	]

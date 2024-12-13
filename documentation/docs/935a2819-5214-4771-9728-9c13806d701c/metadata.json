@@ -2,6 +2,9 @@
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "人民日报：AI编辑部",
 	"source": "人民网",
+	"tags": [
+		"people"
+	],
 	"sections": [
 		"profile",
 		"method",

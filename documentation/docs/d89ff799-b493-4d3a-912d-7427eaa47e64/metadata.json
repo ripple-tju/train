@@ -1,6 +1,9 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "南开大学校园AI重绘",
+	"tags": [
+		"video"
+	],
 	"sections": [
 		"video"
 	]
