@@ -5,7 +5,7 @@
 			style="background-color: #983a42"
 			class="flex justify-center"
 		>
-			<q-toolbar style="max-width: 1200px">
+			<q-toolbar style="max-width: 1224px">
 				<q-toolbar-title
 					><q-avatar
 						size="36px"
