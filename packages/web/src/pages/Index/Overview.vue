@@ -8,11 +8,17 @@
 			style="max-width: 1200px"
 		>
 			<q-breadcrumbs class="q-mb-md">
-				<q-breadcrumbs-el icon="home" />
+				<q-breadcrumbs-el
+					icon="home"
+					:to="{ name: 'App.Home' }"
+				/>
 				<q-breadcrumbs-el :label="$t('app.feature.index')" />
 			</q-breadcrumbs>
 
-			<index-filter-panel v-model="keywordList"></index-filter-panel>
+			<index-filter-panel
+				v-model:keywords="keywordList"
+				v-model:categories="categoryList"
+			></index-filter-panel>
 
 			<div class="row q-col-gutter-md">
 				<div
@@ -30,8 +36,9 @@
 <script setup lang="ts">
 import type { IndexItem } from './Item.vue';
 
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
+import { useRoute, useRouter } from 'vue-router';
 import primary from 'src/documentation/primary.json';
 
 import IndexItemCard from './Item.vue';
@@ -39,9 +46,24 @@ import IndexFilterPanel from './Filter.vue';
 
 const { t } = useI18n();
 const keywordList = ref<string[]>([]);
+const categoryList = ref<number[]>([]);
+
+const route = useRoute();
+const router = useRouter();
+const query = route.query;
+
+if (Object.hasOwn(query, 'keyword') && typeof query.keyword === 'string') {
+	keywordList.value = query.keyword.split(',');
+}
+
+if (Object.hasOwn(query, 'category') && typeof query.category === 'string') {
+	categoryList.value = query.category.split(',').map(v => Number(v));
+}
+
+const indexItemList = ref<(typeof primary)[0][]>([]);
 
 const filterd = computed<IndexItem[]>(() => {
-	let result = primary.map((item) => {
+	let result = indexItemList.value.map((item) => {
 		const { author, source } = item;
 
 		return {
@@ -76,6 +98,11 @@ const filterd = computed<IndexItem[]>(() => {
 	}
 
 	return result;
+});
+
+onMounted(() => {
+	indexItemList.value = primary;
+	router.replace({ query: {} });
 });
 
 defineOptions({ name: 'AppContentOverview' });

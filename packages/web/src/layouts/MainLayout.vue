@@ -6,23 +6,28 @@
 			class="flex justify-center"
 		>
 			<q-toolbar style="max-width: 1224px">
-				<q-toolbar-title
-					><q-avatar
-						size="36px"
-						class="q-mr-md bg-white"
-						><q-img
-							src="logo.jpeg"
-							:img-style="{ transform: 'scale(1.5)' }"
-						></q-img></q-avatar
-					>{{ $t('app.title') }}</q-toolbar-title
-				>
+				<q-toolbar-title>
+					<router-link
+						class="text-white"
+						:to="{ name: 'App.Home' }"
+						style="text-decoration: none"
+						><q-avatar
+							size="36px"
+							class="q-mr-md bg-white"
+							><q-img
+								src="logo.jpeg"
+								:img-style="{ transform: 'scale(1.5)' }"
+							></q-img></q-avatar
+						>{{ $t('app.title') }}
+					</router-link>
+				</q-toolbar-title>
 
 				<q-btn
 					class="self-stretch"
 					flat
 					square
 					:to="{
-						name: 'App.Content',
+						name: 'App.Feature.Content',
 					}"
 					>{{ $t('app.feature.index') }}</q-btn
 				>

@@ -5,6 +5,7 @@ export default {
 	':': ':',
 	app: {
 		title: 'Case Database',
+		author: 'New Media of Tianjin University',
 		feature: {
 			metric: 'Metric',
 			index: 'Index',
@@ -14,6 +15,20 @@ export default {
 		content: {
 			author: 'author',
 			source: 'source',
+			category: 'category',
+		},
+		category: {
+			video: 'video',
+			student: 'student',
+			people: 'people',
+		},
+	},
+	page: {
+		home: {
+			search: {
+				placeholder: 'Please input some keyword',
+				hint: 'white space to split keywords, press Enter to search',
+			},
 		},
 	},
 	typo: {

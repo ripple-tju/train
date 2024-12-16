@@ -16,7 +16,7 @@
 					class="text-black"
 					style="text-decoration: none"
 					:to="{
-						name: 'App.Content.Detail',
+						name: 'App.Feature.Content.Detail',
 						params: { id: item.id },
 					}"
 					>{{ item.title }}

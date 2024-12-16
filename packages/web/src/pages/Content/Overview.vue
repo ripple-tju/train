@@ -8,10 +8,13 @@
 			style="max-width: 1200px"
 		>
 			<q-breadcrumbs class="q-mb-md">
-				<q-breadcrumbs-el icon="home" />
+				<q-breadcrumbs-el
+					icon="home"
+					:to="{ name: 'App.Home' }"
+				/>
 				<q-breadcrumbs-el
 					:label="$t('app.feature.index')"
-					:to="{ name: 'App.Content' }"
+					:to="{ name: 'App.Feature.Content' }"
 				/>
 				<q-breadcrumbs-el :label="content?.title" />
 			</q-breadcrumbs>

@@ -9,38 +9,33 @@ const MIDDLE_ROUTER_VIEW = {
 
 const routes: RouteRecordRaw[] = [
 	{
-		name: 'UI.Main',
-		path: '/',
-		redirect: { name: 'App.Home' },
+		name: 'App.Home',
+		path: '',
+		component: () => import('pages/Home/Overview.vue'),
+	},
+	{
+		name: 'App.Feature',
+		path: '',
 		component: () => import('layouts/MainLayout.vue'),
+		redirect: { name: 'App.Feature.Content' },
 		children: [
 			{
-				name: 'App.Home',
-				path: '',
-				redirect: { name: 'App.Content' },
-			},
-			{
-				name: 'App.Content',
+				name: 'App.Feature.Content',
 				path: 'content',
-				redirect: { name: 'App.Content.Index' },
+				redirect: { name: 'App.Feature.Content.Index' },
 				component: MIDDLE_ROUTER_VIEW,
 				children: [
 					{
-						name: 'App.Content.Index',
+						name: 'App.Feature.Content.Index',
 						path: '',
 						component: () => import('pages/Index/Overview.vue'),
 					},
 					{
-						name: 'App.Content.Detail',
+						name: 'App.Feature.Content.Detail',
 						path: ':id',
 						component: () => import('pages/Content/Overview.vue'),
 					},
 				],
-			},
-			{
-				name: 'App.Metric',
-				path: 'metric',
-				component: () => import('pages/Metric/Overview.vue'),
 			},
 		],
 	},
