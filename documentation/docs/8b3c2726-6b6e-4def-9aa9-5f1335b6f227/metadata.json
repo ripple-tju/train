@@ -1,0 +1,11 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "天大外院【西游记】AI课程",
+	"tags": [
+		"video",
+		"student"
+	],
+	"sections": [
+		"video"
+	]
+}
