@@ -71,7 +71,7 @@ const filterd = computed<IndexItem[]>(() => {
 			...item,
 			author: author.length > 0 ? author.join(', ') : t('typo.title.unknown.author'),
 			source: source === null ? t('typo.title.unknown.source') : source,
-			category: item.category.map(name => {
+			category: item.category.map((name) => {
 				return CATEGORY.TO_VALUE[name as keyof typeof CATEGORY.TO_VALUE];
 			}),
 		};
@@ -89,7 +89,7 @@ const filterd = computed<IndexItem[]>(() => {
 	}
 
 	for (const category of categoryList.value) {
-		result = result.filter(item => item.category.includes(category));
+		result = result.filter((item) => item.category.includes(category));
 	}
 
 	return result;

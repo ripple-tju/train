@@ -742,6 +742,20 @@
 		"category": ["student"]
 	},
 	{
+		"id": "8b3c2726-6b6e-4def-9aa9-5f1335b6f227",
+		"abstract": "",
+		"length": 0,
+		"title": "天大外院【西游记】AI课程",
+		"author": [],
+		"source": null,
+		"figure": 0,
+		"embed": 1,
+		"reference": 0,
+		"link": 0,
+		"table": 0,
+		"category": ["video", "student"]
+	},
+	{
 		"id": "8f7d782b-cccd-4cb4-a0a7-42abf5643248",
 		"abstract": "随着智媒体浪潮袭来，在奔腾的“云上时代”，如何守好安全生产的底线，相关部门提出了明确要求。封面传媒科技有限责任公司研发的智媒审核云系统，搭建起专业、精准、高效的内容安全防护系统，全流程把控内容风险。智",
 		"length": 2090,
