@@ -10,7 +10,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "03563eaf-4092-4241-b2cf-ee6673d76752",
@@ -23,7 +24,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "04d897b2-39e9-453b-a535-5c50f90fab55",
@@ -36,7 +38,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "0516d58e-9cdf-4520-84ff-796b5d49061d",
@@ -49,7 +52,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "05e728b2-8247-4c4c-a993-f28c3fc1eec9",
@@ -62,7 +66,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "0aa7b3ce-dda4-4856-9b4d-1695ca138f50",
@@ -75,7 +80,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "0af7787d-ff43-4106-9015-86858d8e2131",
@@ -88,7 +94,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "0b7f8181-826a-492b-b710-a53f416b5d63",
@@ -101,7 +108,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "0be6bbca-fdf9-4598-beac-ede9fb7e177e",
@@ -114,7 +122,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "0d9eeeb2-7b8c-4135-80b5-b0bf3dd39059",
@@ -127,7 +136,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "14dd7f4c-3ad3-4b48-97d8-020cf9dee857",
@@ -140,7 +150,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "1507d617-e6bc-4a36-8051-e76cf830ac55",
@@ -153,7 +164,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "1578f8cb-298d-498a-8ede-e1c8787f64e8",
@@ -166,7 +178,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "17014351-b2de-46a9-ac36-c989a92ba454",
@@ -179,7 +192,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "18c82307-399b-4bc7-a815-dbec5476c192",
@@ -192,7 +206,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "1a06c7b5-03b7-4f1d-9e90-d309a8e7a50a",
@@ -205,7 +220,8 @@
 		"embed": 0,
 		"reference": 7,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "2049d322-c48e-447e-9e60-8de1b1d69642",
@@ -218,7 +234,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 1
+		"table": 1,
+		"category": ["student"]
 	},
 	{
 		"id": "2105655a-7cc4-4ab6-b523-b3cb41509998",
@@ -231,7 +248,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "21d147e9-ba86-4c30-9663-8a71802c0249",
@@ -244,7 +262,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "2237911e-ad7f-4b46-a3fa-859acb3f5c05",
@@ -257,7 +276,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "241192ac-2f9e-4174-9e16-f26570e01ec1",
@@ -270,7 +290,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "24392450-9017-4689-95f0-28cba12449d0",
@@ -283,7 +304,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "2cf25459-fde9-4ab7-8fef-46afc634b5fd",
@@ -296,7 +318,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "2e83e408-dbed-437e-a8c5-6b0d7610512d",
@@ -309,7 +332,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "308831ec-0075-42cb-95e8-65b417c5cf74",
@@ -322,7 +346,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "331cc846-84ca-4fa6-b6f3-63914e18d80a",
@@ -335,7 +360,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "370af8b9-5a05-4762-8a1b-96e18d4503cb",
@@ -348,7 +374,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "371cbfd9-da3d-4fc7-a5e3-070309635141",
@@ -361,7 +388,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "3df0dc30-9c80-4e43-8e9b-d3977a2fa4de",
@@ -374,7 +402,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "40cfa69a-1cd9-417d-98c6-65b9091dd2e6",
@@ -387,7 +416,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "45b45f77-7a29-418b-ac6e-8fd093db6c9e",
@@ -400,7 +430,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "47087ba9-aacd-4a5c-81eb-381638a69db1",
@@ -413,7 +444,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "47cba36d-ab55-43de-a205-f454fe1e3324",
@@ -426,7 +458,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "498ef749-17f2-4ba0-a3d1-d57f6d7237e2",
@@ -439,7 +472,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "4e8fe8d5-e34c-450b-a8c0-166d124c9773",
@@ -452,7 +486,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "50fccefe-ed0b-46bb-8edb-05b863846b48",
@@ -465,7 +500,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "528f3b31-19d2-496a-a689-b494b6fc8316",
@@ -478,7 +514,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "52b9fa01-b15a-4b75-964d-3c8bee00df51",
@@ -491,7 +528,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "52f80b34-1231-4268-9858-70980c88f6ef",
@@ -504,7 +542,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "54cbe363-3ed8-4f46-859d-60ec23d81cbe",
@@ -517,7 +556,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "550a4f7a-2db3-4b53-82d6-5bce730dddd3",
@@ -530,7 +570,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "59ab80a5-bb68-4023-bbba-f91165278f9e",
@@ -543,7 +584,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "5ec3609e-2f6b-4ef3-86df-8a94d09025f5",
@@ -556,7 +598,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "684b1578-bf39-457f-8dd5-8a55f724f3fb",
@@ -569,7 +612,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "725b4cdb-7804-4c1c-9c0f-aead6615b67e",
@@ -582,7 +626,8 @@
 		"embed": 0,
 		"reference": 8,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": []
 	},
 	{
 		"id": "72a3ae5b-b85d-45d3-a1de-2bdf07cbcda6",
@@ -595,7 +640,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "72b162b7-bbd3-4cb7-a715-ab07e5de24f9",
@@ -608,7 +654,8 @@
 		"embed": 0,
 		"reference": 5,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "77a64a8a-bb32-4f50-bf34-a7f72a41c698",
@@ -621,7 +668,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "79d25281-f22c-40c7-9c5c-4a168799c89e",
@@ -634,7 +682,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "7bbb8651-5d14-4567-9d04-682f4d13ad73",
@@ -647,7 +696,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "7c6eaff9-df76-4614-beed-af496eb829aa",
@@ -660,7 +710,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "81788a25-7bf5-4d05-a310-f151066f8a90",
@@ -673,7 +724,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "8246ec12-aa02-4482-b076-967eec458930",
@@ -686,7 +738,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "8f7d782b-cccd-4cb4-a0a7-42abf5643248",
@@ -699,7 +752,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "91914e31-a66f-48df-8d81-c6aa6f56140e",
@@ -712,7 +766,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "935a2819-5214-4771-9728-9c13806d701c",
@@ -725,7 +780,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "9702b5c5-95ec-4774-b83b-35f1db557076",
@@ -738,7 +794,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "9ad49b5e-a0d6-4c8f-9665-df5ab2aecb19",
@@ -751,7 +808,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "9d89e6c7-90df-456c-8e41-1beaf76b6206",
@@ -764,7 +822,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "9dc18ca2-5913-4d9b-9877-217db463c012",
@@ -777,7 +836,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "a18892ec-c765-43af-bff3-67fd1cd85b44",
@@ -790,7 +850,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "ae653124-9f8d-4ccf-8348-b0f109932bee",
@@ -803,7 +864,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "ae852881-896c-4d3f-99ce-8610554ca5b5",
@@ -816,7 +878,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "ae9c893f-654e-4e31-bd86-0e43e073c044",
@@ -829,7 +892,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "b0850a5f-d8a0-435d-923c-553bef1c51af",
@@ -842,7 +906,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "b2e6826c-fa86-475c-a2ab-d05b24588f63",
@@ -855,7 +920,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "b46bd7aa-e0de-47ac-ba5d-516ecc441714",
@@ -868,7 +934,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "b87874ce-4e1b-4bc9-b7a2-09558303e3a6",
@@ -881,7 +948,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "ba783edc-11a7-4ed9-8525-1e30eefa63bb",
@@ -894,7 +962,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "bcde38fa-335c-4d7c-a005-c61ae81b482a",
@@ -907,7 +976,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": []
 	},
 	{
 		"id": "bcff7859-79a8-4567-a62c-ac524257e922",
@@ -920,7 +990,8 @@
 		"embed": 0,
 		"reference": 3,
 		"link": 0,
-		"table": 1
+		"table": 1,
+		"category": ["student"]
 	},
 	{
 		"id": "bded3452-f1eb-4433-a5cb-e5b08e515b6a",
@@ -933,7 +1004,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "c103e2af-6437-482c-a320-d34d1814bd29",
@@ -946,7 +1018,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "c3a5c970-354d-4c4d-8547-d972d6e38d7d",
@@ -959,7 +1032,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "c43dcd44-3a12-47b3-a305-55f41905e72f",
@@ -972,7 +1046,8 @@
 		"embed": 4,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "c45a2c9f-05ca-49af-addd-2df4d9eb1068",
@@ -985,7 +1060,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "ca2fee0f-6e8e-42f4-8608-7a2a64ee3f54",
@@ -998,7 +1074,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "ccc9ded0-f6ed-4886-a1bc-86395c0f38ac",
@@ -1011,7 +1088,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "cea82401-2bf7-42d6-bbc0-873dbbe737f7",
@@ -1024,7 +1102,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "cf847a8c-9e9c-4205-8441-d60cb76774b0",
@@ -1037,7 +1116,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "d474a3d7-d9eb-426e-b01a-72d9216767bd",
@@ -1050,7 +1130,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "d6d13b70-56aa-489a-aa0c-3f274532f0ef",
@@ -1063,7 +1144,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "d83b589e-c3ec-4ce4-bdbe-8b090f1effec",
@@ -1076,7 +1158,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": []
 	},
 	{
 		"id": "d89ff799-b493-4d3a-912d-7427eaa47e64",
@@ -1089,7 +1172,8 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "d9b143e7-ba5e-4a12-8918-6d86cf17cf1b",
@@ -1102,7 +1186,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "db380601-127c-4a43-b058-aaff0961336a",
@@ -1115,7 +1200,8 @@
 		"embed": 0,
 		"reference": 5,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "dc96e644-b9ba-405a-805d-ca646822c853",
@@ -1128,7 +1214,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "e0549a43-6d27-47d5-b4a9-0e4410d8275e",
@@ -1141,7 +1228,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "e0c9a3e2-ae6a-4b51-a2ba-a0426a83c4e2",
@@ -1154,7 +1242,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "e1a7f4b6-f8f1-4d64-b2e5-963885d482d6",
@@ -1167,7 +1256,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "e238884f-49b3-4bbf-b19f-f7553a9ee58a",
@@ -1180,7 +1270,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "e26fc683-7022-4786-8450-c4dddd9c88d2",
@@ -1193,7 +1284,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "e7b8aa6d-5dbe-419b-8a6b-01220468a8c8",
@@ -1206,7 +1298,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "e9f21477-e299-4816-a622-418f23b9f5a3",
@@ -1219,7 +1312,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "ea25182d-5a57-4689-b140-c206d23885cb",
@@ -1232,7 +1326,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "f2a6e1ec-0227-441c-8e75-4e15f2d067f8",
@@ -1245,7 +1340,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": []
 	},
 	{
 		"id": "f716fb05-8608-4b7e-b25a-36c6ea59bab4",
@@ -1258,7 +1354,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "f7ce7690-c098-47b4-9d8a-4b65e895730b",
@@ -1271,7 +1368,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "f98c79f4-c437-4785-aed4-c9957277a550",
@@ -1284,7 +1382,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["people"]
 	},
 	{
 		"id": "fb7deed1-22bf-4c57-a32f-8715963c3027",
@@ -1297,7 +1396,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "fbc2bcf9-bb0b-4e18-b21c-c2a34448c614",
@@ -1310,7 +1410,8 @@
 		"embed": 0,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["student"]
 	},
 	{
 		"id": "fde1b35a-927f-4a1d-864b-47cf1bf12aec",
@@ -1323,6 +1424,7 @@
 		"embed": 1,
 		"reference": 0,
 		"link": 0,
-		"table": 0
+		"table": 0,
+		"category": ["video"]
 	}
 ]

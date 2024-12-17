@@ -39,6 +39,7 @@ import type { IndexItem } from './Item.vue';
 import { computed, onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute, useRouter } from 'vue-router';
+import { CATEGORY } from 'src/Spec';
 import primary from 'src/documentation/primary.json';
 
 import IndexItemCard from './Item.vue';
@@ -57,7 +58,7 @@ if (Object.hasOwn(query, 'keyword') && typeof query.keyword === 'string') {
 }
 
 if (Object.hasOwn(query, 'category') && typeof query.category === 'string') {
-	categoryList.value = query.category.split(',').map(v => Number(v));
+	categoryList.value = query.category.split(',').map((v) => Number(v));
 }
 
 const indexItemList = ref<(typeof primary)[0][]>([]);
@@ -70,31 +71,25 @@ const filterd = computed<IndexItem[]>(() => {
 			...item,
 			author: author.length > 0 ? author.join(', ') : t('typo.title.unknown.author'),
 			source: source === null ? t('typo.title.unknown.source') : source,
+			category: item.category.map(name => {
+				return CATEGORY.TO_VALUE[name as keyof typeof CATEGORY.TO_VALUE];
+			}),
 		};
 	});
 
 	for (const keyword of keywordList.value) {
 		const reg = new RegExp(`\\S*${keyword}\\S*`, 'i');
+		const TEST_DATA = (data: string) => reg.test(data);
 
 		result = result.filter((item) => {
-			if (reg.test(item.abstract)) {
-				return true;
-			}
+			const { abstract, author, source, title } = item;
 
-			if (reg.test(item.author)) {
-				return true;
-			}
-
-			if (reg.test(item.source)) {
-				return true;
-			}
-
-			if (reg.test(item.title)) {
-				return true;
-			}
-
-			return false;
+			return [abstract, author, source, title].some(TEST_DATA);
 		});
+	}
+
+	for (const category of categoryList.value) {
+		result = result.filter(item => item.category.includes(category));
 	}
 
 	return result;

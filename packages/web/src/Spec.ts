@@ -16,3 +16,16 @@ export function useSpec() {
 		],
 	};
 }
+
+export const CATEGORY = {
+	TO_NAME: {
+		0: 'student',
+		1: 'people',
+		2: 'video',
+	},
+	TO_VALUE: {
+		student: 0,
+		people: 1,
+		video: 2,
+	},
+};

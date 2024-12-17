@@ -7,6 +7,7 @@
 					square
 					v-model="category"
 					multiple
+					clearable
 					:options="categoryOptions"
 					:label="$t('data.content.category')"
 					style="max-width: 20em; min-width: 10em"
@@ -46,7 +47,7 @@
 				:key="index"
 				>{{ keyword
 				}}<q-icon
-					class="q-ml-xs"
+					class="q-ml-xs cursor-pointer"
 					name="close"
 					@click="removeKeyword(index)"
 				/>
@@ -56,8 +57,11 @@
 				color="red"
 				rounded
 				v-if="props.keywords.length > 0"
-				@click="clearAll()"
-				>&nbsp;<q-icon name="close" />&nbsp;</q-badge
+				@click="clearAll"
+				>&nbsp;<q-icon
+					name="close"
+					class="cursor-pointer"
+				/>&nbsp;</q-badge
 			>
 		</div>
 	</div>
@@ -109,16 +113,30 @@ function clearAll() {
 }
 
 function updateCategory() {
-	emit('update:categories', category.value.map(item => item.value));
+	if (Array.isArray(category.value)) {
+		emit(
+			'update:categories',
+			category.value.map((item) => item.value),
+		);
+	}
+
+	if (category.value === null) {
+		category.value = [];
+		emit('update:categories', []);
+	}
 }
 
-watch(props.categories, () => {
-	category.value = props.categories.map(value => {
-		return categoryOptions.find(item => item.value === value) as CategoryItem;
-	});
-}, {
-	immediate: true,
-});
+watch(
+	props.categories,
+	() => {
+		category.value = props.categories.map((value) => {
+			return categoryOptions.find((item) => item.value === value) as CategoryItem;
+		});
+	},
+	{
+		immediate: true,
+	},
+);
 
 defineOptions({ name: 'IndexFilterPanel' });
 </script>

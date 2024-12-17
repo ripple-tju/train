@@ -19,6 +19,8 @@ const Pathname = {
 	static: path.join(outputDir, 'static'),
 };
 
+const CATEGORY = ['student', 'video', 'people'];
+
 const Node = {
 	async 'heading'({ text, level = 1 }, ctx) {
 		ctx.doc.push(`${ctx.indent()}<typo-heading :level="${level}">${text}</typo-heading>\n`);
@@ -147,7 +149,7 @@ const Generator = {
 			const sectionsPath = path.join(docPath, 'sections');
 
 			const ctx = {
-				id, length: 0, depth: 0, doc: [], abstract: '',
+				id, length: 0, depth: 0, doc: [], abstract: '', tags: [],
 				figure: 0, embed: 0, reference: 0, link: 0, table: 0,
 				indent: () => new Array(ctx.depth).fill('\t').join(''),
 				sectionsPath,
@@ -229,6 +231,7 @@ const Generator = {
 				reference: item.reference,
 				link: item.link,
 				table: item.table,
+				category: item.tags.filter(value => CATEGORY.includes(value)),
 			};
 		});
 
