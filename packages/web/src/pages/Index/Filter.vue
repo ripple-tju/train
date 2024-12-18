@@ -56,6 +56,7 @@
 			<q-badge
 				color="red"
 				rounded
+				class="cursor-pointer"
 				v-if="props.keywords.length > 0"
 				@click="clearAll"
 				>&nbsp;<q-icon

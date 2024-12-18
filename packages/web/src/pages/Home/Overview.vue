@@ -27,7 +27,10 @@
 					<div class="text-overline">{{ $t('app.author') }}</div>
 				</div>
 			</div>
-			<div class="full-width q-mt-xl row">
+			<div
+				id="saarching"
+				class="full-width q-mt-xl row"
+			>
 				<div class="col-shrink">
 					<q-select
 						color="white"
@@ -38,7 +41,9 @@
 						multiple
 						:options="categoryOptions"
 						:label="$t('data.content.category')"
-						style="max-width: 20em; min-width: 10em"
+						class="text-no-wrap ellipsis"
+						input-class="ellipsis"
+						style="max-width: 20em; min-width: 14em"
 					/>
 				</div>
 				<div class="col-grow">
@@ -55,14 +60,41 @@
 						:hint="$t('page.home.search.hint')"
 						@keyup.enter="toIndexPage"
 					>
-						<template v-slot:prepend>
-							<q-icon
-								name="search"
+						<template v-slot:append>
+							<q-btn
 								@click="toIndexPage"
-							/>
+								square
+								outline
+								><q-icon
+									name="search"
+									@click="toIndexPage"
+								/>搜索
+							</q-btn>
 						</template>
 					</q-input>
 				</div>
+			</div>
+			<div
+				id="keyword-pool"
+				class="full-width"
+				style="max-height: 300px"
+			>
+				<vue-ui-word-cloud
+					@click="appendKeyword"
+					:dataset="keywordData"
+					:config="{
+						responsive: true,
+						userOptions: { show: false },
+						style: {
+							chart: {
+								backgroundColor: '#00000000',
+								tooltip: {
+									offsetY: 9999,
+								},
+							},
+						},
+					}"
+				></vue-ui-word-cloud>
 			</div>
 		</div>
 	</div>
@@ -71,9 +103,12 @@
 <script setup lang="ts">
 import type { CategoryItem } from 'src/Spec';
 
-import { ref } from 'vue';
+import { ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import { useSpec } from 'src/Spec';
+import { VueUiWordCloud } from 'vue-data-ui';
+
+import keywordData from 'src/documentation/keyword.json';
 
 const keyword = ref<string>('');
 
@@ -96,6 +131,24 @@ function toIndexPage() {
 	router.push({ name: 'App.Feature.Content.Index', query });
 }
 
+watch(keyword, () => {
+	if (keyword.value === null) {
+		keyword.value = '';
+	}
+});
+
+function appendKeyword({ target }: MouseEvent) {
+	if (target instanceof SVGTextElement) {
+		const text = target.textContent as string;
+		const list = keyword.value.split(' ');
+
+		console.log(list);
+		if (!list.includes(text)) {
+			keyword.value = [...list, text].join(' ').trim();
+		}
+	}
+}
+
 defineOptions({ name: 'AppMetricOverview' });
 </script>
 
@@ -103,5 +156,11 @@ defineOptions({ name: 'AppMetricOverview' });
 #app-home {
 	background-image: url('./chalkboard.jpg');
 	background-repeat: repeat;
+}
+
+#keyword-pool {
+	text {
+		cursor: pointer;
+	}
 }
 </style>

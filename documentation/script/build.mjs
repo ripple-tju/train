@@ -2,6 +2,7 @@ import * as fs from 'node:fs/promises';
 import * as path from 'node:path';
 import * as url from 'node:url';
 import * as crypto from 'node:crypto';
+import Jieba from 'nodejieba';
 
 import './check.mjs';
 
@@ -147,8 +148,6 @@ const Generator = {
 		await fs.mkdir(Pathname.static);
 		await fs.mkdir(Pathname.indexes);
 	},
-	async Index() {
-	},
 	async Content() {
 		const OutputData = [];
 
@@ -253,7 +252,43 @@ const Generator = {
 
 		globalThis.console.log('Built: Index::Primary');
 	},
+	async Keyword() {
+		const map = {};
+		const textList = [];
+
+		const dirname = path.dirname(url.fileURLToPath(import.meta.url));
+		const primaryPathname = path.join(dirname, '../output.gen/indexes/primary.json');
+		const primaryFile = await fs.readFile(primaryPathname, 'utf-8');
+		const primaryData = JSON.parse(primaryFile);
+
+		for (const { title, abstract } of primaryData) {
+			textList.push(title, abstract);
+
+			for (const { word } of [
+				...Jieba.extract(title, 100),
+				...Jieba.extract(abstract, 100),
+			]) {
+				if (word in map) {
+					map[word]++;
+				} else {
+					map[word] = 1;
+				}
+			}
+		}
+
+		const filtered = [];
+
+		for (const key of Object.keys(map)) {
+			if (map[key] > 10) {
+				filtered.push({ name: key, value: map[key] });
+			}
+		}
+
+		await fs.writeFile(path.join(Pathname.indexes, 'keyword.json'), JSON.stringify(filtered, null, '\t'));
+		globalThis.console.log('Built: Index::Keyword');
+	},
 };
 
 await Generator.Output();
 await Generator.Content();
+await Generator.Keyword();

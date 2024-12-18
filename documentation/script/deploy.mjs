@@ -16,14 +16,17 @@ const outputDir = path.join(dirname, '../output.gen');
 const webPath = path.join(dirname, '../../packages/web');
 const webDocPath = path.join(webPath, 'src/documentation');
 
-await empty(path.join(webDocPath, 'primary.json'));
+for (const indexName of ['primary', 'keyword']) {
+	await empty(path.join(webDocPath, `${indexName}.json`));
 
-await fs.rename(
-	path.join(outputDir, 'indexes/primary.json'),
-	path.join(webDocPath, 'primary.json'),
-);
+	await fs.rename(
+		path.join(outputDir, `indexes/${indexName}.json`),
+		path.join(webDocPath, `${indexName}.json`),
+	);
 
-globalThis.console.log('Moved: primary.json');
+	globalThis.console.log(`Moved: ${indexName}.json`);
+}
+
 
 const contentsPath = path.join(outputDir, 'contents');
 const instancesDir = path.join(webDocPath, 'instances');

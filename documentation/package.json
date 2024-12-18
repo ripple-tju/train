@@ -17,6 +17,7 @@
 	},
 	"devDependencies": {
 		"@produck/idiom": "^0.4.0",
-		"@produck/ow": "^0.1.2"
+		"@produck/ow": "^0.1.2",
+		"nodejieba": "^3.4.4"
 	}
 }
