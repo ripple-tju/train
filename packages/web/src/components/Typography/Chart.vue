@@ -2,7 +2,7 @@
 	<div class="typo-chart row justify-center">
 		<div
 			class="col-12"
-			style="max-width: 600px; max-height: 300px;"
+			style="max-width: 600px; max-height: 300px"
 		>
 			<VueUiQuickChart
 				:dataset="dataset"
@@ -48,7 +48,8 @@ onBeforeMount(async () => {
 	config.value.xyPeriods = x;
 	dataset.value = y;
 
-	let max = -Infinity, min = Infinity;
+	let max = -Infinity,
+		min = Infinity;
 
 	for (const value of y) {
 		if (value > max) {

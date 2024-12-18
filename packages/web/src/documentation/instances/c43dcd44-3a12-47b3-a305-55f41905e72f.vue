@@ -313,7 +313,7 @@
 			>
 			<typo-chart
 				src="static/b687fcee00bdf58d7eaaa22cbc04e2cb603199d7902bfd323b81da1def8d84bb.json"
-				title="信息来源总视图"
+				title="信息来源走势图"
 			/>
 		</typo-section>
 	</div>
