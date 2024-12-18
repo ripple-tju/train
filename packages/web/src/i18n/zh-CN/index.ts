@@ -10,9 +10,9 @@ export default {
 			category: '分类',
 		},
 		category: {
-			video: '纯视频',
-			student: '学生',
-			people: '人民网',
+			video: 'AIGC生成案例',
+			student: '天津大学课程案例',
+			people: '人民网征集案例',
 		},
 	},
 	app: {
