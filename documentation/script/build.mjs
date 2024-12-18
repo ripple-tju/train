@@ -21,13 +21,38 @@ const Pathname = {
 
 const CATEGORY = ['student', 'video', 'people'];
 
+function toSHA256(buffer) {
+	const sha256 = crypto.createHash('sha256');
+
+	sha256.update(buffer);
+
+	return sha256.digest('hex');
+}
+
 const Node = {
 	async 'heading'({ text, level = 1 }, ctx) {
 		ctx.doc.push(`${ctx.indent()}<typo-heading :level="${level}">${text}</typo-heading>\n`);
 		ctx.length += text.length;
 	},
-	async 'chart'() {
+	async 'chart'({ src, title = null }, ctx) {
+		const { ext } = path.parse(src);
+		const inputPath = path.join(ctx.sectionsPath, src);
+		const hash = toSHA256(await fs.readFile(inputPath));
+		const outputPath = path.join(Pathname.static, `${hash}${ext}`);
 
+		await fs.copyFile(inputPath, outputPath);
+
+		const attrs = [`src="static/${hash}${ext}"`];
+
+		if (title !== null) {
+			attrs.push(`title="${title}"`);
+		}
+
+		ctx.doc.push(`${ctx.indent()}<typo-chart${attrs.map(span => {
+			return ` ${span}`;
+		}).join('')} />\n`);
+
+		ctx.chart++;
 	},
 	async 'embed'({ src }, ctx) {
 		ctx.doc.push(`${ctx.indent()}<typo-embed src="${src}" />\n`);
@@ -36,12 +61,7 @@ const Node = {
 	async 'figure'({ src, title = null, href = null }, ctx) {
 		const { ext } = path.parse(src);
 		const inputPath = path.join(ctx.sectionsPath, src);
-		const sha256 = crypto.createHash('sha256');
-		const file = await fs.readFile(inputPath);
-
-		sha256.update(file);
-
-		const hash = sha256.digest('hex');
+		const hash = toSHA256(await fs.readFile(inputPath));
 		const outputPath = path.join(Pathname.static, `${hash}${ext}`);
 
 		await fs.copyFile(inputPath, outputPath);
@@ -97,13 +117,7 @@ const Node = {
 	async 'table'({ src, title = null }, ctx) {
 		const { ext } = path.parse(src);
 		const inputPath = path.join(ctx.sectionsPath, src);
-		const sha256 = crypto.createHash('sha256');
-		const file = await fs.readFile(inputPath);
-
-		globalThis.console.log(inputPath);
-		sha256.update(file);
-
-		const hash = sha256.digest('hex');
+		const hash = toSHA256(await fs.readFile(inputPath));
 		const outputPath = path.join(Pathname.static, `${hash}${ext}`);
 
 		await fs.copyFile(inputPath, outputPath);

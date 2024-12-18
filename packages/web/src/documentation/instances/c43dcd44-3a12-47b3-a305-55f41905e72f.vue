@@ -311,6 +311,10 @@
 					>随着脑机接口技术的持续深入发展，从实验室走向实际应用，从理论研究迈向产业落地，其对社会的影响力和价值也将日益上升。随着这一技术的推进发展，有关《三磅宇宙》的故事一定还会继续。</span
 				></typo-paragraph
 			>
+			<typo-chart
+				src="static/b687fcee00bdf58d7eaaa22cbc04e2cb603199d7902bfd323b81da1def8d84bb.json"
+				title="信息来源总视图"
+			/>
 		</typo-section>
 	</div>
 </template>

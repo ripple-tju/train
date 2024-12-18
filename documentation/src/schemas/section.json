@@ -46,6 +46,9 @@
 					"properties": {
 						"src": {
 							"type": "string"
+						},
+						"title": {
+							"type": "string"
 						}
 					},
 					"required": [

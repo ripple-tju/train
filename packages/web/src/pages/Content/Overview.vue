@@ -25,6 +25,7 @@
 					style="font-size: 16px; line-height: 36px"
 				>
 					<typo-content
+						class="q-pb-xl"
 						@toc-ok="(list) => updateToc(list)"
 						ref="content"
 					>
