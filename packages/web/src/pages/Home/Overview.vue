@@ -9,7 +9,7 @@
 		>
 			<div
 				class="row q-px-lg"
-				style="background-color: rgba(255, 255, 255, 0.2); border-radius: 200px"
+				style="background-color: rgba(255, 255, 255, 0.3); border-radius: 200px"
 			>
 				<div class="col flex items-center gt-sm">
 					<q-avatar
@@ -33,12 +33,13 @@
 			>
 				<div class="col-shrink">
 					<q-select
-						color="white"
+						color="accent"
 						filled
 						dark
 						square
 						v-model="categoryList"
 						multiple
+						clearable
 						:options="categoryOptions"
 						:label="$t('data.content.category')"
 						class="text-no-wrap ellipsis"
@@ -50,7 +51,7 @@
 					<q-input
 						dark
 						square
-						color="white"
+						color="accent"
 						outlined
 						standout
 						filled
@@ -63,12 +64,8 @@
 						<template v-slot:append>
 							<q-btn
 								@click="toIndexPage"
-								square
 								outline
-								><q-icon
-									name="search"
-									@click="toIndexPage"
-								/>搜索
+								>搜索
 							</q-btn>
 						</template>
 					</q-input>
@@ -137,12 +134,17 @@ watch(keyword, () => {
 	}
 });
 
+watch(categoryList, () => {
+	if (categoryList.value === null) {
+		categoryList.value = [];
+	}
+});
+
 function appendKeyword({ target }: MouseEvent) {
 	if (target instanceof SVGTextElement) {
 		const text = target.textContent as string;
 		const list = keyword.value.split(' ');
 
-		console.log(list);
 		if (!list.includes(text)) {
 			keyword.value = [...list, text].join(' ').trim();
 		}
@@ -156,6 +158,26 @@ defineOptions({ name: 'AppMetricOverview' });
 #app-home {
 	background-image: url('./chalkboard.jpg');
 	background-repeat: repeat;
+
+	&::before {
+		content: '';
+		display: block;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		position: fixed;
+		background-color: #000;
+		background-image: url('/background.jpg');
+		background-size: cover;
+		background-repeat: repeat;
+		opacity: 0.35;
+		z-index: -1;
+	}
+
+	.q-field--filled.q-field--dark .q-field__control {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
 }
 
 #keyword-pool {
