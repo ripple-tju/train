@@ -1,0 +1,23 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "智能化时代下的中国文化传播：《千秋诗颂》的实践与探索",
+	"author": [
+		"宋铖婧"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245003",
+		"陆小华"
+	],
+	"sections": [
+		"1-preface",
+		"2-innovate",
+		"3-reappear",
+		"4-transfer"
+	]
+}
