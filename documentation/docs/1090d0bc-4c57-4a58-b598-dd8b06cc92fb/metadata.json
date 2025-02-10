@@ -1,0 +1,23 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "面向未来更有可为的“全球南方”新阶段 ——从“全球南方”媒体智库高端论坛看“中国行动”",
+	"author": [
+		"周明慧"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245007",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-background",
+		"2-action",
+		"3-blueprint"
+	]
+}
