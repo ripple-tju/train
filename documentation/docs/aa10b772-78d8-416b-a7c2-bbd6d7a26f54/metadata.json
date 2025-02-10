@@ -1,0 +1,27 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "媒体融合背景下的地方民生新闻节目发展与创新 重庆电视台《天天630》节目案例分析",
+	"author": [
+		"杨渝"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245009",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-rebirth",
+		"2-bottleneck",
+		"3-develop",
+		"4-transform",
+		"5-influence",
+		"6-analysis",
+		"7-conclusion"
+	]
+}

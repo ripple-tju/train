@@ -1,0 +1,20 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "6-analysis",
+	"content": [
+		[
+			"heading",
+			{
+				"level": 1,
+				"text": "媒体融合视域下的《天天630》SWOT分析"
+			}
+		],
+		[
+			"table",
+			{
+				"src": "../assets/6-1.json",
+				"title": "《天天630》节目SWOT分析"
+			}
+		]
+	]
+}
