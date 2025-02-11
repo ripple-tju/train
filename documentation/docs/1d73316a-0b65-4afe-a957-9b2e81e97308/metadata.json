@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "解读媒体融合浪潮中的创新实践：融合“出圈”密码何在？ ——《大国外交最前线》Vlog报道模式解析",
+	"author": [
+		"王桢"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245015",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-create",
+		"2-fusion",
+		"3-feature",
+		"4-conclusion"
+	]
+}
