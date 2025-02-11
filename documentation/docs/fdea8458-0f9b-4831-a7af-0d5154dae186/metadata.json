@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "从耳朵到心灵：融合移动传播视域下的听觉文化复兴 ——泛用型播客平台小宇宙的发展之路",
+	"author": [
+		"赵佳宁"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245016",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-germinate",
+		"2-demand",
+		"3-innovate",
+		"4-future"
+	]
+}
