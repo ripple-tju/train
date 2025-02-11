@@ -1,0 +1,23 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "“一带一路”倡议下的“鲁班工坊”：“和合共生”理念下的中国实践",
+	"author": [
+		"宋嘉欣"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245011",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-culture",
+		"2-symbiosis",
+		"3-conclusion"
+	]
+}
