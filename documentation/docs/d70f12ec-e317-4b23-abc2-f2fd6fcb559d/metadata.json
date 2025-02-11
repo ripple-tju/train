@@ -1,0 +1,25 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "深度蝶变：媒体融合浪潮中“四川观察”的创新突破与系统性变革",
+	"author": [
+		"李炫孜"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245014",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-development",
+		"2-hot",
+		"3-fusion",
+		"4-change",
+		"5-future"
+	]
+}
