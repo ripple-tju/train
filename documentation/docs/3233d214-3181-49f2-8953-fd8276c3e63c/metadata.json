@@ -1,0 +1,23 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "AIGC驱动新闻报道转型升级 ——以人民日报AI编辑部4.0为例",
+	"author": [
+		"董雨佳"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245020",
+		"陆小华"
+	],
+	"sections": [
+		"0-abstract",
+		"1-upgrade",
+		"2-innovate",
+		"3-explore"
+	]
+}
