@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "从小彭Vlog看硬新闻软化：跨文化传播中的马克思主义新闻观实践",
+	"author": [
+		"田沐卉"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245025",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-development",
+		"2-content",
+		"3-communication",
+		"4-revelation"
+	]
+}
