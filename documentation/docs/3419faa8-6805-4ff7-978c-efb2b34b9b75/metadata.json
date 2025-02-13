@@ -1,0 +1,25 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "以系统性变革探索“新型主流媒体”的创新发展路径 ——以澎湃新闻十年融合转型实践为例",
+	"author": [
+		"龚佳慧"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245002",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-mobile",
+		"2-platform",
+		"3-chain",
+		"4-heart",
+		"5-end"
+	]
+}
