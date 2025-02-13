@@ -1,0 +1,25 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "与时代同行，为中国留影 ——人民日报社碰碰词儿工作室的蜕变与成长之路",
+	"author": [
+		"晋晨洋"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245023",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-grow",
+		"2-foundation",
+		"3-perception",
+		"4-future",
+		"5-conclusion"
+	]
+}
