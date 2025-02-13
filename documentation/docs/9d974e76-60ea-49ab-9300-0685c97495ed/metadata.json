@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "短视频叙事，乡村振兴之路的时代之变 ——以于洪文旅《岁稔年丰》为例",
+	"author": [
+		"胡迪"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245007",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-change",
+		"2-tech",
+		"3-point",
+		"4-conclusion"
+	]
+}
