@@ -1,0 +1,25 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "生于融合 长于创新：中国传媒集团的成长路径探析 ——以上海报业集团的“颠覆式创新”之路为例",
+	"author": [
+		"桂思睿"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245004",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-birth",
+		"2-integrate",
+		"3-communication",
+		"4-create",
+		"5-future"
+	]
+}
