@@ -1,0 +1,25 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "媒体融合战略十周年，浅看县级融媒体的融合探索 ——以日照岚山区融媒体中心为例",
+	"author": [
+		"王雪宁"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245029",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-description",
+		"2-analysis",
+		"3-effect",
+		"4-challenge",
+		"5-future"
+	]
+}
