@@ -1,0 +1,23 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "从各美其美到美美与共，主流媒体非遗文化传播新动能 ——央视新闻“打铁花”非遗文化创新之路",
+	"author": [
+		"赵冰妍"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245027",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-analysis",
+		"2-communication",
+		"3-development"
+	]
+}
