@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "媒体融合之路探究 ——以浙报集团为例分析传统媒体转型变革的实践路径",
+	"author": [
+		"董萌萌"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245028",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-analysis",
+		"2-measures",
+		"3-transform",
+		"4-conclusion"
+	]
+}
