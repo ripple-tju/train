@@ -1,0 +1,24 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "斗罢艰险又出发：《黑神话：悟空》 ——试看非遗+游戏的“破圈”之路",
+	"author": [
+		"徐聪华"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student"
+	],
+	"keywords": [
+		"新闻传播学",
+		"2024级",
+		"2024245022",
+		"陆小华"
+	],
+	"sections": [
+		"0-preface",
+		"1-benchmark",
+		"2-out",
+		"3-linkage",
+		"4-conclusion"
+	]
+}
