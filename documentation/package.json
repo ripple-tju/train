@@ -16,8 +16,8 @@
 		"ajv-formats": "^3.0.1"
 	},
 	"devDependencies": {
-		"@produck/idiom": "^0.4.0",
-		"@produck/ow": "^0.1.2",
+		"@produck/idiom": "^0.4.2",
+		"@produck/ow": "^0.1.3",
 		"nodejieba": "^3.4.4"
 	}
 }
