@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "英语（美国） 钳形电流表工作原理格式 20231206110707",
+	"title": "AIGC语音生成（英语）",
+	"author": ["金语智达"],
+	"source": "金语智达",
 	"tags": [
 		"video"
 	],

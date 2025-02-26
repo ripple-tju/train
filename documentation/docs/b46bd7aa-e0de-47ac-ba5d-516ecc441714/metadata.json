@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "贵州交通职业技术学院-机器视觉概述（英语）",
+	"title": "AIGC为真人配音",
+	"author": ["金语智达"],
+	"source": "金语智达",
 	"tags": [
 		"video"
 	],

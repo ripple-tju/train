@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "建国75周年纪念",
+	"author": ["壹刻校园"],
+	"source": "壹刻校园",
 	"tags": [
 		"video"
 	],

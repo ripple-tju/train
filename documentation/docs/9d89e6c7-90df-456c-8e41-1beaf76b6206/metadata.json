@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "Overview of Adaptive FrontLighting System",
+	"title": "AIGC语音生成在知识传播的应用",
+	"author": ["金语智达"],
+	"source": "金语智达",
 	"tags": [
 		"video"
 	],

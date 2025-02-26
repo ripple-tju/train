@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "70秒70年Ai上山航院",
+	"author": ["壹刻校园"],
+	"source": "壹刻校园",
 	"tags": [
 		"video"
 	],

@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "天大外院【西游记】AI课程",
+	"title": "解读黑神话悟空与西游记 天津大学外国语学院",
+	"author": ["壹刻校园"],
+	"source": "壹刻校园",
 	"tags": [
 		"video",
 		"student"

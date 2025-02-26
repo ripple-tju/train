@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "天天汉语-第一课你好",
+	"title": "AIGC语音生成（印尼语）",
+	"author": ["金语智达"],
+	"source": "金语智达",
 	"tags": [
 		"video"
 	],

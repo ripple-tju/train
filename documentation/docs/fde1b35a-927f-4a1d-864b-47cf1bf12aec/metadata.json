@@ -1,6 +1,8 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
 	"title": "小雪_二十四节气_用AI讲述中国故事",
+	"author": ["壹刻校园"],
+	"source": "壹刻校园",
 	"tags": [
 		"video"
 	],
