@@ -19,6 +19,7 @@
 						name: 'App.Feature.Content.Detail',
 						params: { id: item.id },
 					}"
+					target="_blank"
 					>{{ item.title }}
 				</router-link>
 			</div>
