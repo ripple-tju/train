@@ -21,6 +21,37 @@ export default {
 			video: 'video',
 			student: 'student',
 			people: 'people',
+			smart: {
+				root: '',
+				master: '',
+				province: '',
+				other: '',
+			},
+			ai: {
+				root: '',
+				master: '',
+				province: '',
+				generation: '',
+			},
+			service: {
+				root: '',
+				master: '',
+				province: '',
+				city: '',
+				district: '',
+			},
+			development: {
+				root: '',
+				master: '',
+				province: '',
+				department: '',
+				district: '',
+			},
+			internet: {
+				root: '',
+				master: '',
+				province: '',
+			},
 		},
 	},
 	page: {

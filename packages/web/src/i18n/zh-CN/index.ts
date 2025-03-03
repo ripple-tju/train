@@ -13,6 +13,37 @@ export default {
 			video: 'AIGC生成案例',
 			student: '天津大学课程案例',
 			people: '人民网征集案例',
+			smart: {
+				root: '数智科技系统与平台建设',
+				master: '中央主要媒体数智科技系统与平台建设',
+				province: '省级媒体数智科技系统与平台建设',
+				other: '其他媒体数智科技系统与平台建设',
+			},
+			ai: {
+				root: '融合报道与人机共创',
+				master: '中央主要媒体融合报道',
+				province: '省级媒体融合报道报道',
+				generation: '人工智能生成内容',
+			},
+			service: {
+				root: '应用与服务创新',
+				master: '中央主要媒体应用与服务创新',
+				province: '省级媒体应用与服务创新',
+				city: '地级媒体应用与服务创新',
+				district: '县区数字科技应用与服务创新',
+			},
+			development: {
+				root: '媒体融合与转型发展',
+				master: '中央主要媒体融合发展与转型',
+				province: '省级媒体融合与转型发展',
+				department: '省级宣传部门媒体融合与转型发展',
+				district: '地县媒体融合与转型发展案例',
+			},
+			internet: {
+				root: '网络国际传播',
+				master: '中央主要媒体国际传播实践',
+				province: '省市自治区网络国际传播',
+			},
 		},
 	},
 	app: {
