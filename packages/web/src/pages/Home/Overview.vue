@@ -31,22 +31,6 @@
 				id="saarching"
 				class="full-width q-mt-xl row"
 			>
-				<div class="col-shrink">
-					<q-select
-						color="accent"
-						filled
-						dark
-						square
-						v-model="categoryList"
-						multiple
-						clearable
-						:options="categoryOptions"
-						:label="$t('data.content.category')"
-						class="text-no-wrap ellipsis"
-						input-class="ellipsis"
-						style="max-width: 20em; min-width: 14em"
-					/>
-				</div>
 				<div class="col-grow">
 					<q-input
 						dark
@@ -102,14 +86,12 @@ import type { CategoryItem } from 'src/Spec';
 
 import { ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
-import { useSpec } from 'src/Spec';
 import { VueUiWordCloud } from 'vue-data-ui';
 
 import keywordData from 'src/documentation/keyword.json';
 
 const keyword = ref<string>('');
 
-const { categoryOptions } = useSpec();
 const categoryList = ref<CategoryItem[]>([]);
 
 const router = useRouter();

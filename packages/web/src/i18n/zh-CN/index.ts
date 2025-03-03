@@ -44,6 +44,7 @@ export default {
 				master: '中央主要媒体国际传播实践',
 				province: '省市自治区网络国际传播',
 			},
+			all: '全部',
 		},
 	},
 	app: {

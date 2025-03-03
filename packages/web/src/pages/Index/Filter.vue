@@ -1,19 +1,6 @@
 <template>
 	<div class="q-mb-sm">
 		<div class="row">
-			<div class="col-shrink">
-				<q-select
-					filled
-					square
-					v-model="category"
-					multiple
-					clearable
-					:options="categoryOptions"
-					:label="$t('data.content.category')"
-					style="max-width: 20em; min-width: 10em"
-					@update:model-value="updateCategory"
-				/>
-			</div>
 			<div class="col-grow">
 				<q-input
 					style="border-left: none"
@@ -111,20 +98,6 @@ function removeKeyword(at: number) {
 
 function clearAll() {
 	emit('update:keywords', []);
-}
-
-function updateCategory() {
-	if (Array.isArray(category.value)) {
-		emit(
-			'update:categories',
-			category.value.map((item) => item.value),
-		);
-	}
-
-	if (category.value === null) {
-		category.value = [];
-		emit('update:categories', []);
-	}
 }
 
 watch(

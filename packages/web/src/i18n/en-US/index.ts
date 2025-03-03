@@ -52,6 +52,7 @@ export default {
 				master: '',
 				province: '',
 			},
+			all: '',
 		},
 	},
 	page: {

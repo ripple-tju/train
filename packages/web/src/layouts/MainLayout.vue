@@ -23,13 +23,41 @@
 				</q-toolbar-title>
 
 				<q-btn
-					class="self-stretch"
+					stretch
+					v-for="top in categoryList"
+					:key="top.value"
 					flat
 					square
+					:label="top.label"
+					:to="{ query: { ...$route.query, category: top.value } }"
+					:class="{ 'bg-brown-9': $route.query.category?.includes(String(top.value)) }"
+				>
+					<q-menu>
+						<q-list dense>
+							<q-item
+								v-for="child in top.children"
+								:key="child.value"
+								clickable
+								:to="{ query: { ...$route.query, category: [top.value, child.value].join(',') } }"
+								class="text-black"
+							>
+								<q-item-section>
+									<q-item-label>{{ child.label }}</q-item-label>
+								</q-item-section>
+							</q-item>
+						</q-list>
+					</q-menu>
+				</q-btn>
+
+				<q-btn
+					flat
+					square
+					stretch
 					:to="{
 						name: 'App.Feature.Content',
+						query: { keyword: $route.query.keyword },
 					}"
-					>{{ $t('app.feature.index') }}</q-btn
+					>{{ $t('data.category.all') }}</q-btn
 				>
 			</q-toolbar>
 		</q-header>
@@ -51,4 +79,8 @@
 	</q-layout>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useNavigator } from 'src/Spec';
+
+const categoryList = useNavigator();
+</script>

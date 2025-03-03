@@ -36,7 +36,7 @@
 <script setup lang="ts">
 import type { IndexItem } from './Item.vue';
 
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute, useRouter } from 'vue-router';
 import { CATEGORY } from 'src/Spec';
@@ -51,14 +51,21 @@ const categoryList = ref<number[]>([]);
 
 const route = useRoute();
 const router = useRouter();
-const query = route.query;
 
-if (Object.hasOwn(query, 'keyword') && typeof query.keyword === 'string') {
-	keywordList.value = query.keyword.split(',');
-}
+function setFilterOptions() {
+	const query = route.query;
 
-if (Object.hasOwn(query, 'category') && typeof query.category === 'string') {
-	categoryList.value = query.category.split(',').map((v) => Number(v));
+	if (Object.hasOwn(query, 'keyword') && typeof query.keyword === 'string') {
+		keywordList.value = query.keyword.split(',');
+	} else {
+		keywordList.value = [];
+	}
+
+	if (Object.hasOwn(query, 'category') && typeof query.category === 'string') {
+		categoryList.value = query.category.split(',').map((v) => Number(v));
+	} else {
+		categoryList.value = [];
+	}
 }
 
 const indexItemList = ref<(typeof primary)[0][]>([]);
@@ -95,9 +102,24 @@ const filterd = computed<IndexItem[]>(() => {
 	return result;
 });
 
+watch(() => keywordList.value.join(','), (newValue) => {
+	const query: { [key: string]: string } = {};
+
+	if (newValue !== '') {
+		query.keyword = newValue;
+	}
+
+	if (Object.hasOwn(route.query, 'category')) {
+		query.category = route.query.category as string;
+	}
+
+	router.replace({ query });
+});
+
 onMounted(() => {
 	indexItemList.value = primary;
-	router.replace({ query: {} });
+	setFilterOptions();
+	router.afterEach(setFilterOptions);
 });
 
 defineOptions({ name: 'AppContentOverview' });

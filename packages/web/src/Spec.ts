@@ -24,21 +24,21 @@ export function useNavigator() {
 		{ value: 0x101, label: t('data.category.smart.master') },
 		{ value: 0x102, label: t('data.category.smart.province') },
 		{ value: 0x103, label: t('data.category.smart.other')},
-	]}, { value: 0x200, abel: t('data.category.ai.root'), children: [
+	]}, { value: 0x200, label: t('data.category.ai.root'), children: [
 		{ value: 0x201, label: t('data.category.ai.master') },
 		{ value: 0x202, label: t('data.category.ai.province') },
 		{ value: 0x203, label: t('data.category.ai.generation') },
-	]}, { value: 0x300, abel: t('data.category.service.root'), children: [
+	]}, { value: 0x300, label: t('data.category.service.root'), children: [
 		{ value: 0x301, label: t('data.category.service.master') },
 		{ value: 0x302, label: t('data.category.service.province') },
-		{ value: 0x303, lable: t('data.category.service.city') },
+		{ value: 0x303, label: t('data.category.service.city') },
 		{ value: 0x304, label: t('data.category.service.district') },
-	]}, { value: 0x400, abel: t('data.category.development.root'), children: [
+	]}, { value: 0x400, label: t('data.category.development.root'), children: [
 		{ value: 0x401, label: t('data.category.development.master') },
 		{ value: 0x402, label: t('data.category.development.province') },
 		{ value: 0x403, label: t('data.category.development.department') },
 		{ value: 0x404, label: t('data.category.development.district') },
-	]}, { value: 0x500, abel: t('data.category.internet.root'), children: [
+	]}, { value: 0x500, label: t('data.category.internet.root'), children: [
 		{ value: 0x501, label: t('data.category.internet.master') },
 		{ value: 0x502, label: t('data.category.internet.province') },
 	]}];
