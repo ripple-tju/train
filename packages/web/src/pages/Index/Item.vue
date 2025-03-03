@@ -1,10 +1,10 @@
 <template>
 	<q-card class="full-height">
 		<q-img
-			src="https://cdn.quasar.dev/img/material.png"
+			error-src="/error.png"
+			:src="`/thumb/${data.id}.jpg`"
 			:ratio="21 / 9"
 		>
-			<div class="absolute-bottom-right"></div>
 		</q-img>
 
 		<q-card-section class="row q-pb-none">
