@@ -1,12 +1,16 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "小雪：用AI讲述中国故事",
+	"title": "“建筑花开”AI视频制作说明",
 	"author": ["壹刻校园"],
 	"source": "壹刻校园",
 	"tags": [
 		"video"
 	],
 	"sections": [
-		"video"
+		"0-video",
+		"1-source",
+		"2-material",
+		"3-clue",
+		"4-effect"
 	]
 }

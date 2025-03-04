@@ -1,0 +1,18 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "4-effect",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "传播效果"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"通过AI视频的艺术形式传递天津大学校园文化与活力，吸引更多学生和校外人士关注。发布后一天内推文阅读量2.4W+，视频号点赞量600+。"
+			]
+		]
+	]
+}

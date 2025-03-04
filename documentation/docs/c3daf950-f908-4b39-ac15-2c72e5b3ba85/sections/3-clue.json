@@ -1,0 +1,87 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "3-clue",
+	"content": [
+		[
+			"heading",
+			{
+				"text": "提示词撰写"
+			}
+		],
+		[
+			"heading",
+			{
+				"text": "制作过程",
+				"level": 2
+			}
+		],
+		[
+			"paragraph",
+			[
+				"首先准备好建筑和校徽的原始照片，使用堆友生成建筑花开的图片，并使用PS进行色调调整和文字修正；其次，三张照片为一组镜头导入runway中进行AI视频生成，直至生成所有镜头；最后使用剪映软件进行视频合成和后期配乐。"
+			]
+		],
+		[
+			"heading",
+			{
+				"text": "堆友",
+				"level": 2
+			}
+		],
+		[
+			"paragraph",
+			[
+				"网站：https://d.design/?from=bddy"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"提示词：万物新生，建筑外面裹着牡丹花，建筑上开满牡丹花，飞舞的蝴蝶，蓝天白云，春天，万物复苏，天空通透干净"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"使用模型：3D立体|SHMILY龙章凤彩、奇妙电商场景(0.5)、WB春意盎然/春天/青苔(0.5)、WB春暖花开/鲜花造型(0.5)"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"参考图玩法：参考边缘"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"分辨率：1152*760"
+			]
+		],
+		[
+			"heading",
+			{
+				"text": "runway",
+				"level": 2
+			}
+		],
+		[
+			"paragraph",
+			[
+				"网站：https://runwayml.com/"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"提示词：3D dribbling, one shot, cinematic dribbling, FPV view, push lens First person view shot of a [subject]. Hyper speed fly, dynamic motion, dynamic blur, timelapse,30xspeed, in the style of [describe style; ex. cinematic, muted color palette]"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"时长选择：10s"
+			]
+		]
+	]
+}
