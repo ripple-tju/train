@@ -3,7 +3,9 @@
 	"title": "人民网：AI成果展示会/AI展演中心",
 	"source": "人民网",
 	"tags": [
-		"people"
+		"people",
+		"service",
+		"service.master"
 	],
 	"sections": [
 		"profile",

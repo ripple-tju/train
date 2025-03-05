@@ -1,12 +1,14 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "“中国媒体智能化”优秀案例库投稿 江西营商“营商帮办”平台案例分析",
+	"title": "江西日报：江西营商“营商帮办”平台案例分析",
 	"author": [
 		"岳盟伦"
 	],
 	"source": "新媒体与传播学院",
 	"tags": [
-		"student"
+		"student",
+		"service",
+		"service.province"
 	],
 	"keywords": [
 		"新闻传播学",

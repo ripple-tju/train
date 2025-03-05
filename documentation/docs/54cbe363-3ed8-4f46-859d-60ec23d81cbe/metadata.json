@@ -3,7 +3,9 @@
 	"title": "澎湃新闻网：澎湃智媒开放平台-AI视频",
 	"source": "人民网",
 	"tags": [
-		"people"
+		"people",
+		"service",
+		"service.province"
 	],
 	"sections": [
 		"profile",

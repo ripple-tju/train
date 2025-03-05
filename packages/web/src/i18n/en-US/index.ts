@@ -39,6 +39,7 @@ export default {
 				province: '',
 				city: '',
 				district: '',
+				platform: '',
 			},
 			development: {
 				root: '',
@@ -51,6 +52,7 @@ export default {
 				root: '',
 				master: '',
 				province: '',
+				brand: '',
 			},
 			all: '',
 		},

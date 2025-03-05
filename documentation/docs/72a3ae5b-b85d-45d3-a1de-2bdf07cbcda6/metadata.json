@@ -3,7 +3,9 @@
 	"title": "华龙网：华龙芯互动视频创作平台",
 	"source": "人民网",
 	"tags": [
-		"people"
+		"people",
+		"service",
+		"service.province"
 	],
 	"sections": [
 		"profile",

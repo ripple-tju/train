@@ -33,6 +33,7 @@ export function useNavigator() {
 		{ value: 0x302, label: t('data.category.service.province') },
 		{ value: 0x303, label: t('data.category.service.city') },
 		{ value: 0x304, label: t('data.category.service.district') },
+		{ value: 0x305, label: t('data.category.service.platform') },
 	]}, { value: 0x400, label: t('data.category.development.root'), children: [
 		{ value: 0x401, label: t('data.category.development.master') },
 		{ value: 0x402, label: t('data.category.development.province') },
@@ -41,6 +42,7 @@ export function useNavigator() {
 	]}, { value: 0x500, label: t('data.category.internet.root'), children: [
 		{ value: 0x501, label: t('data.category.internet.master') },
 		{ value: 0x502, label: t('data.category.internet.province') },
+		{ value: 0x503, label: t('data.category.internet.brand') },
 	]}];
 }
 
@@ -77,6 +79,7 @@ const TO_NAME: ValueRecord = {
 	[0x302]: 'service.province',
 	[0x303]: 'service.city',
 	[0x304]: 'service.district',
+	[0x305]: 'service.platform',
 
 	[0x400]: 'development',
 	[0x401]: 'development.master',
@@ -87,6 +90,8 @@ const TO_NAME: ValueRecord = {
 	[0x500]: 'internet',
 	[0x501]: 'internet.master',
 	[0x502]: 'internet.province',
+	[0x503]: 'internet.brand',
+
 };
 
 const TO_VALUE: NameRecord = {};

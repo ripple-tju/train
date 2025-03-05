@@ -31,6 +31,7 @@ export default {
 				province: '省级媒体应用与服务创新',
 				city: '地级媒体应用与服务创新',
 				district: '县区数字科技应用与服务创新',
+				platform: '网络平台转型与服务创新',
 			},
 			development: {
 				root: '媒体融合与转型发展',
@@ -43,6 +44,7 @@ export default {
 				root: '网络国际传播',
 				master: '中央主要媒体国际传播实践',
 				province: '省市自治区网络国际传播',
+				brand: '网络公司跨文化传播',
 			},
 			all: '全部',
 		},

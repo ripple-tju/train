@@ -3,7 +3,9 @@
 	"title": "人民网“主流价值语料库”",
 	"source": "人民网",
 	"tags": [
-		"people"
+		"people",
+		"smart",
+		"smart.master"
 	],
 	"sections": [
 		"profile",

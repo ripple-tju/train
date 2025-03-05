@@ -1,12 +1,14 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "新时代主题宣传新高度：新华社第三届“一带一路”国际合作高峰论坛系列新闻",
+	"title": "新华社：第三届“一带一路”国际合作高峰论坛系列新闻",
 	"author": [
 		"蒲培洋"
 	],
 	"source": "新媒体与传播学院",
 	"tags": [
-		"test"
+		"test",
+		"ai",
+		"ai.master"
 	],
 	"keywords": [
 		"新闻传播学",

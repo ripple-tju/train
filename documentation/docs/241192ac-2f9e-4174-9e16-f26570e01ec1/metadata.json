@@ -1,9 +1,11 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "SMG智慧媒体数字底座",
+	"title": "上海广播电视台：SMG智慧媒体数字底座",
 	"source": "人民网",
 	"tags": [
-		"people"
+		"people",
+		"smart",
+		"smart.province"
 	],
 	"sections": [
 		"profile",
