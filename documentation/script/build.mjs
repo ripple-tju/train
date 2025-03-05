@@ -20,7 +20,14 @@ const Pathname = {
 	static: path.join(outputDir, 'static'),
 };
 
-const CATEGORY = ['student', 'video', 'people'];
+const CATEGORY = [
+	'student', 'video', 'people',
+	'smart', 'smart.master', 'smart.province', 'smart.other',
+	'ai', 'ai.master', 'ai.province', 'ai.generation',
+	'service', 'service.master', 'service.province', 'service.city', 'service.district', 'service.platform',
+	'development', 'development.master', 'development.province', 'development.department', 'development.district',
+	'internet', 'internet.master', 'internet.province', 'internet.brand',
+];
 
 function toSHA256(buffer) {
 	const sha256 = crypto.createHash('sha256');

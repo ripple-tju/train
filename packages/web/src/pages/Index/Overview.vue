@@ -102,19 +102,22 @@ const filterd = computed<IndexItem[]>(() => {
 	return result;
 });
 
-watch(() => keywordList.value.join(','), (newValue) => {
-	const query: { [key: string]: string } = {};
+watch(
+	() => keywordList.value.join(','),
+	(newValue) => {
+		const query: { [key: string]: string } = {};
 
-	if (newValue !== '') {
-		query.keyword = newValue;
-	}
+		if (newValue !== '') {
+			query.keyword = newValue;
+		}
 
-	if (Object.hasOwn(route.query, 'category')) {
-		query.category = route.query.category as string;
-	}
+		if (Object.hasOwn(route.query, 'category')) {
+			query.category = route.query.category as string;
+		}
 
-	router.replace({ query });
-});
+		router.replace({ query });
+	},
+);
 
 onMounted(() => {
 	indexItemList.value = primary;

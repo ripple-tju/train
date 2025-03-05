@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['周则旭']"
 			source="新媒体与传播学院"
-			>封面新闻“大国工程我来建”3D互动游戏</typo-title
+			>封面新闻：“大国工程我来建”3D互动游戏</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例类别</typo-heading>

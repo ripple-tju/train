@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['胡筑云']"
 			source="新媒体与传播学院"
-			>“中国媒体智能化”优秀案例库案例</typo-title
+			>成都传媒集团：智能媒体资源数据库</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例名称</typo-heading>

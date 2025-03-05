@@ -3,7 +3,7 @@
 		<typo-title
 			:author="[]"
 			source="人民网"
-			>SMG智慧媒体数字底座</typo-title
+			>上海广播电视台：SMG智慧媒体数字底座</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>

@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['壹刻校园']"
 			source="壹刻校园"
-			>小雪_二十四节气_用AI讲述中国故事</typo-title
+			>小雪：用AI讲述中国故事</typo-title
 		>
 		<typo-section>
 			<typo-embed

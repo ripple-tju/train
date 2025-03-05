@@ -11,7 +11,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "service", "service.province"]
 	},
 	{
 		"id": "03563eaf-4092-4241-b2cf-ee6673d76752",
@@ -25,7 +25,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people", "ai"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "04d897b2-39e9-453b-a535-5c50f90fab55",
@@ -39,7 +39,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.master"]
 	},
 	{
 		"id": "0516d58e-9cdf-4520-84ff-796b5d49061d",
@@ -67,7 +67,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "0aa7b3ce-dda4-4856-9b4d-1695ca138f50",
@@ -81,7 +81,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "0af7787d-ff43-4106-9015-86858d8e2131",
@@ -95,7 +95,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "0b7f8181-826a-492b-b710-a53f416b5d63",
@@ -109,7 +109,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "0be6bbca-fdf9-4598-beac-ede9fb7e177e",
@@ -137,7 +137,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.district"]
 	},
 	{
 		"id": "1090d0bc-4c57-4a58-b598-dd8b06cc92fb",
@@ -151,7 +151,7 @@
 		"reference": 4,
 		"link": 0,
 		"table": 2,
-		"category": ["student"]
+		"category": ["student", "internet", "internet.master"]
 	},
 	{
 		"id": "134269ab-ea17-4616-99a3-a08405f94efa",
@@ -165,7 +165,7 @@
 		"reference": 3,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "internet", "internet.brand"]
 	},
 	{
 		"id": "14dd7f4c-3ad3-4b48-97d8-020cf9dee857",
@@ -179,7 +179,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "1507d617-e6bc-4a36-8051-e76cf830ac55",
@@ -193,7 +193,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "1578f8cb-298d-498a-8ede-e1c8787f64e8",
@@ -207,7 +207,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "17014351-b2de-46a9-ac36-c989a92ba454",
@@ -235,7 +235,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "18fdbf37-7bc8-42d0-8cfa-f5eb662c8d66",
@@ -249,7 +249,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "internet", "internet.province"]
 	},
 	{
 		"id": "1a06c7b5-03b7-4f1d-9e90-d309a8e7a50a",
@@ -263,7 +263,7 @@
 		"reference": 7,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "1ce688d0-ee84-4794-b9cc-0534319b2059",
@@ -277,7 +277,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "service", "service.district"]
 	},
 	{
 		"id": "1d73316a-0b65-4afe-a957-9b2e81e97308",
@@ -291,7 +291,7 @@
 		"reference": 12,
 		"link": 0,
 		"table": 2,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.master"]
 	},
 	{
 		"id": "2049d322-c48e-447e-9e60-8de1b1d69642",
@@ -305,7 +305,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "20bab9ad-bb83-4bea-b95f-6ff0d2c074dc",
@@ -319,7 +319,7 @@
 		"reference": 2,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.master"]
 	},
 	{
 		"id": "2105655a-7cc4-4ab6-b523-b3cb41509998",
@@ -333,7 +333,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.city"]
 	},
 	{
 		"id": "21d147e9-ba86-4c30-9663-8a71802c0249",
@@ -347,7 +347,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "2237911e-ad7f-4b46-a3fa-859acb3f5c05",
@@ -361,13 +361,13 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "241192ac-2f9e-4174-9e16-f26570e01ec1",
 		"abstract": "SMT自2017年起开始研究AI在媒体领域的应用，打造的SMG智慧媒体数字底座，推进AI在广播电视融媒体转型中的落地应用。融媒体中心近年来通过对接SMG智慧媒体数字底座，赋能媒体新闻生产和播发各环节。",
 		"length": 2560,
-		"title": "SMG智慧媒体数字底座",
+		"title": "上海广播电视台：SMG智慧媒体数字底座",
 		"author": [],
 		"source": "人民网",
 		"figure": 0,
@@ -375,7 +375,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "24392450-9017-4689-95f0-28cba12449d0",
@@ -389,7 +389,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.other"]
 	},
 	{
 		"id": "25d4a645-09b0-4cee-812c-3eddf403cfa1",
@@ -403,7 +403,7 @@
 		"reference": 7,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "development", "development.master"]
 	},
 	{
 		"id": "2cf25459-fde9-4ab7-8fef-46afc634b5fd",
@@ -417,7 +417,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.city"]
 	},
 	{
 		"id": "2e83e408-dbed-437e-a8c5-6b0d7610512d",
@@ -431,7 +431,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "308831ec-0075-42cb-95e8-65b417c5cf74",
@@ -445,7 +445,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.master"]
 	},
 	{
 		"id": "3233d214-3181-49f2-8953-fd8276c3e63c",
@@ -459,7 +459,7 @@
 		"reference": 4,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.master"]
 	},
 	{
 		"id": "331cc846-84ca-4fa6-b6f3-63914e18d80a",
@@ -473,7 +473,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "3419faa8-6805-4ff7-978c-efb2b34b9b75",
@@ -487,7 +487,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "36cf9e3e-88a7-43f6-8e34-2f9d3ec8c122",
@@ -501,7 +501,7 @@
 		"reference": 10,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "370af8b9-5a05-4762-8a1b-96e18d4503cb",
@@ -515,7 +515,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "371cbfd9-da3d-4fc7-a5e3-070309635141",
@@ -529,7 +529,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.city"]
 	},
 	{
 		"id": "3df0dc30-9c80-4e43-8e9b-d3977a2fa4de",
@@ -557,7 +557,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "44328e21-4a14-4aff-9496-d2eb19e1eefa",
@@ -571,7 +571,7 @@
 		"reference": 9,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "internet", "internet.master"]
 	},
 	{
 		"id": "45b45f77-7a29-418b-ac6e-8fd093db6c9e",
@@ -599,7 +599,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "47cba36d-ab55-43de-a205-f454fe1e3324",
@@ -613,7 +613,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "498ef749-17f2-4ba0-a3d1-d57f6d7237e2",
@@ -627,7 +627,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "4e8fe8d5-e34c-450b-a8c0-166d124c9773",
@@ -641,7 +641,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.master"]
 	},
 	{
 		"id": "50fccefe-ed0b-46bb-8edb-05b863846b48",
@@ -655,7 +655,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "528f3b31-19d2-496a-a689-b494b6fc8316",
@@ -669,7 +669,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.master"]
 	},
 	{
 		"id": "52b9fa01-b15a-4b75-964d-3c8bee00df51",
@@ -683,7 +683,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "52f80b34-1231-4268-9858-70980c88f6ef",
@@ -697,7 +697,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.department"]
 	},
 	{
 		"id": "54cbe363-3ed8-4f46-859d-60ec23d81cbe",
@@ -711,7 +711,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "550a4f7a-2db3-4b53-82d6-5bce730dddd3",
@@ -725,7 +725,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "59ab80a5-bb68-4023-bbba-f91165278f9e",
@@ -739,7 +739,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "5ec3609e-2f6b-4ef3-86df-8a94d09025f5",
@@ -753,7 +753,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "684b1578-bf39-457f-8dd5-8a55f724f3fb",
@@ -767,7 +767,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.province"]
 	},
 	{
 		"id": "6b6cda27-c39e-44b3-a49a-c9e4fb1eb3e2",
@@ -781,7 +781,7 @@
 		"reference": 5,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "725b4cdb-7804-4c1c-9c0f-aead6615b67e",
@@ -795,7 +795,7 @@
 		"reference": 8,
 		"link": 0,
 		"table": 0,
-		"category": []
+		"category": ["student", "service", "service.province"]
 	},
 	{
 		"id": "72a3ae5b-b85d-45d3-a1de-2bdf07cbcda6",
@@ -809,7 +809,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "72b162b7-bbd3-4cb7-a715-ab07e5de24f9",
@@ -823,7 +823,7 @@
 		"reference": 5,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.master"]
 	},
 	{
 		"id": "72d5804a-a7b9-47f8-b9ae-8f818dd8f27a",
@@ -837,7 +837,7 @@
 		"reference": 6,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "74f4c900-fd2b-48ed-a87a-77311984c26f",
@@ -851,7 +851,7 @@
 		"reference": 1,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "77a64a8a-bb32-4f50-bf34-a7f72a41c698",
@@ -865,7 +865,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.district"]
 	},
 	{
 		"id": "79d25281-f22c-40c7-9c5c-4a168799c89e",
@@ -879,7 +879,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "7bbb8651-5d14-4567-9d04-682f4d13ad73",
@@ -907,7 +907,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "7cbcc128-04e0-4779-9f86-514c987b91ee",
@@ -921,13 +921,13 @@
 		"reference": 3,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "development", "development.district"]
 	},
 	{
 		"id": "8246ec12-aa02-4482-b076-967eec458930",
 		"abstract": "平台创新江西营商“营商帮办”平台是由江西省优化环境办公室和江西日报社合作成立，由江南都市报运营的创新应用平台。该平台功能集“投诉、新闻、智库、问卷、办事、招商”六大板块于一体，充分体现了新闻性、创新性",
 		"length": 5198,
-		"title": "“中国媒体智能化”优秀案例库投稿 江西营商“营商帮办”平台案例分析",
+		"title": "江西日报：江西营商“营商帮办”平台案例分析",
 		"author": ["岳盟伦"],
 		"source": "新媒体与传播学院",
 		"figure": 0,
@@ -935,7 +935,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "service", "service.province"]
 	},
 	{
 		"id": "8b32487f-e6d9-48db-9da1-a4bc19fbfa34",
@@ -949,7 +949,7 @@
 		"reference": 4,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.generation"]
 	},
 	{
 		"id": "8b3c2726-6b6e-4def-9aa9-5f1335b6f227",
@@ -977,7 +977,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "8fa3cf86-ff6b-4c89-9a87-c3bcb355066b",
@@ -991,7 +991,7 @@
 		"reference": 3,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "internet", "internet.province"]
 	},
 	{
 		"id": "91914e31-a66f-48df-8d81-c6aa6f56140e",
@@ -1005,7 +1005,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "935a2819-5214-4771-9728-9c13806d701c",
@@ -1019,7 +1019,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "951f20b4-50e5-4c7b-9cd3-79e7167ce612",
@@ -1033,7 +1033,7 @@
 		"reference": 5,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "development", "development.master"]
 	},
 	{
 		"id": "9702b5c5-95ec-4774-b83b-35f1db557076",
@@ -1047,7 +1047,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "9ad49b5e-a0d6-4c8f-9665-df5ab2aecb19",
@@ -1061,7 +1061,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.city"]
 	},
 	{
 		"id": "9c70ec7a-68d5-44cf-b96e-e321fb48e1ee",
@@ -1075,7 +1075,7 @@
 		"reference": 2,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "internet", "internet.master"]
 	},
 	{
 		"id": "9d89e6c7-90df-456c-8e41-1beaf76b6206",
@@ -1103,7 +1103,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "service", "service.district"]
 	},
 	{
 		"id": "9dc18ca2-5913-4d9b-9877-217db463c012",
@@ -1117,13 +1117,13 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "a18892ec-c765-43af-bff3-67fd1cd85b44",
 		"abstract": "主流媒体内容创新大国工程，是中国高质量发展之路上进入创新型国家行列，迈向中国式现代化的卓越呈现，各大主流媒体关于我国超级工程的报道、纪录片等层出不穷。当下，关于我国大国工程的报道亟需创新。为献礼党的二",
 		"length": 3050,
-		"title": "封面新闻“大国工程我来建”3D互动游戏",
+		"title": "封面新闻：“大国工程我来建”3D互动游戏",
 		"author": ["周则旭"],
 		"source": "新媒体与传播学院",
 		"figure": 0,
@@ -1131,7 +1131,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "service", "service.province"]
 	},
 	{
 		"id": "a202f832-89f8-4194-a3ed-d67d43c0ab46",
@@ -1145,7 +1145,7 @@
 		"reference": 5,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "a20f8860-7158-4c79-98a6-97f05becfabc",
@@ -1159,7 +1159,7 @@
 		"reference": 3,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "aa10b772-78d8-416b-a7c2-bbd6d7a26f54",
@@ -1173,7 +1173,7 @@
 		"reference": 6,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "ae2162df-4598-430c-bbf0-97221f8ffd80",
@@ -1187,7 +1187,7 @@
 		"reference": 7,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "service", "service.platform"]
 	},
 	{
 		"id": "ae653124-9f8d-4ccf-8348-b0f109932bee",
@@ -1201,7 +1201,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "ae852881-896c-4d3f-99ce-8610554ca5b5",
@@ -1215,7 +1215,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "ae9c893f-654e-4e31-bd86-0e43e073c044",
@@ -1229,7 +1229,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "b0850a5f-d8a0-435d-923c-553bef1c51af",
@@ -1243,7 +1243,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "b2e6826c-fa86-475c-a2ab-d05b24588f63",
@@ -1257,7 +1257,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "b46bd7aa-e0de-47ac-ba5d-516ecc441714",
@@ -1285,7 +1285,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "internet", "internet.brand"]
 	},
 	{
 		"id": "b87874ce-4e1b-4bc9-b7a2-09558303e3a6",
@@ -1299,7 +1299,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "ba783edc-11a7-4ed9-8525-1e30eefa63bb",
@@ -1313,7 +1313,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "bcde38fa-335c-4d7c-a005-c61ae81b482a",
@@ -1327,7 +1327,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": []
+		"category": ["student", "service", "service.city"]
 	},
 	{
 		"id": "bcff7859-79a8-4567-a62c-ac524257e922",
@@ -1341,7 +1341,7 @@
 		"reference": 3,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "service", "service.platform"]
 	},
 	{
 		"id": "bded3452-f1eb-4433-a5cb-e5b08e515b6a",
@@ -1355,7 +1355,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.district"]
 	},
 	{
 		"id": "c103e2af-6437-482c-a320-d34d1814bd29",
@@ -1369,7 +1369,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "c3a5c970-354d-4c4d-8547-d972d6e38d7d",
@@ -1383,7 +1383,21 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
+	},
+	{
+		"id": "c3daf950-f908-4b39-ac15-2c72e5b3ba85",
+		"abstract": "以天津大学地标建筑为创意来源，结合初春开学季，利用AI技术制作春日天大。对天津大学经典建筑进行艺术再现，展现新学期天大校园的青春与活力。以天津大学地标建筑和天津大学校徽为素材，兼顾天津大学卫津路校区和",
+		"length": 882,
+		"title": "“建筑花开”AI视频制作说明",
+		"author": ["壹刻校园"],
+		"source": "壹刻校园",
+		"figure": 0,
+		"embed": 1,
+		"reference": 0,
+		"link": 0,
+		"table": 0,
+		"category": ["video"]
 	},
 	{
 		"id": "c43dcd44-3a12-47b3-a305-55f41905e72f",
@@ -1397,7 +1411,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.province"]
 	},
 	{
 		"id": "c45a2c9f-05ca-49af-addd-2df4d9eb1068",
@@ -1411,7 +1425,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "c625b027-b8d9-4f9b-a7bb-13097f0f713c",
@@ -1425,7 +1439,7 @@
 		"reference": 7,
 		"link": 0,
 		"table": 2,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.master"]
 	},
 	{
 		"id": "ca2fee0f-6e8e-42f4-8608-7a2a64ee3f54",
@@ -1439,7 +1453,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.other"]
 	},
 	{
 		"id": "ccc9ded0-f6ed-4886-a1bc-86395c0f38ac",
@@ -1453,7 +1467,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "cea82401-2bf7-42d6-bbc0-873dbbe737f7",
@@ -1467,7 +1481,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "service", "service.district"]
 	},
 	{
 		"id": "cf847a8c-9e9c-4205-8441-d60cb76774b0",
@@ -1481,7 +1495,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "d474a3d7-d9eb-426e-b01a-72d9216767bd",
@@ -1495,7 +1509,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "d6d13b70-56aa-489a-aa0c-3f274532f0ef",
@@ -1509,7 +1523,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "d7011bc2-14a3-4a51-aa5d-e7f826020b34",
@@ -1523,7 +1537,7 @@
 		"reference": 3,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.master"]
 	},
 	{
 		"id": "d70f12ec-e317-4b23-abc2-f2fd6fcb559d",
@@ -1537,7 +1551,7 @@
 		"reference": 7,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "d83b589e-c3ec-4ce4-bdbe-8b090f1effec",
@@ -1551,7 +1565,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": []
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "d89ff799-b493-4d3a-912d-7427eaa47e64",
@@ -1579,7 +1593,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "db380601-127c-4a43-b058-aaff0961336a",
@@ -1593,7 +1607,7 @@
 		"reference": 5,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.department"]
 	},
 	{
 		"id": "dc96e644-b9ba-405a-805d-ca646822c853",
@@ -1607,7 +1621,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.city"]
 	},
 	{
 		"id": "e0549a43-6d27-47d5-b4a9-0e4410d8275e",
@@ -1621,7 +1635,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.master"]
 	},
 	{
 		"id": "e0c9a3e2-ae6a-4b51-a2ba-a0426a83c4e2",
@@ -1635,7 +1649,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "e1a7f4b6-f8f1-4d64-b2e5-963885d482d6",
@@ -1649,7 +1663,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.district"]
 	},
 	{
 		"id": "e238884f-49b3-4bbf-b19f-f7553a9ee58a",
@@ -1663,7 +1677,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "e26fc683-7022-4786-8450-c4dddd9c88d2",
@@ -1677,7 +1691,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "smart", "smart.province"]
 	},
 	{
 		"id": "e7b8aa6d-5dbe-419b-8a6b-01220468a8c8",
@@ -1691,7 +1705,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "ai", "ai.province"]
 	},
 	{
 		"id": "e9f21477-e299-4816-a622-418f23b9f5a3",
@@ -1705,7 +1719,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "ea25182d-5a57-4689-b140-c206d23885cb",
@@ -1719,13 +1733,13 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "ai", "ai.master"]
 	},
 	{
 		"id": "f2a6e1ec-0227-441c-8e75-4e15f2d067f8",
 		"abstract": "丝绸之路始于古中国，途径亚非欧三大洲，最早是运输古中国出产的丝绸、瓷器等产品的重要商业贸易路线。秦汉以后，随着时代发展，丝绸之路成为古中国与西方所有政治经济文化往来通道的统称。古代丝绸之路通过贯穿东西",
 		"length": 4497,
-		"title": "新时代主题宣传新高度：新华社第三届“一带一路”国际合作高峰论坛系列新闻",
+		"title": "新华社：第三届“一带一路”国际合作高峰论坛系列新闻",
 		"author": ["蒲培洋"],
 		"source": "新媒体与传播学院",
 		"figure": 0,
@@ -1733,7 +1747,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": []
+		"category": ["ai", "ai.master"]
 	},
 	{
 		"id": "f716fb05-8608-4b7e-b25a-36c6ea59bab4",
@@ -1747,7 +1761,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.district"]
 	},
 	{
 		"id": "f7ce7690-c098-47b4-9d8a-4b65e895730b",
@@ -1761,7 +1775,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.district"]
 	},
 	{
 		"id": "f98c79f4-c437-4785-aed4-c9957277a550",
@@ -1775,13 +1789,13 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["people"]
+		"category": ["people", "service", "service.province"]
 	},
 	{
 		"id": "fb7deed1-22bf-4c57-a32f-8715963c3027",
 		"abstract": "成都传媒集团智能媒体资源数据库正式上线内容创新2023年11月23日2023年11月23日，成都传媒集团智媒体资源数据库正式启用，标志着“2023智媒体50人成都会议”的重要一刻。该数据库以整合集团内",
 		"length": 2653,
-		"title": "“中国媒体智能化”优秀案例库案例",
+		"title": "成都传媒集团：智能媒体资源数据库",
 		"author": ["胡筑云"],
 		"source": "新媒体与传播学院",
 		"figure": 0,
@@ -1789,7 +1803,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "smart", "smart.other"]
 	},
 	{
 		"id": "fbc2bcf9-bb0b-4e18-b21c-c2a34448c614",
@@ -1803,13 +1817,13 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student"]
+		"category": ["student", "development", "development.province"]
 	},
 	{
 		"id": "fde1b35a-927f-4a1d-864b-47cf1bf12aec",
 		"abstract": "",
 		"length": 0,
-		"title": "小雪_二十四节气_用AI讲述中国故事",
+		"title": "小雪：用AI讲述中国故事",
 		"author": ["壹刻校园"],
 		"source": "壹刻校园",
 		"figure": 0,
@@ -1831,6 +1845,6 @@
 		"reference": 5,
 		"link": 0,
 		"table": 1,
-		"category": ["student"]
+		"category": ["student", "service", "service.platform"]
 	}
 ]

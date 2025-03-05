@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['岳盟伦']"
 			source="新媒体与传播学院"
-			>“中国媒体智能化”优秀案例库投稿 江西营商“营商帮办”平台案例分析</typo-title
+			>江西日报：江西营商“营商帮办”平台案例分析</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例类别</typo-heading>
