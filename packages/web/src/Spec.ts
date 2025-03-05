@@ -43,7 +43,11 @@ export function useNavigator() {
 		{ value: 0x501, label: t('data.category.internet.master') },
 		{ value: 0x502, label: t('data.category.internet.province') },
 		{ value: 0x503, label: t('data.category.internet.brand') },
-	]}];
+	]}, { value: null, label: t('data.category.all'), children: [
+		{ value: 0x000, label: t('data.category.student') },
+		{ value: 0x001, label: t('data.category.people') },
+		{ value: 0x002, label: t('data.category.video') },
+	] }];
 }
 
 interface NameRecord {

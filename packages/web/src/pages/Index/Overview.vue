@@ -62,7 +62,8 @@ function setFilterOptions() {
 	}
 
 	if (Object.hasOwn(query, 'category') && typeof query.category === 'string') {
-		categoryList.value = query.category.split(',').map((v) => Number(v));
+		categoryList.value = query.category.split(',')
+			.filter(v => v).map((v) => Number(v));
 	} else {
 		categoryList.value = [];
 	}
@@ -71,13 +72,16 @@ function setFilterOptions() {
 const indexItemList = ref<(typeof primary)[0][]>([]);
 
 const filterd = computed<IndexItem[]>(() => {
+	const UNKNOWN_AUTHRO = t('typo.title.unknown.author');
+	const UNKNOWN_SOURCE = t('typo.title.unknown.source');
+
 	let result = indexItemList.value.map((item) => {
 		const { author, source } = item;
 
 		return {
 			...item,
-			author: author.length > 0 ? author.join(', ') : t('typo.title.unknown.author'),
-			source: source === null ? t('typo.title.unknown.source') : source,
+			author: author.length > 0 ? author.join(', ') : UNKNOWN_AUTHRO,
+			source: source === null ? UNKNOWN_SOURCE : source,
 			category: item.category.map((name) => {
 				return CATEGORY.TO_VALUE[name as keyof typeof CATEGORY.TO_VALUE];
 			}),
@@ -85,8 +89,7 @@ const filterd = computed<IndexItem[]>(() => {
 	});
 
 	for (const keyword of keywordList.value) {
-		const reg = new RegExp(`\\S*${keyword}\\S*`, 'i');
-		const TEST_DATA = (data: string) => reg.test(data);
+		const TEST_DATA = (data: string) => data.includes(keyword);
 
 		result = result.filter((item) => {
 			const { abstract, author, source, title } = item;

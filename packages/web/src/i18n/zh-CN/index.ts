@@ -46,7 +46,7 @@ export default {
 				province: '省市自治区网络国际传播',
 				brand: '网络公司跨文化传播',
 			},
-			all: '全部',
+			all: '全部类型',
 		},
 	},
 	app: {

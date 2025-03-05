@@ -24,12 +24,15 @@
 
 				<q-btn
 					stretch
-					v-for="top in categoryList"
-					:key="top.value"
+					v-for="(top, index) in categoryList"
+					:key="index"
 					flat
 					square
 					:label="top.label"
-					:to="{ query: { ...$route.query, category: top.value } }"
+					:to="{
+						name: 'App.Feature.Content',
+						query: { ...$route.query, category: top.value }
+					}"
 					:class="{ 'bg-brown-9': $route.query.category?.includes(String(top.value)) }"
 				>
 					<q-menu>
@@ -38,7 +41,13 @@
 								v-for="child in top.children"
 								:key="child.value"
 								clickable
-								:to="{ query: { ...$route.query, category: [top.value, child.value].join(',') } }"
+								:to="{
+									name: 'App.Feature.Content',
+									query: {
+										...$route.query,
+										category: [top.value, child.value].filter(v => v).join(',')
+									}
+								}"
 								class="text-black"
 							>
 								<q-item-section>
@@ -48,17 +57,6 @@
 						</q-list>
 					</q-menu>
 				</q-btn>
-
-				<q-btn
-					flat
-					square
-					stretch
-					:to="{
-						name: 'App.Feature.Content',
-						query: { keyword: $route.query.keyword },
-					}"
-					>{{ $t('data.category.all') }}</q-btn
-				>
 			</q-toolbar>
 		</q-header>
 
