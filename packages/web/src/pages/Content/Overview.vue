@@ -34,23 +34,27 @@
 					</typo-content>
 				</div>
 				<div
-					class="col-md-4 q-pa-md gt-sm relative-position"
+					class="col-md-4 q-px-md gt-sm relative-position"
 					v-if="finalToc.length > 0"
 				>
-					<q-list dense>
-						<q-item
-							clickable
-							v-for="item in finalToc"
-							:key="item.id"
-							:to="{ hash: `#${item.id}` }"
-						>
-							<q-item-section :style="{ 'padding-left': `${item.level * 1}em` }">
-								<div class="text-grey-8">
-									<span class="q-mr-xs">{{ item.order }}.</span>{{ item.text }}
-								</div>
-							</q-item-section>
-						</q-item>
-					</q-list>
+					<q-scroll-area
+						style="position: sticky; top: 60px; height: calc(100vh - 70px);"
+					>
+						<q-list dense>
+							<q-item
+								clickable
+								v-for="item in finalToc"
+								:key="item.id"
+								:to="{ hash: `#${item.id}` }"
+							>
+								<q-item-section :style="{ 'padding-left': `${item.level * 1}em` }">
+									<div class="text-grey-8">
+										<span class="q-mr-xs">{{ item.order }}.</span>{{ item.text }}
+									</div>
+								</q-item-section>
+							</q-item>
+						</q-list>
+					</q-scroll-area>
 				</div>
 			</div>
 		</div>
