@@ -31,7 +31,7 @@
 					:label="top.label"
 					:to="{
 						name: 'App.Feature.Content',
-						query: { ...$route.query, category: top.value }
+						query: { ...$route.query, category: top.value },
 					}"
 					:class="{ 'bg-brown-9': $route.query.category?.includes(String(top.value)) }"
 				>
@@ -45,8 +45,8 @@
 									name: 'App.Feature.Content',
 									query: {
 										...$route.query,
-										category: [top.value, child.value].filter(v => v).join(',')
-									}
+										category: [top.value, child.value].filter((v) => v).join(','),
+									},
 								}"
 								class="text-black"
 							>

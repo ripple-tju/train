@@ -37,9 +37,7 @@
 					class="col-md-4 q-px-md gt-sm relative-position"
 					v-if="finalToc.length > 0"
 				>
-					<q-scroll-area
-						style="position: sticky; top: 60px; height: calc(100vh - 70px);"
-					>
+					<q-scroll-area style="position: sticky; top: 60px; height: calc(100vh - 70px)">
 						<q-list dense>
 							<q-item
 								clickable

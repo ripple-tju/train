@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['董雨佳']"
 			source="新媒体与传播学院"
-			>AIGC驱动新闻报道转型升级 ——以人民日报AI编辑部4.0为例</typo-title
+			>人民日报：AI编辑部4.0驱动新闻报道转型升级</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

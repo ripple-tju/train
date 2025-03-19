@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['晋晨洋']"
 			source="新媒体与传播学院"
-			>与时代同行，为中国留影 ——人民日报社碰碰词儿工作室的蜕变与成长之路</typo-title
+			>人民日报：与时代同行、为中国留影的碰碰词儿工作室</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

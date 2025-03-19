@@ -62,8 +62,10 @@ function setFilterOptions() {
 	}
 
 	if (Object.hasOwn(query, 'category') && typeof query.category === 'string') {
-		categoryList.value = query.category.split(',')
-			.filter(v => v).map((v) => Number(v));
+		categoryList.value = query.category
+			.split(',')
+			.filter((v) => v)
+			.map((v) => Number(v));
 	} else {
 		categoryList.value = [];
 	}
