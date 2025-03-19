@@ -33,9 +33,11 @@
 						name: 'App.Feature.Content',
 						query: { ...$route.query, category: top.value },
 					}"
+					@mouseenter="show(index)"
+					@mouseup="dismissAll()"
 					:class="{ 'bg-brown-9': $route.query.category?.includes(String(top.value)) }"
 				>
-					<q-menu>
+					<q-menu v-model="shown[index]">
 						<q-list dense>
 							<q-item
 								v-for="child in top.children"
@@ -79,6 +81,26 @@
 
 <script setup lang="ts">
 import { useNavigator } from 'src/Spec';
+import { reactive } from 'vue';
 
 const categoryList = useNavigator();
+
+const shown = reactive<Record<number, boolean>>({
+	0: false,
+	1: false,
+	2: false,
+	3: false,
+	4: false,
+});
+
+function show(index: number) {
+	dismissAll();
+	shown[index] = true;
+}
+
+function dismissAll() {
+	for (const key in shown) {
+		shown[key] = false;
+	}
+}
 </script>
