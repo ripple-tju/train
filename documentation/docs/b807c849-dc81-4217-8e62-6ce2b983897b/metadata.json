@@ -1,0 +1,22 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "新华社：提振新质生产力的实践探索",
+	"author": [
+		"马欣"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"development",
+		"development.master"
+	],
+	"sections": [
+		"1-preface",
+		"2-implication",
+		"3-tech",
+		"4-innovate",
+		"5-cultivate",
+		"6-fusion",
+		"7-inspiration"
+	]
+}
