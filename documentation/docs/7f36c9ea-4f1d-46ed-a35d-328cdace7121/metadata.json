@@ -1,0 +1,16 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "延安市融媒体中心：媒体融合转型的延安路径",
+	"source": "新媒体与传播学院",
+	"author": ["薛文瑞"],
+	"tags": [
+		"student",
+		"development",
+		"development.district"
+	],
+	"sections": [
+		"1-background",
+		"2-method",
+		"3-inspiration"
+	]
+}
