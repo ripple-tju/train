@@ -1,0 +1,19 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "人民日报社：《Belt and Road》宣传片的传播策略与实践",
+	"source": "新媒体与传播学院",
+	"author": ["王亚楠"],
+	"tags": [
+		"student",
+		"ai",
+		"ai.master"
+	],
+	"sections": [
+		"1-background",
+		"2-method",
+		"3-analysis",
+		"4-inspiration",
+		"5-conclusion",
+		"6-literature"
+	]
+}
