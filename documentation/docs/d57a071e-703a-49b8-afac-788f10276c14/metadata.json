@@ -1,0 +1,18 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "环球时报：媒体融合变革之路",
+	"source": "新媒体与传播学院",
+	"author": ["张雨佳"],
+	"tags": [
+		"student",
+		"development",
+		"development.master"
+	],
+	"sections": [
+		"1-background",
+		"2-development",
+		"3-fusion",
+		"4-future",
+		"5-read"
+	]
+}

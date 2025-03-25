@@ -1,0 +1,61 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "5-read",
+	"content": [
+		[
+			"heading",
+			{
+				"level": 1,
+				"text": "延伸阅读"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"【2025环球时报年会系列报道之一】探索大国相处之道：差异与共识"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"https://hqtime.huanqiu.com/share/article/4KfqxbB7V33"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"【2025环球时报年会系列报道之二】破解全球安全赤字：热点与方案"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"https://hqtime.huanqiu.com/share/article/4KgdEzfESiR"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"【2025环球时报年会系列报道之三】“南方觉醒”再现浪潮：互鉴与共振"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"https://hqtime.huanqiu.com/share/article/4KhQhnSLA2T"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"【2025环球时报年会系列报道之四】中国经济“向新而行”：开放与机遇"
+			]
+		],
+		[
+			"paragraph",
+			[
+				"https://hqtime.huanqiu.com/share/article/4KiHNZiX8us"
+			]
+		]
+	]
+}
