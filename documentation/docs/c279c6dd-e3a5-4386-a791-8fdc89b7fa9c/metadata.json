@@ -1,0 +1,15 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "上海广播电视台：媒体融合进程中的变革、创新与引领",
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"development",
+		"development.province"
+	],
+	"sections": [
+		"1-profile",
+		"2-development",
+		"3-inspiration"
+	]
+}
