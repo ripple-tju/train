@@ -1,0 +1,16 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "中央网信办：中国正能量网络精品征集展播活动",
+	"source": "新媒体与传播学院",
+	"author": ["谢艺观"],
+	"tags": [
+		"student",
+		"ai",
+		"ai.master"
+	],
+	"sections": [
+		"1-profile",
+		"2-method",
+		"3-inspiration"
+	]
+}
