@@ -1,0 +1,17 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "中央广播电视总台：Vlog在时政报道中的应用",
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"ai",
+		"ai.master"
+	],
+	"sections": [
+		"1-profile",
+		"2-identification",
+		"3-form",
+		"4-strategy",
+		"5-inspiration"
+	]
+}
