@@ -1,0 +1,17 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "四家省级党媒：联动开展溯源之旅",
+	"source": "新媒体与传播学院",
+	"author": ["贺洪轩"],
+	"tags": [
+		"student",
+		"ai",
+		"ai.province"
+	],
+	"sections": [
+		"1-background",
+		"2-method",
+		"3-way",
+		"4-inspiration"
+	]
+}

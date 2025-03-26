@@ -1,0 +1,33 @@
+{
+	"$schema": "../../../src/schemas/section.json",
+	"name": "3-way",
+	"content": [
+		[
+			"heading",
+			{
+				"level": 1,
+				"text": "案例做法：陕西日报·群众新闻稿件列表如下"
+			}
+		],
+		[
+			"paragraph",
+			[
+				"其具体内容的报道主题与大众日报大体相同，具体内容有所调整，江西日报与河北日报也是如此，因此就不再赘述。"
+			]
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/3-1.png",
+				"title": "江西日报·江西新闻"
+			}
+		],
+		[
+			"figure",
+			{
+				"src": "../assets/3-2.png",
+				"title": "河北日报·河北日报客户端"
+			}
+		]
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"$schema": "../../../src/schemas/section.json",
-	"name": "0-preface",
+	"name": "1-profile",
 	"content": [
 		[
 			"heading",
