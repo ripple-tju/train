@@ -1,0 +1,17 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "河南卫视：“中国传统节日”系列节目",
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"ai",
+		"ai.province"
+	],
+	"sections": [
+		"1-background",
+		"2-method",
+		"3-angle",
+		"4-assessment",
+		"5-inspiration"
+	]
+}
