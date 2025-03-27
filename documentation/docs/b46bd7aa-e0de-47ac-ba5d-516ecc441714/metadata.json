@@ -1,10 +1,12 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "AIGC为真人配音",
+	"title": "金语智达：AIGC为真人配音",
 	"author": ["金语智达"],
 	"source": "金语智达",
 	"tags": [
-		"video"
+		"video",
+		"ai",
+		"ai.generation"
 	],
 	"sections": [
 		"video"

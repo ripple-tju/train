@@ -1,12 +1,14 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "你好，AI奥运",
+	"title": "壹刻校园：《你好，AI奥运》",
 	"author": [
 		"壹刻校园"
 	],
 	"source": "壹刻校园",
 	"tags": [
-		"video"
+		"video",
+		"ai",
+		"ai.generation"
 	],
 	"sections": [
 		"video"

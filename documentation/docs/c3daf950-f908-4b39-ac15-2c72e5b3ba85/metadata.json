@@ -1,10 +1,12 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "“建筑花开”AI视频制作说明",
-	"author": ["壹刻校园"],
-	"source": "壹刻校园",
+	"title": "天津大学党委宣传部：《校园悄悄换上了春装》",
+	"author": ["天津大学党委宣传部"],
+	"source": "天津大学党委宣传部",
 	"tags": [
-		"video"
+		"video",
+		"ai",
+		"ai.generation"
 	],
 	"sections": [
 		"0-video",

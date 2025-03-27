@@ -1,11 +1,12 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "解读黑神话悟空与西游记 天津大学外国语学院",
+	"title": "天津大学外国语学院、壹刻校园：《解读黑神话悟空与西游记》",
 	"author": ["壹刻校园"],
 	"source": "壹刻校园",
 	"tags": [
 		"video",
-		"student"
+		"ai",
+		"ai.generation"
 	],
 	"sections": [
 		"video"

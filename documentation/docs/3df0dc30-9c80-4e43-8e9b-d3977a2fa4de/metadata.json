@@ -1,10 +1,12 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "AIGC语音生成（英语）",
+	"title": "金语智达：AIGC语音生成（英语）",
 	"author": ["金语智达"],
 	"source": "金语智达",
 	"tags": [
-		"video"
+		"video",
+		"ai",
+		"ai.generation"
 	],
 	"sections": [
 		"video"
