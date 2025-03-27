@@ -1,0 +1,20 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "CGTN：文化传播创新与叙事多元呈现的《遇见—法国篇》",
+	"author": [
+		"粟韩琬"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"internet",
+		"internet.master"
+	],
+	"sections": [
+		"1-profile",
+		"2-method",
+		"3-reflect",
+		"4-inspiration",
+		"5-conclusion"
+	]
+}
