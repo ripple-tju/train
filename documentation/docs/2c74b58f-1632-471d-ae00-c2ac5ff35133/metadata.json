@@ -1,0 +1,16 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "中央广播电视总台：科技融诗意中的数字化变革",
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"ai",
+		"ai.generation"
+	],
+	"sections": [
+		"1-background",
+		"2-culture",
+		"3-analysis",
+		"4-inspiration"
+	]
+}
