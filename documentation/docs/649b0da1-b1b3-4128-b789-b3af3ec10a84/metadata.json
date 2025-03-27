@@ -1,0 +1,20 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "山东广播电视台：创新监督模式、推动政务发展的《问政山东》",
+	"source": "新媒体与传播学院",
+	"author": ["董珍珍"],
+	"tags": [
+		"student",
+		"ai",
+		"ai.province"
+	],
+	"sections": [
+		"1-profile",
+		"2-strategy",
+		"3-typical",
+		"4-effect",
+		"5-factor",
+		"6-challenge",
+		"7-inspiration"
+	]
+}
