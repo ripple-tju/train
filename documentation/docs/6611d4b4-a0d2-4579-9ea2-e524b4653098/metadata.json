@@ -1,0 +1,16 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "四川广播电视台：从“子曰”看“四川观察”的融合发展",
+	"author": ["李慧玲"],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"ai",
+		"ai.province"
+	],
+	"sections": [
+		"1-background",
+		"2-innovate",
+		"3-fusion"
+	]
+}
