@@ -1,0 +1,16 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "中央广播电视总台：AI赋能媒介融合",
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"ai",
+		"ai.generation"
+	],
+	"sections": [
+		"1-profile",
+		"2-method",
+		"3-inspiration",
+		"4-prospect"
+	]
+}
