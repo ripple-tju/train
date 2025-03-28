@@ -1,0 +1,17 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "游戏科学公司：《黑神话·悟空》的“破局”创新与“破圈”传播",
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"internet",
+		"internet.brand"
+	],
+	"sections": [
+		"1-profile",
+		"2-realize",
+		"3-break",
+		"4-inspiration",
+		"5-reference"
+	]
+}
