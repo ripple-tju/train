@@ -1,6 +1,6 @@
 {
 	"$schema": "../../src/schemas/metadata.json",
-	"title": "半岛网新闻视频化平台实践",
+	"title": "半岛网：新闻视频化平台实践",
 	"source": "人民网",
 	"tags": [
 		"people",

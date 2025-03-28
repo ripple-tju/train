@@ -1,0 +1,20 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "湖北宜城：宜城花鼓与虚拟现实VR的融合发展之路",
+	"author": [
+		"何梦凡"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"service",
+		"service.district"
+	],
+	"sections": [
+		"1-background",
+		"2-tech",
+		"3-rebirth",
+		"4-prospect",
+		"5-inspiration"
+	]
+}
