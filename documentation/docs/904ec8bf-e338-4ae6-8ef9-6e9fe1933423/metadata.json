@@ -1,0 +1,20 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "视频博主小钟（钟家豪）：记录非洲、传播美好的“小钟Johnny”",
+	"source": "新媒体与传播学院",
+	"author": [
+		"谢岷杰"
+	],
+	"tags": [
+		"student",
+		"internet",
+		"internet.brand"
+	],
+	"sections": [
+		"1-profile",
+		"2-development",
+		"3-analysis",
+		"4-comment",
+		"5-inspiration"
+	]
+}
