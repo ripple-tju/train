@@ -1,0 +1,20 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "金语智达：AI赋能视频产业的变革之路",
+	"author": [
+		"杜志光"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"internet",
+		"internet.brand"
+	],
+	"sections": [
+		"1-profile",
+		"2-sail",
+		"3-tech",
+		"4-path",
+		"5-inspiration"
+	]
+}
