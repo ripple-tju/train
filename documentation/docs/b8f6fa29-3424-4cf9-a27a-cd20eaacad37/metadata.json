@@ -1,0 +1,18 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "李子柒：带给世界以东方美学传奇的三个回归视频",
+	"source": "新媒体与传播学院",
+	"author": [
+		"苏杭"
+	],
+	"tags": [
+		"student",
+		"internet",
+		"internet.brand"
+	],
+	"sections": [
+		"1-profile",
+		"2-code",
+		"3-inspiration"
+	]
+}
