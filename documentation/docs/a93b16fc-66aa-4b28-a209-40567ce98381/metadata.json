@@ -1,0 +1,21 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "新华日报社：寻找本土与世界的“交汇点”",
+	"author": [
+		"贺晴怡"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"internet",
+		"internet.province"
+	],
+
+	"sections": [
+		"1-background",
+		"2-method",
+		"3-inspiration",
+		"4-practice",
+		"5-reference"
+	]
+}
