@@ -1,0 +1,20 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "泡泡玛特：潮流文化的创新转译与全球化扩展",
+	"source": "新媒体与传播学院",
+	"author": [
+		"朱雯琪"
+	],
+	"tags": [
+		"student",
+		"internet",
+		"internet.brand"
+	],
+	"sections": [
+		"1-profile",
+		"2-create",
+		"3-rise",
+		"4-explore",
+		"5-inspiration"
+	]
+}
