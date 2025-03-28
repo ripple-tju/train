@@ -1,0 +1,18 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "福建广播影视集团：出入境信息服务平台“福通五洲”",
+	"author": [
+		"孙浪洁"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"service",
+		"service.province"
+	],
+	"sections": [
+		"1-profile",
+		"2-method",
+		"3-inspiration"
+	]
+}
