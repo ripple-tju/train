@@ -1,0 +1,20 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "北京文物局、中轴线申遗办、腾讯：游戏为媒的“数字中轴·小宇宙”",
+	"source": "新媒体与传播学院",
+	"author": [
+		"闫重宵"
+	],
+	"tags": [
+		"student",
+		"internet",
+		"internet.brand"
+	],
+	"sections": [
+		"1-profile",
+		"2-medium",
+		"3-symbol",
+		"4-narrate",
+		"5-meaning"
+	]
+}
