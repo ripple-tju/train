@@ -1,0 +1,17 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "海南国际传播中心：海南脸书账号的创新",
+	"author": [
+		"李馨雅"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"student",
+		"internet",
+		"internet.province"
+	],
+	"sections": [
+		"1-background",
+		"2-strategy"
+	]
+}
