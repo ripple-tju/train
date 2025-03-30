@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['杨渝']"
 			source="新媒体与传播学院"
-			>媒体融合背景下的地方民生新闻节目发展与创新 重庆电视台《天天630》节目案例分析</typo-title
+			>重庆电视台：《天天630》：民生新闻节目发展与创新</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

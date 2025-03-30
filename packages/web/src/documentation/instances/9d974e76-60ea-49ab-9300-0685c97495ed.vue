@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['胡迪']"
 			source="新媒体与传播学院"
-			>短视频叙事，乡村振兴之路的时代之变 ——以于洪文旅《岁稔年丰》为例</typo-title
+			>沈阳市于洪区：《岁稔年丰》等视频助力乡村振兴之路</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

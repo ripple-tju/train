@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['壹刻校园']"
 			source="壹刻校园"
-			>解读黑神话悟空与西游记 天津大学外国语学院</typo-title
+			>天津大学外国语学院、壹刻校园：《解读黑神话悟空与西游记》</typo-title
 		>
 		<typo-section>
 			<typo-embed

@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['宋铖婧']"
 			source="新媒体与传播学院"
-			>智能化时代下的中国文化传播：《千秋诗颂》的实践与探索</typo-title
+			>中央广播电视总台：《千秋诗颂》与智能化时代的中国文化传播</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

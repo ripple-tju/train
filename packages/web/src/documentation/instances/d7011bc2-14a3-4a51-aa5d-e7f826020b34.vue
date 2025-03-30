@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['廖怀远']"
 			source="新媒体与传播学院"
-			>军声嘹亮，试看军事网络媒体的重大主题报道 ——以中国军网媒体矩阵2024全国两会报道为例</typo-title
+			>解放军新闻传播中心：中国军网媒体矩阵的2024全国两会报道</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

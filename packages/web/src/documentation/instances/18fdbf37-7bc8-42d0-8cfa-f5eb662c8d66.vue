@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['宋嘉欣']"
 			source="新媒体与传播学院"
-			>“一带一路”倡议下的“鲁班工坊”：“和合共生”理念下的中国实践</typo-title
+			>天津市：“和合共生”理念下的“鲁班工坊”</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

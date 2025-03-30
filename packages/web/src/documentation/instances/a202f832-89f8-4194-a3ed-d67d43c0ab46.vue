@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['孟祺婧']"
 			source="新媒体与传播学院"
-			>“三智”引领，以技术驱动转型的新型主流媒体 ——封面新闻的八年智媒之路</typo-title
+			>封面新闻：走向“三智”引领、技术驱动转型的新型主流媒体</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

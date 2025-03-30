@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['邹雯倩']"
 			source="新媒体与传播学院"
-			>休戚与共，智见未来——看《中国民航报》乘势打赢行业媒体生存发展之战</typo-title
+			>中国民航报：以智见未来打赢行业媒体生存发展之战</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

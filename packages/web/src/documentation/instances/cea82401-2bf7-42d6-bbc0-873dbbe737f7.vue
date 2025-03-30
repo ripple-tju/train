@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['秦怡']"
 			source="新媒体与传播学院"
-			>内容+数据:服务乡村振兴的“头等仓” ——太仓日报建设乡村振兴大数据中心的实践思考</typo-title
+			>太仓日报：打造服务乡村振兴之“头等仓”的乡村振兴大数据中心</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例介绍</typo-heading>

@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['曹怡婕']"
 			source="新媒体与传播学院"
-			>回溯《三磅宇宙》长效传播之旅 探寻新媒体时代科技传播新思路</typo-title
+			>津云新媒体：《三磅宇宙》的长效传播之旅</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

@@ -3,8 +3,7 @@
 		<typo-title
 			:author="['姚茜']"
 			source="新媒体与传播学院"
-			>跨越语言，声传四海：人工智能开启全球传播新纪元
-			——金语智达海外自媒体矩阵运营的创新与实践</typo-title
+			>金语智达（天津）有限公司：海外自媒体矩阵运营的创新实践</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言：金语智达的传播使命</typo-heading>

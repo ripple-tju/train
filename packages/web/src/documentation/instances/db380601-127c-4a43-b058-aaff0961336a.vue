@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['张昕']"
 			source="新媒体与传播学院"
-			>政务新媒体的建设路径分析与启示——以微信公众号“浙江宣传”为例</typo-title
+			>浙江省委宣传部：“浙江宣传”：政务新媒体的建设路径</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

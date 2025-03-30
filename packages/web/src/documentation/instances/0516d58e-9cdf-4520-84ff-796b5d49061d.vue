@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['壹刻校园']"
 			source="壹刻校园"
-			>你好，AI奥运</typo-title
+			>壹刻校园：《你好，AI奥运》</typo-title
 		>
 		<typo-section>
 			<typo-embed

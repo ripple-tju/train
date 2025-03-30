@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['李炫孜']"
 			source="新媒体与传播学院"
-			>深度蝶变：媒体融合浪潮中“四川观察”的创新突破与系统性变革</typo-title
+			>四川广播电视台：媒体融合浪潮中“四川观察”的创新变革</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

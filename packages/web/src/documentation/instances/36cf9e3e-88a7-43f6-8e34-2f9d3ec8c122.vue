@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['孙睿涵']"
 			source="新媒体与传播学院"
-			>吉林日报的融合创新实践分析 ——省级主流媒体“振兴”与“发扬”</typo-title
+			>吉林日报：省级主流媒体“振兴”与“发扬”</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['王亚男']"
 			source="新媒体与传播学院"
-			>与时俱进：《新京报》的全媒体转型之路</typo-title
+			>新京报：全媒体转型之路</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

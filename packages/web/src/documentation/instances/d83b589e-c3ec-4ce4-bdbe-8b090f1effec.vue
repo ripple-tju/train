@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['金晓仪']"
 			source="新媒体与传播学院"
-			>智媒体引领者的诞生——华西都市报的媒体融合转型之路</typo-title
+			>川报集团：华西都市报的媒体融合转型</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">华西都市报的诞生（1995年）</typo-heading>

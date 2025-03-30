@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['龚佳慧']"
 			source="新媒体与传播学院"
-			>以系统性变革探索“新型主流媒体”的创新发展路径 ——以澎湃新闻十年融合转型实践为例</typo-title
+			>上海报业集团：澎湃新闻十年融合转型的系统性变革</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['金语智达']"
 			source="金语智达"
-			>AIGC语音生成在知识传播的应用</typo-title
+			>金语智达：AIGC语音生在知识传播中的应用</typo-title
 		>
 		<typo-section>
 			<typo-embed

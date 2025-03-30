@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['田沐卉']"
 			source="新媒体与传播学院"
-			>从小彭Vlog看硬新闻软化：跨文化传播中的马克思主义新闻观实践</typo-title
+			>中国日报：以硬新闻软化讲好中国故事的小彭Vlog</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

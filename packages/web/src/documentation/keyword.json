@@ -4,40 +4,48 @@
 		"value": 15
 	},
 	{
+		"name": "2024",
+		"value": 11
+	},
+	{
 		"name": "客户端",
 		"value": 11
 	},
 	{
 		"name": "广播",
-		"value": 13
+		"value": 21
 	},
 	{
 		"name": "电视台",
-		"value": 12
+		"value": 19
 	},
 	{
 		"name": "智能",
 		"value": 35
 	},
 	{
+		"name": "构建",
+		"value": 12
+	},
+	{
 		"name": "打造",
-		"value": 18
+		"value": 21
 	},
 	{
 		"name": "互联网",
-		"value": 14
+		"value": 16
 	},
 	{
 		"name": "用户",
-		"value": 11
+		"value": 13
 	},
 	{
 		"name": "传播",
-		"value": 49
+		"value": 59
 	},
 	{
 		"name": "内容",
-		"value": 46
+		"value": 48
 	},
 	{
 		"name": "建设",
@@ -45,27 +53,31 @@
 	},
 	{
 		"name": "技术",
-		"value": 35
+		"value": 40
 	},
 	{
 		"name": "媒体",
-		"value": 117
+		"value": 125
+	},
+	{
+		"name": "人民日报",
+		"value": 14
 	},
 	{
 		"name": "融合",
-		"value": 50
+		"value": 54
 	},
 	{
 		"name": "中国",
-		"value": 27
+		"value": 36
 	},
 	{
 		"name": "平台",
-		"value": 48
+		"value": 52
 	},
 	{
 		"name": "服务",
-		"value": 12
+		"value": 13
 	},
 	{
 		"name": "发布",
@@ -73,55 +85,59 @@
 	},
 	{
 		"name": "模型",
-		"value": 11
-	},
-	{
-		"name": "赋能",
-		"value": 12
-	},
-	{
-		"name": "AI",
-		"value": 30
-	},
-	{
-		"name": "智能化",
-		"value": 12
-	},
-	{
-		"name": "转型",
-		"value": 17
-	},
-	{
-		"name": "推动",
 		"value": 13
 	},
 	{
-		"name": "分析",
-		"value": 12
+		"name": "赋能",
+		"value": 14
+	},
+	{
+		"name": "AI",
+		"value": 33
+	},
+	{
+		"name": "智能化",
+		"value": 14
+	},
+	{
+		"name": "转型",
+		"value": 20
+	},
+	{
+		"name": "推动",
+		"value": 17
 	},
 	{
 		"name": "人工智能",
-		"value": 16
+		"value": 18
 	},
 	{
 		"name": "数字化",
-		"value": 15
+		"value": 20
+	},
+	{
+		"name": "浪潮",
+		"value": 13
+	},
+	{
+		"name": "变革",
+		"value": 19
 	},
 	{
 		"name": "行业",
-		"value": 15
+		"value": 16
 	},
 	{
 		"name": "发展",
-		"value": 45
+		"value": 53
 	},
 	{
 		"name": "实践",
-		"value": 16
+		"value": 12
 	},
 	{
 		"name": "时代",
-		"value": 16
+		"value": 19
 	},
 	{
 		"name": "研发",
@@ -129,11 +145,11 @@
 	},
 	{
 		"name": "推进",
-		"value": 11
+		"value": 12
 	},
 	{
 		"name": "数据",
-		"value": 22
+		"value": 21
 	},
 	{
 		"name": "科技",
@@ -141,15 +157,15 @@
 	},
 	{
 		"name": "信息",
-		"value": 15
+		"value": 18
 	},
 	{
 		"name": "视频",
-		"value": 25
+		"value": 30
 	},
 	{
 		"name": "数字",
-		"value": 20
+		"value": 23
 	},
 	{
 		"name": "封面",
@@ -157,75 +173,123 @@
 	},
 	{
 		"name": "传媒",
-		"value": 18
+		"value": 20
 	},
 	{
 		"name": "深度",
-		"value": 16
+		"value": 14
 	},
 	{
 		"name": "AIGC",
-		"value": 13
+		"value": 12
+	},
+	{
+		"name": "宇宙",
+		"value": 11
 	},
 	{
 		"name": "系统",
 		"value": 24
 	},
 	{
+		"name": "正式",
+		"value": 11
+	},
+	{
 		"name": "生产",
-		"value": 19
+		"value": 20
 	},
 	{
 		"name": "中心",
-		"value": 19
+		"value": 25
 	},
 	{
 		"name": "资源",
 		"value": 11
 	},
 	{
+		"name": "全球",
+		"value": 12
+	},
+	{
+		"name": "国家",
+		"value": 11
+	},
+	{
+		"name": "实现",
+		"value": 16
+	},
+	{
 		"name": "文化",
-		"value": 13
+		"value": 19
 	},
 	{
 		"name": "传统",
 		"value": 12
 	},
 	{
-		"name": "实现",
-		"value": 14
+		"name": "提出",
+		"value": 11
 	},
 	{
 		"name": "主流",
-		"value": 24
-	},
-	{
-		"name": "新闻",
-		"value": 35
-	},
-	{
-		"name": "应用",
-		"value": 21
-	},
-	{
-		"name": "成为",
-		"value": 17
-	},
-	{
-		"name": "创新",
 		"value": 22
 	},
 	{
-		"name": "中央",
+		"name": "新闻",
+		"value": 42
+	},
+	{
+		"name": "应用",
+		"value": 22
+	},
+	{
+		"name": "河南",
 		"value": 13
 	},
 	{
+		"name": "全球化",
+		"value": 11
+	},
+	{
+		"name": "国际",
+		"value": 15
+	},
+	{
+		"name": "成为",
+		"value": 20
+	},
+	{
+		"name": "总台",
+		"value": 16
+	},
+	{
+		"name": "广播电视",
+		"value": 16
+	},
+	{
+		"name": "报道",
+		"value": 13
+	},
+	{
+		"name": "中央",
+		"value": 24
+	},
+	{
+		"name": "创新",
+		"value": 30
+	},
+	{
 		"name": "日报",
+		"value": 12
+	},
+	{
+		"name": "报业",
 		"value": 11
 	},
 	{
 		"name": "集团",
-		"value": 19
+		"value": 21
 	},
 	{
 		"name": "智慧",
@@ -237,10 +301,14 @@
 	},
 	{
 		"name": "重要",
-		"value": 17
+		"value": 22
 	},
 	{
 		"name": "人民网",
 		"value": 12
+	},
+	{
+		"name": "全国",
+		"value": 11
 	}
 ]

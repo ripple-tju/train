@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['张凯歌']"
 			source="新媒体与传播学院"
-			>以政治传播的视觉修辞赋能中国式现代化的国内外传播——基于新华社《年度卫星影像：2023，走向现代化的中国》的案例分析</typo-title
+			>新华社：以年度卫星影像展现走向现代化的中国</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>

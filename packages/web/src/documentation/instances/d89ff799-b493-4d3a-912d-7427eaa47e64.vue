@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['壹刻校园']"
 			source="壹刻校园"
-			>南开大学校园AI重绘</typo-title
+			>壹刻校园：南开大学校园AI重绘</typo-title
 		>
 		<typo-section>
 			<typo-embed

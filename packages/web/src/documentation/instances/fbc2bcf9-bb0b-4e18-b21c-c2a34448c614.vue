@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['李炳楠']"
 			source="新媒体与传播学院"
-			>扎根本土、面向世界：党报集团-广西日报社的媒体融合之路</typo-title
+			>广西日报：扎根本土、面向世界的媒体融合之路</typo-title
 		>
 		<typo-section>
 			<typo-paragraph :indent="2"

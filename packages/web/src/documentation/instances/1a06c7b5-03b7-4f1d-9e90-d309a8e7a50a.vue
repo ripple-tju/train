@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['王一']"
 			source="新媒体与传播学院"
-			>从“纸”到“智”：齐鲁壹点的数字化媒体蝶变</typo-title
+			>齐鲁晚报：齐鲁壹点从“纸”到“智”的数字化媒体蝶变</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['茹佳']"
 			source="新媒体与传播学院"
-			>从“办中国最好报纸”到全员智库化转型 ——南方都市报的智库媒体转型之旅</typo-title
+			>南方都市报：全员智库化转型</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

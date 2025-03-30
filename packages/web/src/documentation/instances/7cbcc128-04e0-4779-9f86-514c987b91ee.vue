@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['王雪宁']"
 			source="新媒体与传播学院"
-			>媒体融合战略十周年，浅看县级融媒体的融合探索 ——以日照岚山区融媒体中心为例</typo-title
+			>日照市岚山区融媒体中心：县级融媒体中心的融合探索</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

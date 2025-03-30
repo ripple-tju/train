@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['章雪扬']"
 			source="新媒体与传播学院"
-			>敢为人先：湖北广播电视台的媒体融合之路</typo-title
+			>湖北广电：湖北广播电视台的媒体融合之路</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

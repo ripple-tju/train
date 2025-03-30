@@ -1,9 +1,9 @@
 <template>
 	<div>
 		<typo-title
-			:author="['壹刻校园']"
-			source="壹刻校园"
-			>“建筑花开”AI视频制作说明</typo-title
+			:author="['天津大学党委宣传部']"
+			source="天津大学党委宣传部"
+			>天津大学党委宣传部：《校园悄悄换上了春装》</typo-title
 		>
 		<typo-section>
 			<typo-embed

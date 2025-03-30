@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['李江彤']"
 			source="新媒体与传播学院"
-			>媒体深度融合下传统纸媒的AI融合——以《深圳晚报》2023年12月15日出版的全国首份AI融媒新闻纸为例</typo-title
+			>深圳晚报：纸媒的AI融合——全国首份AI融媒新闻纸</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>

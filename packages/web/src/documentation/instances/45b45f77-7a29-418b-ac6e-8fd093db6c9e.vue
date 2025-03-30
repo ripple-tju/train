@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['壹刻校园']"
 			source="壹刻校园"
-			>教师节</typo-title
+			>壹刻校园:《教师节》</typo-title
 		>
 		<typo-section>
 			<typo-embed

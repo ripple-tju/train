@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['郗燕霞']"
 			source="新媒体与传播学院"
-			>广电入局“微短剧+”，推动媒介深度融合</typo-title
+			>广播电视媒体：以“微短剧+”推动媒介深度融合</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

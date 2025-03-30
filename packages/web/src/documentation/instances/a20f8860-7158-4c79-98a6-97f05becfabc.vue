@@ -3,8 +3,7 @@
 		<typo-title
 			:author="['桂思睿']"
 			source="新媒体与传播学院"
-			>生于融合 长于创新：中国传媒集团的成长路径探析
-			——以上海报业集团的“颠覆式创新”之路为例</typo-title
+			>上海报业集团：传媒集团的“颠覆式创新”之路</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

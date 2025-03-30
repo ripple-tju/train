@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['田雨']"
 			source="新媒体与传播学院"
-			>媒介深度融合背景下国际传播新模式 ——以《出海记·走进非洲》大型融报道为例</typo-title
+			>湖南日报：《出海记·走进非洲》大型融报道</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

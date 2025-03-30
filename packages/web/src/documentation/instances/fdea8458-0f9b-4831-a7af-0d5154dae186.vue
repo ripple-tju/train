@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['赵佳宁']"
 			source="新媒体与传播学院"
-			>从耳朵到心灵：融合移动传播视域下的听觉文化复兴 ——泛用型播客平台小宇宙的发展之路</typo-title
+			>小宇宙：打造从耳朵到心灵的泛用型播客平台</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

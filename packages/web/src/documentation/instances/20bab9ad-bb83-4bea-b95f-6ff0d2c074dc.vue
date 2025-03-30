@@ -1,10 +1,9 @@
 <template>
 	<div>
 		<typo-title
-			:author="['赵冰妍']"
+			:author="['张炜乔']"
 			source="新媒体与传播学院"
-			>从各美其美到美美与共，主流媒体非遗文化传播新动能
-			——央视新闻“打铁花”非遗文化创新之路</typo-title
+			>中央广播电视总台：创新传播非遗文化的央视新闻“打铁花”</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['赵静媛']"
 			source="新媒体与传播学院"
-			>案例报告：“看见”全媒体监督应用平台</typo-title
+			>湖州市新闻传媒中心：“看见”全媒体监督应用平台</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例简介</typo-heading>

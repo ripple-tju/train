@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['周明慧']"
 			source="新媒体与传播学院"
-			>面向未来更有可为的“全球南方”新阶段 ——从“全球南方”媒体智库高端论坛看“中国行动”</typo-title
+			>新华通讯社：“全球南方”媒体智库高端论坛</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

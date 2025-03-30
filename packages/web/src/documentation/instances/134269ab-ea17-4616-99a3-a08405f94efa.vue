@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['徐聪华']"
 			source="新媒体与传播学院"
-			>斗罢艰险又出发：《黑神话：悟空》 ——试看非遗+游戏的“破圈”之路</typo-title
+			>游戏科学公司：以非遗+游戏实现“破圈”传播的《黑神话：悟空》</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

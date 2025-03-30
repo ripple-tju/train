@@ -3,7 +3,7 @@
 		<typo-title
 			:author="[]"
 			source="人民网"
-			>人民网：AI成果展示会/AI展演中心</typo-title
+			>人民网：AI成果展示会/AI体验馆</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例概述</typo-heading>

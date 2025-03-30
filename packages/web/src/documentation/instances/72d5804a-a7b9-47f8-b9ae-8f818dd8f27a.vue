@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['董萌萌']"
 			source="新媒体与传播学院"
-			>媒体融合之路探究 ——以浙报集团为例分析传统媒体转型变革的实践路径</typo-title
+			>浙江日报报业集团：媒体融合转型变革的实践路径</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

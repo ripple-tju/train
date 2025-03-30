@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['林青青']"
 			source="新媒体与传播学院"
-			>守正创新，融合起航：太仓市融媒体中心的融合创新之路</typo-title
+			>太仓市融媒体中心：守正创新的融合创新之路</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

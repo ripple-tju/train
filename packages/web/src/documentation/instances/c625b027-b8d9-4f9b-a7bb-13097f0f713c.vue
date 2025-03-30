@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['赵冰妍']"
 			source="新媒体与传播学院"
-			>讲好丝路故事，唱响同行和声 ——“一带一路”媒体合作论坛的“讲故事”之道</typo-title
+			>人民日报：“一带一路”媒体合作论坛的“讲故事”之道</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

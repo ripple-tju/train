@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['高月玟']"
 			source="新媒体与传播学院"
-			>跨越千年的重生：敦煌莫高窟的数字化保护与文化传播</typo-title
+			>腾讯：敦煌莫高窟的数字化保护与文化传播</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

@@ -3,8 +3,7 @@
 		<typo-title
 			:author="['王桢']"
 			source="新媒体与传播学院"
-			>解读媒体融合浪潮中的创新实践：融合“出圈”密码何在？
-			——《大国外交最前线》Vlog报道模式解析</typo-title
+			>中央广播电视总台：《大国外交最前线》Vlog的报道模式</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

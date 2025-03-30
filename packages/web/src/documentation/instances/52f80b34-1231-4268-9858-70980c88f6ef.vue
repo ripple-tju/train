@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['赵逸开']"
 			source="新媒体与传播学院"
-			>当代政务新媒体典范：“浙江宣传”选题、内容与文风分析</typo-title
+			>浙江省委宣传部：“浙江宣传”的选题、内容与文风</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

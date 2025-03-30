@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['金语智达']"
 			source="金语智达"
-			>AIGC为真人配音</typo-title
+			>金语智达：AIGC为真人配音</typo-title
 		>
 		<typo-section>
 			<typo-embed

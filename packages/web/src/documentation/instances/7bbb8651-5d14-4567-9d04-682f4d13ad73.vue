@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['金语智达']"
 			source="金语智达"
-			>AIGC语音生成（印尼语）</typo-title
+			>金语智达：AIGC语音生成（印尼语）</typo-title
 		>
 		<typo-section>
 			<typo-embed

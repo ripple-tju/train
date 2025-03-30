@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['彭可']"
 			source="新媒体与传播学院"
-			>以小见大，以情动人：短片《CPC》对中国共产党形象的塑造</typo-title
+			>人民日报：短片《CPC》对中国共产党形象的塑造</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">案例背景介绍</typo-heading>

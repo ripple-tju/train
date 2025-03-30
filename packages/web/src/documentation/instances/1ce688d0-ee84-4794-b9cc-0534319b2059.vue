@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['张旻尧']"
 			source="新媒体与传播学院"
-			>通过乐子探路子 塑造牌子富日子 ——“村超”品牌闯新路 幸福新质生产力</typo-title
+			>榕江县：通过乐子探路子、塑造牌子富日子的“村超”</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

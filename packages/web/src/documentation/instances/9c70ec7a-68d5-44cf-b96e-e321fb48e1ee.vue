@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['罗文怡']"
 			source="新媒体与传播学院"
-			>中国日报“一带一路”专题报道：构建全球叙事 ——丝路新篇章：中国日报的国际传播之旅</typo-title
+			>中国日报：构建全球叙事的“一带一路”报道</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">“一带一路”：中国日报的新使命</typo-heading>

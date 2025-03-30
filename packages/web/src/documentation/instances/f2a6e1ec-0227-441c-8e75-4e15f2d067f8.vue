@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['蒲培洋']"
 			source="新媒体与传播学院"
-			>新华社：第三届“一带一路”国际合作高峰论坛系列新闻</typo-title
+			>新华社：第三届“一带一路”国际合作高峰论坛系列报道</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

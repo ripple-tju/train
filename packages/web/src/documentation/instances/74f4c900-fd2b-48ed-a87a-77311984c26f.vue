@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['沈紫伊']"
 			source="新媒体与传播学院"
-			>数智交响：AIGC赋能主流媒体系统性变革 ——大象融媒如何以AI激起广电行业千层</typo-title
+			>河南广播电视台：大象融媒在数智赋能中变革</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

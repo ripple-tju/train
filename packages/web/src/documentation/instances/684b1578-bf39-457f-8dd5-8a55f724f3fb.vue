@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['童湘涵']"
 			source="新媒体与传播学院"
-			>山东广电“两会”数智化传播新实践</typo-title
+			>山东广电：“两会”报道数智化传播实践</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>

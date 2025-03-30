@@ -3,7 +3,7 @@
 		<typo-title
 			:author="['郭竹慧']"
 			source="新媒体与传播学院"
-			>封面传媒：智媒云5.0——内容科技矩阵重塑新闻生产链条</typo-title
+			>封面传媒：内容科技矩阵重塑新闻生产链条</typo-title
 		>
 		<typo-section>
 			<typo-heading :level="1">引言</typo-heading>
