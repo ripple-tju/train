@@ -59,6 +59,14 @@
 						</q-list>
 					</q-menu>
 				</q-btn>
+				<q-btn
+					icon="logout"
+					dense
+					square
+					flat
+					stretch
+					@click="logout"
+				></q-btn>
 			</q-toolbar>
 		</q-header>
 
@@ -80,9 +88,13 @@
 </template>
 
 <script setup lang="ts">
-import { useNavigator } from 'src/Spec';
 import { reactive } from 'vue';
+import { useRouter } from 'vue-router';
 
+import * as Backend from 'src/backend';
+import { useNavigator } from 'src/Spec';
+
+const router = useRouter();
 const categoryList = useNavigator();
 
 const shown = reactive<Record<number, boolean>>({
@@ -102,5 +114,10 @@ function dismissAll() {
 	for (const key in shown) {
 		shown[key] = false;
 	}
+}
+
+async function logout() {
+	await Backend.API.Principal.delete();
+	await router.push('/');
 }
 </script>

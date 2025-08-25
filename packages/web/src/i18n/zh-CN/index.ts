@@ -64,6 +64,17 @@ export default {
 				hint: '使用空格分割多个关键字，按回车查询',
 			},
 		},
+		authentication: {
+			title: '身份认证',
+			username: '用户名',
+			password: '密码',
+			signin: '登录',
+			remembered: '记住我',
+			placeholder: {
+				username: '请输入用户名',
+				password: '请输入密码',
+			},
+		},
 	},
 	typo: {
 		title: {

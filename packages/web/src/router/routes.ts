@@ -9,14 +9,28 @@ const MIDDLE_ROUTER_VIEW = {
 
 const routes: RouteRecordRaw[] = [
 	{
+		name: 'App.Authentication',
+		path: '/authentication',
+		component: () => import('pages/Authentication.vue'),
+		meta: {
+			UnauthenticatedRequired: true,
+		},
+	},
+	{
 		name: 'App.Home',
 		path: '',
 		component: () => import('pages/Home/Overview.vue'),
+		meta: {
+			AuthenticatedRequired: true,
+		},
 	},
 	{
 		name: 'App.Feature',
 		path: '',
 		component: () => import('layouts/MainLayout.vue'),
+		meta: {
+			AuthenticatedRequired: true,
+		},
 		redirect: { name: 'App.Feature.Content' },
 		children: [
 			{

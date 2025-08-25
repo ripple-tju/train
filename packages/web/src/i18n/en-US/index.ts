@@ -64,6 +64,17 @@ export default {
 				hint: 'white space to split keywords, press Enter to search',
 			},
 		},
+		authentication: {
+			title: 'Authentication',
+			username: 'Username',
+			password: 'Password',
+			signin: 'sign in',
+			remembered: 'remember me',
+			placeholder: {
+				username: 'Please ENTER your username',
+				password: 'Please ENTER your password',
+			},
+		},
 	},
 	typo: {
 		title: {

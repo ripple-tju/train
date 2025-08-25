@@ -1,13 +1,28 @@
+import type { RouteRecordNormalized } from 'vue-router';
 import { defineRouter } from '#q-app/wrappers';
+
 import {
 	createMemoryHistory,
 	createRouter,
 	createWebHashHistory,
 	createWebHistory,
 } from 'vue-router';
+
 import routes from './routes';
+import { API } from 'src/backend';
 
 const sleep = (ms = 1000) => new Promise((resolve) => setTimeout(resolve, ms));
+
+const ROUTE_IS = {
+	REQUIRED: {
+		AUTHENTICATED: (route: RouteRecordNormalized) => {
+			return route.meta.AuthenticatedRequired;
+		},
+		UNAUTHENTICATED: (route: RouteRecordNormalized) => {
+			return route.meta.UnauthenticatedRequired;
+		},
+	},
+};
 
 /*
  * If not building with SSR mode, you can
@@ -50,6 +65,23 @@ export default defineRouter(function (/* { store, ssrContext } */) {
 		// quasar.conf.js -> build -> vueRouterMode
 		// quasar.conf.js -> build -> publicPath
 		history: createHistory(process.env.VUE_ROUTER_BASE),
+	});
+
+	Router.beforeResolve(async (to) => {
+		const authenticated = await API.Principal.get()
+			.then(() => true, () => false);
+
+		console.log(authenticated);
+
+		if (to.matched.some(ROUTE_IS.REQUIRED.AUTHENTICATED)) {
+			return authenticated ? true : { name: 'App.Authentication' };
+		}
+
+		if (to.matched.some(ROUTE_IS.REQUIRED.UNAUTHENTICATED)) {
+			return authenticated ? { name: 'App.Home' } : true;
+		}
+
+		return true;
 	});
 
 	return Router;
