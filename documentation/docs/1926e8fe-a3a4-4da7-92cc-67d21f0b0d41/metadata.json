@@ -1,0 +1,16 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "阿童木(修改版)",
+	"author": [
+		"新媒体与传播学院"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"video",
+		"ai",
+		"ai.generation"
+	],
+	"sections": [
+		"video"
+	]
+}

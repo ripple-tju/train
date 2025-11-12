@@ -1,0 +1,45 @@
+{
+	"$schema": "../../../src/schemas/ChartData.json",
+	"x": [
+		"2025-11-07",
+		"2025-11-08",
+		"2025-11-09",
+		"2025-11-10",
+		"2025-11-11",
+		"2025-11-12",
+		"2025-11-13",
+		"2025-11-14"
+	],
+	"y": [
+		23,
+		3,
+		26,
+		3,
+		62,
+		16,
+		47,
+		9
+	],
+	"link": [
+		{
+			"text": "依然杨柳青",
+			"url": "https://www.toutiao.com/article/7570529414249775667/"
+		},
+		{
+			"text": "杨柳青画社图书斩获“金牛杯”奖项",
+			"url": "http://news.enorth.com.cn/system/2025/11/13/058901880.shtml"
+		},
+		{
+			"text": "天津：“民间文艺版权保护与促进”进校园活动举办 以版权之力守护文化根脉",
+			"url": "https://article.xuexi.cn/articles/index.html?art_id=18047366156301283642&item_id=18047366156301283642&cdn=https%3A%2F%2Fregion-tianjin-resource&study_style_id=feeds_default"
+		},
+		{
+			"text": "运河两岸 秋景如画 杨柳青年画：大运河带来的民间艺术",
+			"url": "https://content-static.cctvnews.cctv.com/snow-book/video.html?item_id=6517828942917537044"
+		},
+		{
+			"text": "「新藝中國」非遺中國行首站即將在雲南啟幕 多元活動深探非遺魅力",
+			"url": "https://www.tkww.hk/a/202511/13/AP69156e0be4b0a55cc6d72f8f.html"
+		}
+	]
+}

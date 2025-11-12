@@ -13,7 +13,7 @@ export default {
 			video: 'AIGC生成案例',
 			student: '天津大学课程案例',
 			people: '人民网征集案例',
-			reactive: '互动',
+			reactive: '多维检索案例',
 			smart: {
 				root: '数智科技系统与平台建设',
 				master: '中央媒体数智科技系统与平台建设',

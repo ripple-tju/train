@@ -1,0 +1,22 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "天津上合峰会：重大主场外交中的城市文化传播与国家形象塑造",
+	"author": [
+		"新媒体与传播学院"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"reactive",
+		"student"
+	],
+	"keywords": [
+		"新媒体与传播学院"
+	],
+	"sections": [
+		"1-preface",
+		"2-fact",
+		"3-effect",
+		"4-inspiration",
+		"5-conclusion"
+	]
+}

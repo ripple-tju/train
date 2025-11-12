@@ -10,7 +10,7 @@ export function useSpec() {
 
 	return {
 		categoryOptions: [
-			{ label: t('data.category.student'), value: 0 },
+			{ label: t('data.category.student'), value: 4 },
 			{ label: t('data.category.people'), value: 1 },
 			{ label: t('data.category.video'), value: 2 },
 			{ label: t('data.category.reactive'), value: 3 },
@@ -74,7 +74,7 @@ export function useNavigator() {
 			value: null,
 			label: t('data.category.all'),
 			children: [
-				{ value: 0x000, label: t('data.category.student') },
+				{ value: 0x004, label: t('data.category.student') },
 				{ value: 0x001, label: t('data.category.people') },
 				{ value: 0x002, label: t('data.category.video') },
 				{ value: 0x003, label: t('data.category.reactive') },
@@ -97,10 +97,10 @@ interface CategoryDictionary {
 }
 
 const TO_NAME: ValueRecord = {
-	[0x000]: 'student',
 	[0x001]: 'people',
 	[0x002]: 'video',
 	[0x003]: 'reactive',
+	[0x004]: 'student',
 
 	[0x100]: 'smart',
 	[0x101]: 'smart.master',

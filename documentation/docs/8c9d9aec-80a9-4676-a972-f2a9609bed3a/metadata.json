@@ -1,0 +1,21 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "文化符号嵌入：杨柳青木版年画的创新发展与传承",
+	"author": [
+		"新媒体与传播学院"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"reactive",
+		"student"
+	],
+	"keywords": [
+		"新媒体与传播学院"
+	],
+	"sections": [
+		"1-summary",
+		"2-analysis",
+		"3-inspiration",
+		"4-effect"
+	]
+}

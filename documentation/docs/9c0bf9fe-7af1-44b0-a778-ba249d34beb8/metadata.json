@@ -1,0 +1,16 @@
+{
+	"$schema": "../../src/schemas/metadata.json",
+	"title": "杨柳青",
+	"author": [
+		"新媒体与传播学院"
+	],
+	"source": "新媒体与传播学院",
+	"tags": [
+		"video",
+		"ai",
+		"ai.generation"
+	],
+	"sections": [
+		"video"
+	]
+}
