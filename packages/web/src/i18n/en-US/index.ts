@@ -21,6 +21,7 @@ export default {
 			video: 'video',
 			student: 'student',
 			people: 'people',
+			reactive: '',
 			smart: {
 				root: '',
 				master: '',

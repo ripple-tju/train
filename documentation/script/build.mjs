@@ -21,7 +21,7 @@ const Pathname = {
 };
 
 const CATEGORY = [
-	'student', 'video', 'people',
+	'student', 'video', 'people', 'reactive',
 	'smart', 'smart.master', 'smart.province', 'smart.other',
 	'ai', 'ai.master', 'ai.province', 'ai.generation',
 	'service', 'service.master', 'service.province', 'service.city', 'service.district', 'service.platform',

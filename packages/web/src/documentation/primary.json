@@ -1705,7 +1705,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student", "ai", "ai.province"]
+		"category": ["reactive", "student", "ai", "ai.province"]
 	},
 	{
 		"id": "c45a2c9f-05ca-49af-addd-2df4d9eb1068",

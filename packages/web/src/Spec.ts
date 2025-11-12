@@ -13,6 +13,7 @@ export function useSpec() {
 			{ label: t('data.category.student'), value: 0 },
 			{ label: t('data.category.people'), value: 1 },
 			{ label: t('data.category.video'), value: 2 },
+			{ label: t('data.category.reactive'), value: 3 },
 		],
 	};
 }
@@ -76,6 +77,7 @@ export function useNavigator() {
 				{ value: 0x000, label: t('data.category.student') },
 				{ value: 0x001, label: t('data.category.people') },
 				{ value: 0x002, label: t('data.category.video') },
+				{ value: 0x003, label: t('data.category.reactive') },
 			],
 		},
 	];
@@ -98,6 +100,7 @@ const TO_NAME: ValueRecord = {
 	[0x000]: 'student',
 	[0x001]: 'people',
 	[0x002]: 'video',
+	[0x003]: 'reactive',
 
 	[0x100]: 'smart',
 	[0x101]: 'smart.master',
