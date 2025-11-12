@@ -312,7 +312,7 @@
 				></typo-paragraph
 			>
 			<typo-chart
-				src="static/b687fcee00bdf58d7eaaa22cbc04e2cb603199d7902bfd323b81da1def8d84bb.json"
+				src="static/a04bcc8a6ce137f898c51d2d4a8e73517a8405bde43ea18047ec70744f5bc3a9.json"
 				title="信息来源走势图"
 			/>
 		</typo-section>
