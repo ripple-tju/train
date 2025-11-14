@@ -1,0 +1,36 @@
+{
+	"$schema": "../../../src/schemas/ChartData.json",
+	"x": [
+		"2025-11-07",
+		"2025-11-08",
+		"2025-11-09",
+		"2025-11-10",
+		"2025-11-11",
+		"2025-11-12",
+		"2025-11-13",
+		"2025-11-14"
+	],
+	"y": [329, 4, 13, 61, 25, 18, 24, 0],
+	"link": [
+		{
+			"text": "开展脑机接口技术“体系化攻关”（迈向“十五五”的创新图景）",
+			"url": "http://health-app.people.cn/n1/2025/1107/c14739-40598877.html"
+		},
+		{
+			"text": "用创新成果守护群众生命健康（编辑手记）",
+			"url": "https://www.peopleapp.com/column/30050700788-500007189173"
+		},
+		{
+			"text": "半月谈丨让瘫痪患者可以书写，抑郁症患者重拾笑容：当脑机接口步入临床",
+			"url": "https://h.xinhuaxmt.com/vh512/share/12813910"
+		},
+		{
+			"text": "听，进博会上的“创新三重奏”——第八届中国国际进口博览会观察",
+			"url": "https://article.xuexi.cn/articles/index.html?art_id=2999715290609163313&item_id=2999715290609163313&study_style_id=feeds_default"
+		},
+		{
+			"text": "“意念控制”成真？脑机接口如何让“心想事成”走进现实",
+			"url": "https://h5.kepuchina.cn/scientificwebsite/article?id=650799"
+		}
+	]
+}

@@ -312,8 +312,8 @@
 				></typo-paragraph
 			>
 			<typo-chart
-				src="static/a04bcc8a6ce137f898c51d2d4a8e73517a8405bde43ea18047ec70744f5bc3a9.json"
-				title="信息来源走势图"
+				src="static/70145f3c286fb437e78a344c92d6ace933b90753a3b548da717eccaeafc08055.json"
+				title="近期信息来源走势图"
 			/>
 		</typo-section>
 	</div>

@@ -11,7 +11,10 @@
 		</div>
 		<div class="text-center q-mt-md col-12">{{ props.title }}</div>
 
-		<div class="col-12" style="max-width: 600px;">
+		<div
+			class="col-12"
+			style="max-width: 600px"
+		>
 			<div class="text-h6">相关链接</div>
 			<q-list
 				bordered
@@ -28,7 +31,8 @@
 							<a
 								:href="url"
 								target="_blank"
-							>{{ text }}</a>
+								>{{ text }}</a
+							>
 						</q-item-label>
 					</q-item-section>
 				</q-item>
@@ -64,8 +68,8 @@ const config = ref<VueUiQuickChartConfig>({
 });
 
 interface LinkItem {
-	text: string;
-	url: string;
+	text: string
+	url: string
 }
 
 const dataset = ref<number[]>([1]);

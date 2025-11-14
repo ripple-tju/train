@@ -249,7 +249,21 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student", "internet", "internet.province"]
+		"category": ["reactive", "student", "internet", "internet.province"]
+	},
+	{
+		"id": "1926e8fe-a3a4-4da7-92cc-67d21f0b0d41",
+		"abstract": "",
+		"length": 0,
+		"title": "阿童木(修改版)",
+		"author": ["新媒体与传播学院"],
+		"source": "新媒体与传播学院",
+		"figure": 0,
+		"embed": 1,
+		"reference": 0,
+		"link": 0,
+		"table": 0,
+		"category": ["video", "ai", "ai.generation"]
 	},
 	{
 		"id": "1a06c7b5-03b7-4f1d-9e90-d309a8e7a50a",
@@ -264,6 +278,20 @@
 		"link": 0,
 		"table": 0,
 		"category": ["student", "development", "development.province"]
+	},
+	{
+		"id": "1c7168d8-3457-48b1-9b64-7fa44e7c8413",
+		"abstract": "8月31日至9月1日，2025年上海合作组织峰会在中国天津隆重举行。二十余位外国领导人和十位国际组织负责人齐聚海河之滨，这是上合峰会时隔七年再次回到中国，也是该组织成立以来规模最大、层级最高的一次盛会",
+		"length": 4154,
+		"title": "天津上合峰会：重大主场外交中的城市文化传播与国家形象塑造",
+		"author": ["新媒体与传播学院"],
+		"source": "新媒体与传播学院",
+		"figure": 8,
+		"embed": 0,
+		"reference": 0,
+		"link": 0,
+		"table": 1,
+		"category": ["reactive", "student"]
 	},
 	{
 		"id": "1ce688d0-ee84-4794-b9cc-0534319b2059",
@@ -1120,6 +1148,20 @@
 		"category": ["video", "ai", "ai.generation"]
 	},
 	{
+		"id": "8c9d9aec-80a9-4676-a972-f2a9609bed3a",
+		"abstract": "传统的非物质文化遗产面对社会的发展和网络信息化技术的扩大而面临着新文化和新媒体更替的挑战。数字化技术在非遗保护、传播和创新中扮演着越来越重要的角色。杨柳青木版年画作为中国民间木版年画的杰出代表，以其独",
+		"length": 2130,
+		"title": "文化符号嵌入：杨柳青木版年画的创新发展与传承",
+		"author": ["新媒体与传播学院"],
+		"source": "新媒体与传播学院",
+		"figure": 10,
+		"embed": 1,
+		"reference": 0,
+		"link": 0,
+		"table": 0,
+		"category": ["reactive", "student"]
+	},
+	{
 		"id": "8f7d782b-cccd-4cb4-a0a7-42abf5643248",
 		"abstract": "随着智媒体浪潮袭来，在奔腾的“云上时代”，如何守好安全生产的底线，相关部门提出了明确要求。封面传媒科技有限责任公司研发的智媒审核云系统，搭建起专业、精准、高效的内容安全防护系统，全流程把控内容风险。智",
 		"length": 2090,
@@ -1258,6 +1300,20 @@
 		"link": 0,
 		"table": 0,
 		"category": ["people", "service", "service.city"]
+	},
+	{
+		"id": "9c0bf9fe-7af1-44b0-a778-ba249d34beb8",
+		"abstract": "",
+		"length": 0,
+		"title": "杨柳青",
+		"author": ["新媒体与传播学院"],
+		"source": "新媒体与传播学院",
+		"figure": 0,
+		"embed": 1,
+		"reference": 0,
+		"link": 0,
+		"table": 0,
+		"category": ["video", "ai", "ai.generation"]
 	},
 	{
 		"id": "9c70ec7a-68d5-44cf-b96e-e321fb48e1ee",
@@ -1579,7 +1635,7 @@
 		"reference": 0,
 		"link": 0,
 		"table": 0,
-		"category": ["student", "internet", "internet.brand"]
+		"category": ["reactive", "student", "internet", "internet.brand"]
 	},
 	{
 		"id": "ba783edc-11a7-4ed9-8525-1e30eefa63bb",
@@ -1762,6 +1818,20 @@
 		"link": 0,
 		"table": 0,
 		"category": ["people", "smart", "smart.master"]
+	},
+	{
+		"id": "cd7c5622-990c-460b-9ad4-eb927407059b",
+		"abstract": "",
+		"length": 0,
+		"title": "海河桥",
+		"author": ["新媒体与传播学院"],
+		"source": "新媒体与传播学院",
+		"figure": 0,
+		"embed": 1,
+		"reference": 0,
+		"link": 0,
+		"table": 0,
+		"category": ["video", "ai", "ai.generation"]
 	},
 	{
 		"id": "cea82401-2bf7-42d6-bbc0-873dbbe737f7",

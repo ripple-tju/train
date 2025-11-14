@@ -1,0 +1,36 @@
+{
+	"$schema": "../../../src/schemas/ChartData.json",
+	"x": [
+		"2025-11-07",
+		"2025-11-08",
+		"2025-11-09",
+		"2025-11-10",
+		"2025-11-11",
+		"2025-11-12",
+		"2025-11-13",
+		"2025-11-14"
+	],
+	"y": [74, 152, 63, 38, 57, 110, 91, 24],
+	"link": [
+		{
+			"text": "天津职业技术师范大学：在潜移默化中培育工匠精神",
+			"url": "http://edu-app.people.cn/n1/2025/1113/c1006-40602646.html"
+		},
+		{
+			"text": "书写世界瞩目的津门职教“答卷”",
+			"url": "https://article.xuexi.cn/articles/index.html?art_id=11435368943567850602&item_id=11435368943567850602&cdn=https%3A%2F%2Fregion-tianjin-resource&study_style_id=feeds_default"
+		},
+		{
+			"text": "天津职教“十四五”：50万工匠服务产业一线 25个鲁班工坊走向世界",
+			"url": "https://app.xinhuanet.com/news/article.html?articleId=73eb57652eb09d6c131b662c5d2b9979&timestamp=86053"
+		},
+		{
+			"text": "【编辑荐书】鲁班工坊年度建设与发展报告",
+			"url": "https://article.xuexi.cn/articles/index.html?art_id=6724272056080631238&item_id=6724272056080631238&study_style_id=feeds_default"
+		},
+		{
+			"text": "2025中非职业教育合作对话在浙江金华举行",
+			"url": "https://app2.gmdaily.cn/as/opened/n/12163d710126446ebeb855055d27b4b2"
+		}
+	]
+}
