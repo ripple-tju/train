@@ -24,7 +24,7 @@
 		[
 			"chart", {
 				"src": "../assets/5-1.json",
-				"title": "信息来源走势图"
+				"title": "近期信息来源走势图"
 			}
 		]
 	]
