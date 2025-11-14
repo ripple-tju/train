@@ -147,8 +147,8 @@
 				></typo-paragraph
 			>
 			<typo-chart
-				src="static/1d11642e13722c80cb58a74cb653f6ca7a6b41be7cde02486cefc3b909c421c9.json"
-				title="信息来源走势图"
+				src="static/e6a18a6694f09d3e26e8ce60609733a4d2ab4064867d65816d71a7c1bcf81344.json"
+				title="近期信息来源走势图"
 			/>
 		</typo-section>
 	</div>
