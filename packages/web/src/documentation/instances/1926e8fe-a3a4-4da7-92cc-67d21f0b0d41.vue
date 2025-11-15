@@ -7,7 +7,7 @@
 		>
 		<typo-section>
 			<typo-embed
-				src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=true&aid=113586634496066&bvid=BV1UyCxB8E4N&cid=27155303567&p=1"
+				src="https://www.bilibili.com/blackboard/html5mobileplayer.html?isOutside=trueaid=115541700255110&bvid=BV1UyCxB8E4N&cid=33972748335&p=1"
 			/>
 			<typo-paragraph :indent="2"
 				><span

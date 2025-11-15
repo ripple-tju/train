@@ -95,7 +95,7 @@ onBeforeMount(async () => {
 		}
 	}
 
-	config.value.xyScaleSegments = Math.max(5, Math.round((max - min) / 10));
+	// config.value.xyScaleSegments = Math.max(50, Math.round((max - min) / 10));
 	linkList.value = link;
 });
 
